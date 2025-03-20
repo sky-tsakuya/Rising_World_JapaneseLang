@@ -9,8 +9,12 @@ Rising World / Japanese Language translation project
 
 ---
 
-## 参考
+## 参考 & Special Thanks
+翻訳方法参考
 https://forum.rising-world.net/thread/13463-translations-for-new-version-as-at-18th-october-french-mexican-and-spanish-for-n/?pageNo=1
+
+日本語訳参考
+https://steamcommunity.com/sharedfiles/filedetails/?id=3325769054
 
 ## 動作確認済み環境
 Rising World [Unity] 0.8.1 

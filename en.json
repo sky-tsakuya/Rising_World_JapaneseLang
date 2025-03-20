@@ -168,6 +168,12 @@
 			"desc": "The perfect accessory for Easter",
 			"name": "Bunny ears"
 		},
+		"cappy": {
+			"name": "Cappy"
+		},
+		"cappycamo": {
+			"name": "Cappy (camo)"
+		},
 		"captainhat": {
 			"name": "Captain hat"
 		},
@@ -258,6 +264,9 @@
 		},
 		"medievalsuit1": {
 			"name": "Fur coat"
+		},
+		"medievalsuit2": {
+			"name": "Thief outfit"
 		},
 		"mininghelmet": {
 			"desc": "An old miner's helmet with a candle attached to it that lights up your way in dark areas",
@@ -1234,6 +1243,10 @@
 			"desc": "A chainsaw. Highly efficient. It cuts wood in no time.",
 			"name": "Chainsaw"
 		},
+		"chick": {
+			"desc": "A captured baby chicken. You shouldn't keep it in your inventory for too long...",
+			"name": "Chick"
+		},
 		"chicken": {
 			"desc": "A captured chicken. You shouldn't keep it in your inventory for too long...",
 			"name": "Chicken"
@@ -1359,8 +1372,12 @@
 			"name": "Fibers"
 		},
 		"fireworkrocket": {
-			"desc": "Produces colorful, harmless firework",
+			"desc": "Produces colorful, harmless firework!",
 			"name": "Firework rocket"
+		},
+		"fireworkrocketlarge": {
+			"desc": "Produces a huge firework!",
+			"name": "Large firework rocket"
 		},
 		"flashlight": {
 			"desc": "Excellent for exploring dark areas",
@@ -1424,20 +1441,27 @@
 		},
 		"group": {
 			"cloth": "Cloth",
+			"dirt": "Dirt",
 			"fibers": "Cotton / Fibers",
 			"glass": "Glass",
 			"hide": "Animal hide",
+			"hoe": "Hoe",
 			"knife": "Knife",
 			"leather": "Leather",
 			"metal": "Metal",
 			"pelt": "Pelt",
 			"sapling": "Sapling",
+			"stone": "Stone",
 			"treelog": "Piece of log",
 			"water": "Water"
 		},
 		"gunpowder": {
 			"desc": "Explosive powder. Important ingredient for the production of various ammunition and explosives",
 			"name": "Gunpowder"
+		},
+		"hare": {
+			"desc": "A captured hare. You shouldn't keep it in your inventory for too long...",
+			"name": "Hare"
 		},
 		"hellstone": {
 			"name": "Hellstone"
@@ -1524,6 +1548,9 @@
 			"desc": "An electric mining drill. Highly efficient. It breaks stone in no time.",
 			"name": "Mining drill"
 		},
+		"missingitem": {
+			"name": "Missing item"
+		},
 		"modifier": {
 			"acceptable": "Acceptable",
 			"amazing": "Amazing",
@@ -1577,6 +1604,12 @@
 		"nails": {
 			"desc": "Metal nails. Used as fasteners",
 			"name": "Nails"
+		},
+		"npc": {
+			"condition": {
+				"alive": "Alive",
+				"dead": "Dead"
+			}
 		},
 		"objectkit": {
 			"desc": "Represents a placeable object",
@@ -2098,6 +2131,9 @@
 			"desc": "A small wire, made out of tungsten",
 			"name": "Tungsten wire"
 		},
+		"underwaterrock": {
+			"name": "Rock (algae)"
+		},
 		"unicornhide": {
 			"name": "Unicorn hide"
 		},
@@ -2354,6 +2390,7 @@
 				"systemrequirementsnotmet": "System requirements not met"
 			},
 			"id": "Error {0}",
+			"initializationtakestoolong": "Loading the game takes too long. This indicates that accessing the hard drive is too slow. Please check your hard drive. \n\nThis could also be caused by an anti-virus program. Try to disable it temporarily or add the game to the exception list and see if the issue still persists. ",
 			"nocomputeshaders": "Compute shaders are required, but apparently not supported by this graphics adapter: \n\n<color=red>{0}</color>\n\nThis may be caused by an outdated or erroneous graphics driver. Please try to download and install the latest graphics driver.",
 			"noinstancing": "GPU instancing is required, but not supported by this graphics adapter: \n\n<color=red>{0}</color>\n\nThis may be caused by an outdated or erroneous graphics driver. Please try to download and install the latest graphics driver.",
 			"notexturearrays": "Texture Arrays are required, but not supported by this graphics adapter: \n\n<color=red>{0}</color>\n\nThis may be caused by an outdated or erroneous graphics driver. Please try to download and install the latest graphics driver.",
@@ -2366,10 +2403,12 @@
 			"unabletosaveworld": "An error occurred while saving the world! If you get this message again, this would indicate that you might lose your current progress. In this case it would be recommendable to restart the game.\n\nError: {0}",
 			"unabletosaveworlddb": "An error occurred while saving the world! Apparently the game is not able to access the hard drive.\n\nPlease make sure there is no anti-virus program which blocks the game. Also make sure that there is enough free disk space available.\n\nIf this error occurs again, it would indicate that you would lose your current progress. In this case it would be recommendable to restart the game.",
 			"unknownerror": "An unknown error occurred!",
+			"versiontransition": "Some worlds or blueprint files from the Java version or new version could not be moved! You can still find the files in the game directory. \n\nNew Version files are found in the \"_New Version\" subfolder. Java files might still be located in the root game directory. \n\nClick <color=#00aaff><u><link=\"#gamedir\">here</link></u></color> to open the game directory.",
 			"windows7": "Unfortunately there is a bug in the latest Unity version, which prevents the game from running on Windows 7. We have already reported this bug to Unity, and Unity did also confirm it.\n\nBecause this is a bug in the engine itself, we have no control over it unfortunately, so we have to wait until Unity fixes this issue.\n\nWe are sorry about the inconvenience! We have created a pinned topic in the Steam forums about this issue, which also contains a link to Unitys public bug tracker. We'll update the thread as soon as we have any news."
 		},
 		"farming": {
 			"groundfrozen": "The ground is frozen, you cannot plant anything there",
+			"incompatibleground": "You cannot plant this plant on this ground",
 			"requiresfarmland": "This plant can be planted only on arable land.\nUse a hoe to prepare the ground"
 		},
 		"images": {
@@ -2384,6 +2423,9 @@
 			"itemsplitted": "Item-Stack splitted!",
 			"notenoughconstructionelements": "Not enough construction elements in inventory",
 			"notenoughitems": "Not enough items in inventory",
+			"npcitem": {
+				"cannotputanimalinchest": "You cannot and should not put this animal in a chest!"
+			},
 			"workbenchinproximity": "A workbench must be in proxmity to perform this action"
 		},
 		"inventoryfull": "Your inventory is full",
@@ -2398,6 +2440,7 @@
 			},
 			"break": "Your item just broke!",
 			"breakwarning": "This item will not last much longer...",
+			"breakwarningprimitiveaxe": "You should <u>really</u> get a new axe as soon as possible! \nBecause this axe won't last forever...",
 			"cantdounderwater": "You can't do that while you're underwater",
 			"doesnotworkunderwater": "This item does not work underwater",
 			"itemstoohot": "These items are too hot to be picked up",
@@ -2433,6 +2476,9 @@
 				"empty": "The watering can is empty. You have to fill it with water first",
 				"full": "The watering can is already full"
 			}
+		},
+		"journal": {
+			"cannotloadnotes": "Unable to load journal notes. This indicates that the <b>journal.json</b> file in the game directory is either not correctly formatted, or something prevents the game from reading it.\n\nPlease check the file. You can also find backups of previous journal files in the \"/Cache/journal\" folder. Optionally send a bug report."
 		},
 		"lan": {
 			"portinuse": "Port {0} is already in use!"
@@ -2522,6 +2568,7 @@
 			"reservedname": "Your player name is not allowed! Please choose a different name",
 			"restart": "Attention: Server will restart in {0} seconds!",
 			"restartaborted": "Attention: Restart was aborted!",
+			"restartkick": "The server is restarting now. You can reconnect again shortly",
 			"restartnow": "Attention: Server will restart now!",
 			"serverlocked": "The server is currently not accepting any connections, please try again later!",
 			"servernotready": "Server isn't ready yet. Please try again in a few seconds",
@@ -2562,6 +2609,11 @@
 			"tooyoungtoshear": "This lamb is too young to be shorn"
 		},
 		"objects": {
+			"calendar": {
+				"currentdate": "It's currently day {0} of {1}",
+				"remainingday": "There is only {0} day remaining until {1}!",
+				"remainingdays": "There are {0} days remaining until {1}"
+			},
 			"cannotpickup": "You cannot pick up this object",
 			"cannotplaceinwater": "You cannot place this object in water",
 			"deconstructing": "Deconstructing...",
@@ -2645,7 +2697,8 @@
 				"cannotlock": "You cannot lock this chest",
 				"cannotremovelocked": "You cannot pickup the chest while it is locked!",
 				"cannottakeitems": "You cannot take items from this chest",
-				"cannotunlock": "You cannot unlock this chest"
+				"cannotunlock": "You cannot unlock this chest",
+				"removeitemsfirst": "This storage still contains items. \nRemove them first"
 			},
 			"tanningrack": {
 				"notready": "The leather isn't ready yet",
@@ -2772,6 +2825,9 @@
 			"special": "Special Flags"
 		},
 		"kick": "Kick",
+		"map": {
+			"directionstexture": "map-directions-en"
+		},
 		"measuring": {
 			"measuringtape": "Distance: {0} {3}\n<size=60%>Horizontal: {1} {3}\nVertical: {2} {3}</size>",
 			"unit": {
@@ -2787,6 +2843,10 @@
 		},
 		"storages": {
 			"saddlebag": "Saddle bag"
+		},
+		"temperature": {
+			"celsius": "Celsius (°C)",
+			"fahrenheit": "Fahrenheit (°F)"
 		},
 		"world": {
 			"caves": {
@@ -2832,6 +2892,7 @@
 			"swanlakeact3": "Swan Lake Act 3 - Hungarian Dance",
 			"toccatafugea": "Toccata and Fugue A",
 			"toccatafugeb": "Toccata and Fugue B",
+			"trains": "Something, Something Trains",
 			"williamtelloverture": "William Tell Overture"
 		}
 	},
@@ -3637,6 +3698,7 @@
 			"general": "General",
 			"image": "Images",
 			"info": "Info",
+			"map": "Map",
 			"world": "World"
 		},
 		"command": {
@@ -3710,14 +3772,18 @@
 			"changeskin": "Determines if the player is allowed to change his skin while on the server",
 			"crafting": "Determines if the player is allowed to craft any item",
 			"destroyitems": "Determines if the player is allowed to destroy items (tools, weapons etc) in the world",
+			"destroyownvehicles": "Determines if the player is allowed to destroy his own vehicles",
 			"destroyvehicles": "Determines if the player is allowed to destroy vehicles",
 			"dropitems": "Determines if the player is allowed to drop items",
+			"edititems": "Determines if the player is allowed to modify items",
 			"editnpcs": "Determines if the player is allowed to edit npcs",
+			"editownitems": "Determines if the player is allowed to modify his own items",
 			"editownvehicles": "Determines if the player is allowed to modify his own vehicles",
 			"editvehicles": "Determines if the player is allowed to modify vehicles",
 			"fixedspawn": "Determines if the player will always spawn at the default server spawn position",
 			"fly": "Determines if the player is allowed to fly",
 			"godmode": "Determines if the player is invulnerable",
+			"healthregeneration": "Health regeneration factor. Set to 0 to disable health regeneration",
 			"instantdigging": "Determines if the player can destroy terrain or objects with few strikes",
 			"keepinventory": "Determines if the player will keep his inventory upon death",
 			"noclipping": "Determines if collisions are disabled for the player while flying (\"no clipping\")",
@@ -3806,7 +3872,7 @@
 		"apple": "Apple tree",
 		"appledead": "Apple tree (dead)",
 		"applegreen": "Apple tree (green)",
-		"araucaria": "Araukarie",
+		"araucaria": "Araucaria",
 		"beavertail": "Beavertail cactus",
 		"birch": "Birch",
 		"biznaga": "Biznaga",
@@ -4009,6 +4075,10 @@
 			"texture": "Change Texture"
 		},
 		"items": {
+			"fireworkrocket": {
+				"setoff": "Set off",
+				"setoffall": "Set off all (nearby)"
+			},
 			"measuringtape": {
 				"precision": {
 					"default": "1 decimal place",
@@ -4023,7 +4093,8 @@
 					"metric": "Metric (meter)",
 					"name": "Unit\n<#FFFF00>{0}<#FFFFFF>"
 				}
-			}
+			},
+			"pickup": "Pickup"
 		},
 		"mount": {
 			"mount": "Ride",
@@ -4047,6 +4118,9 @@
 			"furnace": {
 				"takeingots": "Take all ingots"
 			},
+			"grill": {
+				"takeall": "Take all"
+			},
 			"light": {
 				"flashing": {
 					"off": "Flashing light off",
@@ -4068,6 +4142,9 @@
 				"volume": "Volume"
 			},
 			"open": "Open",
+			"oven": {
+				"takeall": "Take all"
+			},
 			"paperpress": {
 				"movedown": "Move down",
 				"moveup": "Move up"
@@ -4728,13 +4805,17 @@
 					"example": "This is italic text",
 					"tag": "<i>{0}</i>"
 				},
+				"linebreak": {
+					"example": "Add line-breaks with <noparse><br> or \\\\n</noparse>",
+					"tag": "{0}"
+				},
 				"rotate": {
 					"example": "Rotates the text or single letters",
 					"tag": "<rotate=25>{0}</rotate>"
 				},
 				"size": {
-					"example": "Changes text size",
-					"tag": "<size=70%>{0}</size>"
+					"example": "Changes text size (relative to font size)",
+					"tag": "<size=80%>{0}</size>"
 				},
 				"smallcaps": {
 					"example": "This is small uppercase text",
@@ -4928,6 +5009,7 @@
 			}
 		},
 		"journal": {
+			"enteryournotes": "<Enter your notes here>",
 			"screen": {
 				"contentcontainer": {
 					"journal": {
@@ -5211,6 +5293,25 @@
 								"text1": "Getting stone is quite simple: just dig into the ground until you reach stone. \n\nWhen digging stone, it is added to your inventory automatically, so you don't have to pick it up.",
 								"text2": "Alternatively you can also pick up small stones from the ground!"
 							},
+							"resources_sulfur": {
+								"header": "Sulfur",
+								"image1": {
+									"label": "Vein of sulfur"
+								},
+								"image2": {
+									"label": "Deep caves (filled with water) at the bottom of the world"
+								},
+								"text1": "Sulfur looks a bit like gold, but has a rougher surface and is not shiny.",
+								"text2": "Currently it's only found in the deepest caves - the ones which are filled with water.\n\n<b>Be careful down there... there are rumors that a horrible place lies directly beneath the water caves!</b>"
+							},
+							"resources_tungsten": {
+								"header": "Tungsten",
+								"image1": {
+									"label": "Tungsten ore in a cave"
+								},
+								"text1": "Tungsten can be found on every island, but only underground - and mainly in deeper caves. \n\nIt has a dark color, so it's distinguishable from other ores.",
+								"text2": "Tungsten is mainly required for advanced, electric components. Make sure to be well equipped when descending into deep caves."
+							},
 							"resources_wood": {
 								"header": "Wood",
 								"image1": {
@@ -5229,6 +5330,8 @@
 							},
 							"sand": "Sand",
 							"stone": "Stone",
+							"sulfur": "Sulfur",
+							"tungsten": "Tungsten",
 							"wood": "Wood"
 						},
 						"page_servernotes": {
@@ -5594,6 +5697,18 @@
 		"settings": {
 			"audio": {
 				"autodetect": "< Automatic detection >",
+				"customambiencevolume": "Ambience",
+				"customambiencewindvolume": "Ambience (Wind)",
+				"customitemobjectvolume": "Items / Objects",
+				"custommusicplayersvolume": "Music players",
+				"customnpcfootstepvolume": "Footsteps (NPC)",
+				"customnpcvolume": "NPC / Animals",
+				"customplayereatingvolume": "Eating sounds (Player)",
+				"customplayervolume": "Player sounds",
+				"customsystemvolume": "System (UI)",
+				"customvolume": "Custom volume levels",
+				"customwatervolume": "Water",
+				"customweathervolume": "Weather (Rain etc)",
 				"device": "Device",
 				"mastermusicvolume": "General Music Volume",
 				"mastersoundvolume": "Master Volume",
@@ -5603,6 +5718,15 @@
 				"recordingdevice": "Recording device",
 				"sounddetails": "Sound Details",
 				"tooltips": {
+					"customambiencevolume": "Volume of ambience sounds (birds etc)",
+					"customambiencewindvolume": "Volume of wind sounds",
+					"custommusicplayersvolume": "Volume of music players (like the gramophone)",
+					"customnpcvolume": "Volume of npc noises (e.g. animal noises)",
+					"customplayereatingvolume": "Volume of all player eating noises",
+					"customplayervolume": "General volume of all player noises (eating, hurt sounds etc)",
+					"customsystemvolume": "Volume of system sounds (UI)",
+					"customwatervolume": "Volume of water sounds (ocean, lakes etc)",
+					"customweathervolume": "Volume of weather sounds (rain etc)",
 					"mastermusicvolume": "Overall volume for background music",
 					"mastersoundvolume": "Overall volume for all sound effects and music",
 					"musictrackcooldown": "Determines the duration of the pause between two music tracks. Higher values cause music to play less frequently, lower values cause it to play more frequently",
@@ -5929,6 +6053,7 @@
 				"blueprintsortmode": "Blueprints: Sort Order",
 				"blueprintvisualizebounds": "Blueprints: Visualize Bounds",
 				"buildingdefaultsize": "Default Element Size",
+				"buildinginformationopacity": "HUD: Building Info Background Opacity",
 				"buildingmultiplacedirections": "Row Placement Directions",
 				"buildingpivotkeeprotation": "Keep Rotation in Snapping Mode",
 				"buildingresizemode": "Resize Mode",
@@ -5946,7 +6071,7 @@
 				"creativemodeshowtoolbar": "Show Creative-Mode Toolbar",
 				"deadbodydespawntime": "Dead Body Despawn Time",
 				"disableblood": "Disable Blood",
-				"falldamage": "Disable Fall Damage (Survival only)",
+				"falldamage": "Fall Damage (Survival only)",
 				"flymodemovemodes": {
 					"default": "Default",
 					"keepelevation": "Keep Elevation"
@@ -5969,12 +6094,14 @@
 				"headermultiplayer": "Multiplayer",
 				"headerscreenshots": "Screenshots",
 				"headersingleplayer": "Singleplayer",
+				"headersteam": "Steam",
 				"headervehicleandmounts": "Vehicles & Mounts",
+				"healthregeneration": "Health Regeneration",
 				"hidenametags": "Hide Nametags",
 				"hudquickslotsize": "HUD: Quickslot Size",
 				"hudshowquickslotsduration": "HUD: Quickslot Bar Show Duration",
 				"hudshowselecteditem": "HUD: Show Selected Item",
-				"hungerthirst": "Disable Hunger / Thirst (Survival only)",
+				"hungerthirst": "Hunger / Thirst (Survival only)",
 				"imagemaxresolution": "Max Resolution",
 				"instantdigging": "Instant Digging (Survival only)",
 				"itemdespawntime": "Item Despawn Time",
@@ -6010,7 +6137,14 @@
 				"spawnratesurfacemonsters": "Spawnrate Monsters (Surface)",
 				"spawnrateundergroundmonsters": "Spawnrate Monsters (Underground)",
 				"stamina": "Unlimited Stamina (Survival only)",
-				"temperature": "Disable Temperature (Survival only)",
+				"steam": {
+					"p2plegacy": "Legacy",
+					"p2psockets": "Sockets"
+				},
+				"steamp2ptype": "Steam P2P Type",
+				"steamshowfriendlist": "Show Friend list",
+				"temperature": "Temperature (Survival only)",
+				"temperatureunit": "Temperature scale",
 				"timeduration": "Ingame Day Duration",
 				"timedurations": {
 					"1h": "1 Hour",
@@ -6042,14 +6176,15 @@
 					"creativeconfirmremoval": "If enabled, a confirmation dialog will be shown when removing elements through the creative mode removal tools",
 					"creativecopyblockcolor": "If enabled, copying a block by pressing the middle mouse button also copies the color of the element",
 					"creativelightintensity": "Determines the light intensity of the creative mode light (L)",
-					"falldamage": "If enabled, player is immune to fall damage (in survival mode)",
+					"falldamage": "If enabled, player is gets damage when falling from a great height (in survival mode)",
 					"flymodemovetype": "Determines how movement works while flying.\n\n<color=yellow>Default: Flying towards view direction</color>\n\n<color=orange>Keep Elevation: Keep elevation/altitude</color>",
 					"flymodenoclipping": "If enabled, you can fly through walls and terrain in fly mode. Otherwise these things will still have collision",
 					"flymodespeedcontrol": "Determines how speed is adjusted in fly mode.\n\n<color=yellow>Basic mode: Hold sprint or walk key to fly faster/slower</color>\n\n<color=orange>Advanced mode: Use Shift + Scroll to change the speed</color>",
 					"gravityobjects": "If enabled, floating objects (like furniture) break if they have no contact to solid walls or ground",
 					"gravityplants": "If enabled, floating plants break if they have no contact to the ground",
+					"healthregeneration": "Determines if health should regenerate automatically (if player isn't thirsty or hungry)",
 					"hudshowselecteditem": "Determines if the currently equipped item should be visible in the upper right corner of the HUD",
-					"hungerthirst": "Determines if hunger and thirst should be disabled in survival mode",
+					"hungerthirst": "Determines if hunger and thirst should be enabled in survival mode",
 					"imagemaxresolution": "Determines the max allowed resolution for custom images / posters. Changes only affect images that are uploaded afterwards!\n\nNote: High resolutions consume more graphics memory and have a bigger impact on performance!",
 					"instantdigging": "If enabled, everything breaks with a single hit in survival mode (similar to how digging works in creative mode)",
 					"itemdurability": "Determines the durability of items (i.e how long it takes until they break). Default is 100%. Set to 50% for half the duration (item breaks twice as fast), 200% for double the time etc. \n\n<color=yellow>To disable item durability, set this to 0</color>",
@@ -6074,11 +6209,14 @@
 					"spawnmonstersatsurface": "If enabled, monsters will spawn at the surface at night. They will automatically disappear at daybreak",
 					"spawnmonsterswithtorch": "If enabled, skeletons will <u>always</u> have a torch if they spawn at the surface (this makes them more visible)",
 					"spawnrateanimals": "Determines the spawn rate for animals. Higher values result in more animals, lower values in less animals. Default value is 100%\n\nNote: This does not influence already spawned animals",
-					"spawnratebandits": "Determines the spawn rate for bandits (enemies). Higher values result in more bandits, lower values in less animals. Default value is 100%\n\nNote: This does not influence already spawned bandits",
+					"spawnratebandits": "Determines the spawn rate for bandits (enemies). Higher values result in more bandits, lower values in less bandits. Default value is 100%\n\nNote: This does not influence already spawned bandits",
 					"spawnratesurfacemonsters": "Determines the spawn rate for monsters which spawn at the surface at night. Default value is 100%\n\nNote: This does not influence already spawned monsters",
 					"spawnrateundergroundmonsters": "Determines the spawn rate for monsters which spawn in the underground (caves, hell etc). Default value is 100%\n\nNote: This does not influence already spawned monsters",
 					"stamina": "If enabled, player has unlimited stamina in survival mode",
-					"temperature": "If enabled, temperature has no effect on the player (in survival mode)",
+					"steamp2ptype": "When using the \"Play with Friends\" option, this determines the network type that's used. This setting is only relevant for the player who is hosting the game.\n\n<color=yellow>Default setting is \"Sockets\". Only change this if you're experiencing problems!</color>",
+					"steamshowfriendlist": "If enabled, the Steam friends list will show up in the main menu",
+					"temperature": "If enabled, the environment temperature has an effect on the player (in survival mode)",
+					"temperatureunit": "Scale of temperature",
 					"timeduration": "Determines how long one ingame day takes. Default: 1 Hour",
 					"weatherduration": "Determines how long the current weather lasts, i.e. how long it takes until it changes. \nDefault is 100%. Set to 50% for twice as many  weather changes, 200% for half as many changes etc."
 				},
@@ -6271,11 +6409,13 @@
 					"thirst": "Thirst: {0}"
 				},
 				"creator": "Creator: {0}",
+				"hotkey": "Hotkey: {0}",
 				"id": "ID: {0}",
 				"material": "{0}  (ID: {1})",
 				"musiccomposer": "Composer: {0}",
 				"musictrack": "Music track: {0}",
 				"name": "Name: {0}",
+				"putinequipmentslot": "Put this item into an equipment \nslot for quick access",
 				"strength": "Strength: {0}",
 				"weapons": {
 					"damage": "Damage: {0}",
