@@ -17,7 +17,12 @@ https://forum.rising-world.net/thread/13463-translations-for-new-version-as-at-1
 https://steamcommunity.com/sharedfiles/filedetails/?id=3325769054
 
 ## 動作確認済み環境
+### OS
+Windows 11 24H2
+
+### Rising World バージョン
 Rising World [Unity] 0.8.1 
+
 
 ## 使い方
 
@@ -49,3 +54,11 @@ Rising World本来の美しいフォントではなく、微妙にダサいフ�
 出力データのインデントを揃え、英語→日本語の内容に問題がないかを確認。  
 改善の余地があれば、日本語訳を修正して完了とする。
 
+## データ名メモ
+- ja-JP.json
+  - メインデータ。日本語訳 + 動画内初出パートデータ有り
+- Original
+  - en.json
+    - オリジナルデータ。差分取得のバックアップ用
+  - ja-JP.json
+    - 日本語訳データのみ。動画内初出パートのデータはなし(※アップデート時のオリジナルデータ)
