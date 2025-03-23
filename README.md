@@ -18,7 +18,7 @@ JIW-Gamesより発売されているRising Worldというゲームの日本語�
 また、動画にて投稿している「平和な世界で暮らして」シリーズの情報を組み込んでおり、  
 使い方や解説が必要な場合は動画を参照できるようになっています。
 
-[「平和な世界で暮らして」シリーズ](https://youtube.com/playlist?list=PLth1xrgWZ1rAkfr4llQInVNoPaSjEujLI&si=JUSvRciXFmBNFX9E)
+[「平和な世界で暮らして」シリーズ（YouTube Playlist）](https://youtube.com/playlist?list=PLth1xrgWZ1rAkfr4llQInVNoPaSjEujLI&si=JUSvRciXFmBNFX9E)
 
 
 ## 参考 & Special Thanks
