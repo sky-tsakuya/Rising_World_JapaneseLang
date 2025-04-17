@@ -41,18 +41,25 @@ Rising World 0.8.1
 
 ## 使い方
 
-動画での解説は下記リンクよりご確認ください。
+動画での解説は下記リンクよりご確認ください。  
+[【Rising World】日本語化設定ガイド！(データ配布付き)【IA&OИE】](https://youtu.be/l1jwXytx1Jo?si=18682bOLg4xeENx2)
 
 **※インストール直後の場合、初回の起動を実施しておくこと。下記作業の前に必要です。**
 
-1. データをダウンロードする
-2. Steamの「Rising World」から、「ローカルファイルを閲覧」をクリック
+1. [Releaseページ](https://github.com/sky-tsakuya/Rising_World_JapaneseLang/releases) から、最新のデータ（Source Code.zip）をダウンロードする。  
+   ダウンロード後、zipを展開しておく。
+2. Steamの「Rising World」から、「ローカルファイルを閲覧」をクリック  
+   下記の順番でアクセスしてください。
+   1. ライブラリ一覧を開く
+   2. 一覧にあるRising Worldを右クリック
+   3. 「管理」を選択
+   4. 「ローカルファイルを閲覧」をクリック。開くパスはこちら : `C:\Program Files (x86)\Steam\steamapps\common\RisingWorld\`
 3. 下記パスを開き、`ja-JP.json` を配置する  
-   `Data\StreamingAssets\Languages`
+   `data\StreamingAssets\Languages`
    - ※（Windowsの場合）フルパスは下記
-     - `C:\Program Files (x86)\Steam\steamapps\common\RisingWorld\Data\StreamingAssets\Languages`
+     - `C:\Program Files (x86)\Steam\steamapps\common\RisingWorld\data\StreamingAssets\Languages`
    - ※（macOSの場合）RisingWorld.appの中にある。パスは下記
-     - `RisingWorld.app/Contents/Resources/Data/StreamingAssets/Languages`
+     - `RisingWorld.app/Contents/Resources/data/StreamingAssets/Languages`
 4. （2で開いた）`RisingWorld` フォルダーまで戻り、`config.properties` ファイルをメモ帳で開く
    - ※（Windowsの場合）フルパスは下記
      - `C:\Program Files (x86)\Steam\steamapps\common\RisingWorld\config.properties`
