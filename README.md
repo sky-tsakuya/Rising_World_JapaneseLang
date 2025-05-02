@@ -34,7 +34,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3325769054
 - macOS Sequoia 15.3
 
 ### Rising World バージョン
-Rising World 0.8.1  
+Rising World 0.8.5.2 
 （※Unity版のみ動作確認）
 
 ---
