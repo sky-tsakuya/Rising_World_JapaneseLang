@@ -6472,6 +6472,8 @@
         "customgridsizes": "グリッドサイズ",
         "deadbodydespawntime": "死体の消失時間",
         "disableblood": "血を無効にする",
+        "disablecamerashake": "カメラの揺れを無効にする",
+        "disablethunderlighteffects": "雷の光の効果を無効にする",
         "falldamage": "落下ダメージ (サバイバルのみ)",
         "flymodemovemodes": {
           "default": "デフォルト",
@@ -6487,6 +6489,7 @@
         "gravityobjects": "オブジェクトに重力を有効にする",
         "gravityplants": "植物に重力を有効にする",
         "headbobbing": "首振り",
+        "headeraccessibility": "アクセシビリティ",
         "headerblueprints": "ブループリント",
         "headerbuilding": "建築",
         "headercreative": "クリエイティブモード",

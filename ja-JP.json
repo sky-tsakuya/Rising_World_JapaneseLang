@@ -4122,7 +4122,10 @@
       "shutdown": "プレイヤーが「shutdown」コマンドを使用してサーバーをシャットダウンできるかどうかを決定します",
       "spawnnpc": "プレイヤーが「spawnnpc」コマンドを使用して NPC をスポーンできるかどうかを決定します",
       "spawnvehicle": "プレイヤーが「spawnvehicle」コマンドを使用して車両をスポーンできるかどうかを決定します",
+      "sql": "警告: この権限は、プレイヤーが \"sql\" コマンドを実行することを許可するかどうかを決定します。このコマンドは、プレイヤーにワールドデータベースへのフルアクセスを与えます!",
       "teleport": "プレイヤーが「teleport」または「goto」コマンドを使用して自分自身 (または別のプレイヤー) をテレポートできるかどうかを決定します",
+      "toggleterrain": "\"toggleterrain\"コマンド（地形のオン/オフを切り替える）を実行することをプレイヤーに許可するかどうかを決定します",
+      "togglewater": "\"togglewater\"コマンド（水面と水の効果のオン/オフを切り替える）を実行することをプレイヤーに許可するかどうかを決定します",
       "updatescheduler": "プレイヤーがスケジューラを更新できるかどうかを決定します (タスクの追加または削除)",
       "yell": "プレイヤーが「yell」コマンドを使用してアナウンスメッセージを送信できるかどうかを決定します"
     },
@@ -4403,6 +4406,8 @@
     "building": {
       "collisions": "衝突\n<#FFFF00>{0}<#FFFFFF>",
       "currentprecision": "現在の精度",
+      "deletepreset": "本当にプリセットを削除しますか？",
+      "deletepresetheader": "プリセットを削除",
       "empty": "空",
       "flip": "反転 / ミラー",
       "loadpreset": "プリセットを読み込む",
@@ -5099,6 +5104,11 @@
         "bread": {
           "cut": "パンを切る"
         },
+        "climbingrope": {
+          "climb": "登る",
+          "release": "フックを外す",
+          "throw": "投げる"
+        },
         "coconut": {
           "cut": "ココナッツを切る"
         },
@@ -5106,6 +5116,15 @@
           "fuse": "導火線に火をつける",
           "place": "設置する",
           "throw": "投げる"
+        },
+        "fish": {
+          "cut": "魚を捌く"
+        },
+        "grapplinggun": {
+          "cut": "ロープを切る",
+          "pull": "引く",
+          "release": "フックを外す",
+          "shoot": "フックを撃つ"
         },
         "grass": {
           "grassheight": "草の高さを変更",
@@ -5878,6 +5897,10 @@
               "collisiontoggle": "衝突判定無し",
               "growthtoggle": "成長しない",
               "invisibletoggle": "非表示"
+            },
+            "column3": {
+              "lookattoggle": "注視を無効化",
+              "statictoggle": "静的"
             }
           },
           "flagsheader": "属性"
@@ -5953,10 +5976,10 @@
       "creationdate": "アップロード日時",
       "creationdateformat": "yyyy-MM-dd  hh:mm tt",
       "message": {
-        "deleteimage": "この画像を本当に削除しますか? この画像を使用しているポスターもすべて削除されます。",
-        "deleteimageheader": "画像を削除",
-        "renameimage": "この画像を本当に名前を変更しますか?",
-        "renameimageheader": "画像名前変更"
+        "deleteimage": "本当にこの画像を削除しますか？\n\nこの画像を共有しているすべてのポスターも削除されます。",
+        "deleteimageheader": "画像を削除: <color=yellow>{0}</color>",
+        "renameimage": "この画像の新しい名前を入力してください:",
+        "renameimageheader": "画像の名前を変更"
       },
       "ownimages": "Own Images",
       "screen": {
@@ -6078,13 +6101,16 @@
     "settings": {
       "audio": {
         "autodetect": "< 自動検出 >",
-        "customambiencevolume": "環境音",
+        "customambiencevolume": "環境音 (鳥/動物)",
         "customambiencewindvolume": "環境音 (風)",
+        "customfirevolume": "炎",
+        "custominteractionvolume": "アイテム/オブジェクト",
         "customitemobjectvolume": "アイテム / オブジェクト",
         "custommusicplayersvolume": "音楽プレイヤー",
         "customnpcfootstepvolume": "足音 (NPC)",
         "customnpcvolume": "NPC / 動物",
         "customplayereatingvolume": "食事音 (プレイヤー)",
+        "customplayerfootstepvolume": "足音 (プレイヤー)",
         "customplayervolume": "プレイヤーの音",
         "customsystemvolume": "システム (UI)",
         "customvolume": "カスタム音量レベル",
@@ -6101,7 +6127,8 @@
         "tooltips": {
           "customambiencevolume": "環境音 (鳥など) の音量",
           "customambiencewindvolume": "風の音量",
-          "custommusicplayersvolume": "音楽プレイヤー (蓄音機など) の音量",
+          "customfirevolume": "火の音量 (例: キャンプファイア、炉など)",
+          "custommusicplayersvolume": "ワールドに設置された音楽プレイヤー (蓄音機など) の音量",
           "customnpcvolume": "NPCのノイズ (動物の鳴き声など) の音量",
           "customplayereatingvolume": "プレイヤーのすべての食事音の音量",
           "customplayervolume": "プレイヤーのすべてのノイズ (食事、負傷音など) の一般的な音量",
@@ -6450,8 +6477,11 @@
         "creativecopyblockcolor": "ブロックの色をコピー",
         "creativelightintensity": "クリエイティブモードでの光の強さ",
         "creativemodeshowtoolbar": "クリエイティブモードでのツールバーの表示",
+        "customgridsizes": "グリッドサイズ",
         "deadbodydespawntime": "死体の消失時間",
         "disableblood": "血を無効にする",
+        "disablecamerashake": "カメラの揺れを無効にする",
+        "disablethunderlighteffects": "雷の光の効果を無効にする",
         "falldamage": "落下ダメージ (サバイバルのみ)",
         "flymodemovemodes": {
           "default": "デフォルト",
@@ -6467,6 +6497,7 @@
         "gravityobjects": "オブジェクトに重力を有効にする",
         "gravityplants": "植物に重力を有効にする",
         "headbobbing": "首振り",
+        "headeraccessibility": "アクセシビリティ",
         "headerblueprints": "ブループリント",
         "headerbuilding": "建築",
         "headercreative": "クリエイティブモード",
@@ -6511,6 +6542,7 @@
         "shownametags": "ネームタグを表示",
         "showpickupnotifications": "アイテム取得の通知を表示",
         "skiploadingscreen": "ロード画面をスキップ",
+        "spawnbanditsduringday": "昼間に盗賊を出現させる",
         "spawnmonstersatsurface": "地上にモンスターをスポーン",
         "spawnmonsterswithtorch": "常に松明を持ったモンスターをスポーン",
         "spawnrateanimals": "動物のスポーン率",
@@ -6557,6 +6589,8 @@
           "creativeconfirmremoval": "有効にすると、クリエイティブモードの除去ツールを使用して要素を削除するときに確認ダイアログが表示されます",
           "creativecopyblockcolor": "有効にすると、マウスの中クリックを押してブロックをコピーすると、要素の色もコピーされます",
           "creativelightintensity": "クリエイティブモードライト (L) の光の強度を決定します",
+          "customgridsizes": "カスタムグリッドサイズを定義します。値はカンマで区切ります",
+          "customgridsizeshelplabel": "例: \"{0}\"",
           "falldamage": "有効にすると、プレイヤーは落下ダメージを受けません (サバイバルモード)",
           "flymodemovetype": "飛行中の移動方法を決定します。\n\n<color=yellow>デフォルト: 視線方向に飛行</color>\n\n<color=orange>高度を維持: 高度を維持</color>",
           "flymodenoclipping": "有効にすると、飛行モードで壁や地形を通り抜けることができます。無効の場合、通り抜けできません",
@@ -6571,7 +6605,7 @@
           "itemdurability": "アイテムの耐久性を決定します (つまり、壊れるまでの時間)。デフォルトは100%です。\n半分の時間の場合は50%に設定し (アイテムは2倍速く壊れます)、2倍の時間の場合は200%に設定します。\n\n<color=yellow>アイテムの耐久性を無効にするには、これを0に設定します</color>",
           "keepinventory": "有効にすると、死亡後にインベントリを保持します",
           "mountsfollowviewdirection": "有効にすると、騎乗中に騎乗した動物は自動的に視線方向に動きます",
-          "oresmeltingduration": "炉で鉱石を製錬する時間を設定します。デフォルトは100%です。半分の時間の場合は50%に設定し、2倍の時間の場合は200%に設定します。\n<color=blue>[暮らして] part.3</color>",
+          "oresmeltingduration": "炉で鉱石を製錬する時間を設定します。デフォルトは100%です。半分の時間の場合は50%に設定し、2倍の時間の場合は200%に設定します。",
           "pauseinmenu": "有効にすると、ゲーム内メニューがアクティブな場合にゲームが一時停止します (シングルプレイヤーのみ)",
           "peacefulmode": "有効にすると、敵はあなたを攻撃しなくなります (最初に攻撃しない限り)",
           "plantgrowthduration": "植物の成長時間を決定します。\nデフォルトは100%です。半分の時間の場合は50%に設定し、2倍の時間の場合は200%に設定します。",
@@ -6579,7 +6613,7 @@
           "radialmenushowcursor": "ラジアルメニューでマウスカーソルを表示するかどうかを決定します",
           "screenshothooksteam": "有効にすると、スクリーンショットはSteamスクリーンショットライブラリに転送されます",
           "screenshotshowhud": "スクリーンショットにHUDを表示するかどうかを決定します",
-          "seasons": "現在のゲーム内日付に応じて季節を変更するかどうかを決定します\n<color=blue>[暮らして] part.8-B面</color>",
+          "seasons": "現在のゲーム内日付に応じて季節を変更するかどうかを決定します",
           "showbuildinggrid": "建築中にグリッドを表示するかどうかを決定します (グリッドがアクティブな場合のみ)",
           "showbuildinggridonselector": "プレビュー要素にもグリッドを表示するかどうかを決定します",
           "showbuildinginformation": "有効にすると、建築中に画面の左側に建築ツールに関する情報 (グリッド、回転など) が表示されます",
