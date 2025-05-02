@@ -113,6 +113,7 @@
       "redclay": "赤土",
       "rock": "岩",
       "rubble": "瓦礫",
+      "saltwater": "海水",
       "sandbeach": "砂(海岸)",
       "sanddesert": "砂(砂漠)",
       "sandstone1": "砂岩",
@@ -124,7 +125,12 @@
       "volcanic": "火山",
       "water": "水"
     },
-    "unknown": "不明"
+		"unknown": "不明",
+		"water": {
+      "lava": "溶岩",
+      "saltwater": "海水",
+      "water": "淡水"
+		}
   },
   "blueprint": {
     "create": {
@@ -227,6 +233,12 @@
       "desc": "現代の作業用ヘルメットにライトが取り付けられたもの",
       "name": "ライト付き作業用ヘルメット"
     },
+    "highvisjacket": {
+      "name": "高視認性ベスト"
+    },
+    "jeans": {
+      "name": "ジーンズ"
+    },
     "jesterhat": {
       "desc": "鈴の付いたかぶりもの。道化師の帽子",
       "name": "ピエロ帽"
@@ -234,6 +246,12 @@
     "jockeyhelmet": {
       "desc": "現代の騎手のヘルメット",
       "name": "ジョッキーヘルメット"
+    },
+    "knightsarmor1": {
+      "name": "騎士の鎧"
+    },
+    "leatherarmor": {
+      "name": "革の鎧"
     },
     "mask": {
       "desc": "非常にシンプルな紙製のマスク",
@@ -261,6 +279,21 @@
     "maskwolf": {
       "desc": "オオカミの頭の形のマスク",
       "name": "マスク (オオカミ)"
+    },
+    "medievalfurboots": {
+      "name": "毛皮のブーツ"
+    },
+    "medievalpants": {
+      "name": "古ぼけた布のズボン"
+    },
+    "medievalshirt1": {
+      "name": "中世のシャツ"
+    },
+    "medievalshirt2": {
+      "name": "中世の革のシャツ"
+    },
+    "medievalshoes": {
+      "name": "古い革靴"
     },
     "medievalsuit1": {
       "name": "毛皮のコート"
@@ -302,6 +335,12 @@
     "pilgrimhat": {
       "name": "巡礼者の帽子"
     },
+    "poncho": {
+      "name": "ポンチョ"
+    },
+    "pullover": {
+      "name": "セーター"
+    },
     "questionhat": {
       "name": "?"
     },
@@ -313,6 +352,9 @@
     },
     "redcoathat": {
       "name": "赤毛の帽子"
+    },
+    "robe": {
+      "name": "ローブ"
     },
     "saddlebaghorse": {
       "desc": "鞍に取り付け可能なオプションのバッグ。アイテムを収納できます",
@@ -326,6 +368,18 @@
       "desc": "ピスヘルメットとも呼ばれる。布で覆われた軽量のヘルメット",
       "name": "サファリハット"
     },
+    "sandals": {
+      "name": "サンダル"
+    },
+    "shorts": {
+      "name": "ショートパンツ"
+    },
+    "sneakers1": {
+      "name": "スニーカー"
+    },
+    "sneakers2": {
+      "name": "スニーカー"
+    },
     "sombrero": {
       "name": "ソンブレロ"
     },
@@ -335,14 +389,26 @@
     "teddymask": {
       "name": "マスク (テディ)"
     },
+    "trekkingshoes": {
+      "name": "トレッキングシューズ"
+    },
+    "tshirt": {
+      "name": "Tシャツ"
+    },
     "unclesamhat": {
       "name": "アンクルサムの帽子"
+    },
+		"undershirt": {
+			"name": "アンダーシャツ"
     },
     "ushanka": {
       "name": "ロシア帽"
     },
     "vr": {
       "name": "VRヘッドセット"
+    },
+    "winterjacket": {
+      "name": "冬用ジャケット"
     },
     "wizardhat": {
       "name": "魔法使いの帽子"
@@ -1183,6 +1249,18 @@
     "bellpepper": {
       "name": "ピーマン"
     },
+    "blobfish": {
+      "name": "ニュウドウカジカ"
+    },
+    "blobfishmeat": {
+      "name": "ニュウドウカジカの魚肉"
+    },
+    "blobfishmeatburned": {
+      "name": "焦げたニュウドウカジカの魚肉"
+    },
+    "blobfishmeatcooked": {
+      "name": "調理されたニュウドウカジカの魚肉"
+    },
     "block": {
       "name": "ブロック"
     },
@@ -1233,11 +1311,41 @@
       "desc": "飲用ボトル。水を入れておく事ができます",
       "name": "水筒"
     },
+    "carp": {
+      "name": "鯉"
+    },
+    "carpbaked": {
+      "name": "焼き鯉"
+    },
+    "carpburned": {
+      "name": "焦げた鯉"
+    },
+    "carpcooked": {
+      "name": "調理された鯉"
+    },
+    "carpdried": {
+      "name": "干し鯉"
+    },
     "carrot": {
       "name": "ニンジン"
     },
     "carrotslices": {
       "name": "ニンジンの輪切り"
+    },
+    "catfish": {
+      "name": "ナマズ"
+    },
+    "catfishbaked": {
+      "name": "焼きナマズ"
+    },
+    "catfishburned": {
+      "name": "焦げたナマズ"
+    },
+    "catfishcooked": {
+      "name": "調理されたナマズ"
+    },
+    "catfishdried": {
+      "name": "干しナマズ"
     },
     "chainsaw": {
       "desc": "チェーンソー。非常に効率的です。あっという間に木を切断します。",
@@ -1258,6 +1366,10 @@
       "desc": "多くの電気機器に不可欠な部品",
       "name": "回路基板"
     },
+    "climbingrope": {
+      "desc": "グラップリングフックに取り付けられたロープ。フックを投げて固い表面に当たると、岩場をロープを使って登れます。",
+      "name": "クライミングロープ"
+    },
     "clockold": {
       "desc": "現在時刻を表示します",
       "name": "懐中時計"
@@ -1272,7 +1384,7 @@
     },
     "coarsecloth": {
       "desc": "粗い布の切れ端\n<color=blue>[暮らして] part.8</color>",
-      "name": "粗い布"
+      "name": "布"
     },
     "cobble": {
       "name": "丸石"
@@ -1322,6 +1434,15 @@
     "corncob": {
       "name": "トウモロコシの芯"
     },
+    "corncobbaked": {
+      "name": "焼きトウモロコシ"
+    },
+    "corncobburned": {
+      "name": "焦げたトウモロコシ"
+    },
+    "corncobcooked": {
+      "name": "調理済みのトウモロコシ"
+    },
     "cotton": {
       "desc": "糸車で糸を紡ぐ事ができる",
       "name": "綿花"
@@ -1359,8 +1480,20 @@
       "desc": "釣餌に使えます",
       "name": "ミミズ(餌)"
     },
+    "eel": {
+      "name": "ウナギ"
+    },
     "egg": {
       "name": "卵"
+    },
+    "eggcooked": {
+      "name": "ゆで卵"
+    },
+    "eggpeeled": {
+      "name": "殻をむいた卵"
+    },
+    "eggrainbow": {
+      "name": "虹色の卵"
     },
     "elephanthide": {
       "name": "ゾウの皮"
@@ -1380,6 +1513,13 @@
       "desc": "巨大な花火を打ち上げます！",
       "name": "大型花火ロケット"
     },
+    "fishbone": {
+      "name": "魚の骨"
+    },
+    "fishingrod": {
+      "desc": "魚を釣るのに使えます",
+      "name": "釣り竿"
+    },
     "flashlight": {
       "desc": "暗い場所の探検はこいつで照らそう",
       "name": "懐中電灯"
@@ -1396,12 +1536,13 @@
       "condition": {
         "edible": "まだ食べられる",
         "fresh": "新鮮",
+        "inedible": "食べられません",
         "ruined": "腐ってる",
         "spoiled": "カビが生えてる"
       }
     },
     "forestground": {
-      "name": "森林地帯の地面"
+      "name": "土（森林地帯の地面）"
     },
     "foxpelt": {
       "name": "キツネの毛皮"
@@ -1429,6 +1570,10 @@
       "desc": "金製の細いワイヤー",
       "name": "金ワイヤー"
     },
+    "grapplinggun": {
+      "desc": "クライミングロープのより高度なバージョン。フックを発射し、ターゲットの場所に素早く引き寄せます",
+      "name": "グラップリングガン"
+    },
     "grass": {
       "desc": "草の束",
       "name": "草"
@@ -1452,13 +1597,23 @@
       "metal": "金属",
       "pelt": "毛皮",
       "sapling": "苗木",
-      "stone": "石",
+      "stone": "石（色々）",
       "treelog": "丸太",
       "water": "水"
     },
     "gunpowder": {
       "desc": "爆薬。弾薬とか爆弾を作る時の材料になる",
       "name": "火薬"
+    },
+    "guts": {
+      "name": "内臓"
+    },
+    "gutsbait": {
+      "desc": "動物の内臓から作られた釣り餌",
+      "name": "餌 (内臓)"
+    },
+    "gutsburned": {
+      "name": "焦げた内臓"
     },
     "hare": {
       "desc": "捕獲されたノウサギ。あまり長くインベントリに入れておくべきではありません...",
@@ -1470,6 +1625,21 @@
     "hempfibers": {
       "desc": "糸車で糸を紡ぐ事ができる",
       "name": "麻の繊維"
+    },
+    "herring": {
+      "name": "ニシン"
+    },
+    "herringbaked": {
+      "name": "焼きニシン"
+    },
+    "herringburned": {
+      "name": "焦げたニシン"
+    },
+    "herringcooked": {
+      "name": "調理されたニシン"
+    },
+    "herringdried": {
+      "name": "干しニシン"
     },
     "hoe": {
       "desc": "土地を耕すのに使う\n<color=blue>[暮らして] part.7</color>",
@@ -1499,6 +1669,21 @@
     "ironwire": {
       "desc": "鉄製の細いワイヤー",
       "name": "鉄ワイヤー"
+    },
+    "koi": {
+      "name": "コイ"
+    },
+    "koibaked": {
+      "name": "焼きコイ"
+    },
+    "koiburned": {
+      "name": "焦げたコイ"
+    },
+    "koicooked": {
+      "name": "調理されたコイ"
+    },
+    "koidried": {
+      "name": "干しコイ"
     },
     "lantern": {
       "name": "ランタン"
@@ -1661,6 +1846,21 @@
       "desc": "携帯可能な光源",
       "name": "ペンライト"
     },
+    "perch": {
+      "name": "オヤニラミ"
+    },
+    "perchbaked": {
+      "name": "焼きオヤニラミ"
+    },
+    "perchburned": {
+      "name": "焦げたオヤニラミ"
+    },
+    "perchcooked": {
+      "name": "調理されたオヤニラミ"
+    },
+    "perchdried": {
+      "name": "干しオヤニラミ"
+    },
     "pickaxe": {
       "desc": "鉄製のツルハシ。石や鉱石を採掘するために使う\n<color=blue>[暮らして] part.4</color>",
       "name": "ツルハシ"
@@ -1672,6 +1872,21 @@
     "pighide": {
       "name": "ブタの皮"
     },
+    "plaice": {
+      "name": "カレイ"
+    },
+    "plaicebaked": {
+      "name": "焼きカレイ"
+    },
+    "plaiceburned": {
+      "name": "焦げたカレイ"
+    },
+    "plaicecooked": {
+      "name": "調理されたカレイ"
+    },
+    "plaicedried": {
+      "name": "干しカレイ"
+    },
     "polarbearpelt": {
       "name": "シロクマの毛皮"
     },
@@ -1681,6 +1896,15 @@
     },
     "potato": {
       "name": "ジャガイモ"
+    },
+    "potatobaked": {
+      "name": "ベイクドポテト"
+    },
+    "potatoburned": {
+      "name": "焦げたポテト"
+    },
+    "potatocooked": {
+      "name": "調理済みポテト"
     },
     "pouch": {
       "desc": "貴重な戦利品が入っているかもしれないポーチ",
@@ -1706,6 +1930,12 @@
     },
     "pumpkinslice": {
       "name": "切ったカボチャ"
+    },
+    "pumpkinsliceburned": {
+      "name": "焦げたパンプキンスライス"
+    },
+    "pumpkinslicecooked": {
+      "name": "調理済みパンプキンスライス"
     },
     "rags": {
       "desc": "ぼろ布。紙にリサイクルできます。\n<color=blue>[暮らして] part.9&B面</color>",
@@ -1798,6 +2028,24 @@
     "sailboatstorage": {
       "desc": "帆船に取り付け可能なオプションの収納。\n<color=yellow>オプション</color>",
       "name": "ストレージ(帆船)"
+    },
+    "salmon": {
+      "name": "鮭"
+    },
+    "salmonsteak": {
+      "name": "サーモンステーキ"
+    },
+    "salmonsteakbaked": {
+      "name": "焼き鮭"
+    },
+    "salmonsteakburned": {
+      "name": "焦げたサーモンステーキ"
+    },
+    "salmonsteakcooked": {
+      "name": "調理済みサーモンステーキ"
+    },
+    "salmonsteakdried": {
+      "name": "干しサーモンステーキ"
     },
     "sand": {
       "name": "砂"
@@ -1923,11 +2171,41 @@
       "desc": "広い範囲の草を刈るのに便利です。鉄の大鎌よりも頑丈です",
       "name": "大鎌(スチール)"
     },
+    "seacucumber": {
+      "name": "ナマコ"
+    },
+    "seacucumbermeat": {
+      "name": "ナマコの肉"
+    },
+    "seacucumbermeatburned": {
+      "name": "焦げたナマコの肉"
+    },
+    "seacucumbermeatcooked": {
+      "name": "調理されたナマコの肉"
+    },
+    "seacucumbermeatdried": {
+      "name": "干しナマコの肉"
+    },
     "seedling": {
       "name": "苗"
     },
     "sheeppelt": {
       "name": "羊の毛皮"
+    },
+    "shrimp": {
+      "name": "エビ"
+    },
+    "shrimpbaked": {
+      "name": "焼きエビ"
+    },
+    "shrimpburned": {
+      "name": "焦げたエビ"
+    },
+    "shrimpcooked": {
+      "name": "調理済みのエビ"
+    },
+    "shrimpdried": {
+      "name": "干しエビ"
     },
     "sickle": {
       "desc": "草や小さな植物を集めるのに便利です\n<color=blue>[暮らして] part.7</color>",
@@ -1944,6 +2222,18 @@
     "sledgehammersteel": {
       "desc": "建築ブロックを破壊しないでアイテム化するのに使います。鉄の大ハンマーよりも頑丈です",
       "name": "大ハンマー(スチール)"
+    },
+    "snakemeat": {
+      "name": "ヘビの肉"
+    },
+    "snakemeatburned": {
+      "name": "焦げたヘビの肉"
+    },
+    "snakemeatcooked": {
+      "name": "調理済みのヘビの肉"
+    },
+    "snakemeatdried": {
+      "name": "干しヘビの肉"
     },
     "snow": {
       "name": "雪"
@@ -2120,6 +2410,36 @@
       "desc": "電動芝刈り機。芝を刈るのにこいつを使うのは無茶苦茶効率的です",
       "name": "芝刈り機"
     },
+    "trout": {
+      "name": "マス"
+    },
+    "troutburned": {
+      "name": "焦げたマス"
+    },
+    "troutcooked": {
+      "name": "調理済みのマス"
+    },
+    "troutdried": {
+      "name": "干しマス"
+    },
+    "tuna": {
+      "name": "マグロ"
+    },
+    "tunasteak": {
+      "name": "マグロステーキ"
+    },
+    "tunasteakbaked": {
+      "name": "焼きマグロステーキ"
+    },
+    "tunasteakburned": {
+      "name": "焦げたマグロステーキ"
+    },
+    "tunasteakcooked": {
+      "name": "調理済みのマグロステーキ"
+    },
+    "tunasteakdried": {
+      "name": "干しマグロステーキ"
+    },
     "tungsteningot": {
       "name": "タングステンのインゴット"
     },
@@ -2133,6 +2453,27 @@
     "tungstenwire": {
       "desc": "タングステン製の細いワイヤー",
       "name": "タングステンワイヤー"
+    },
+    "turtle": {
+      "name": "カメ"
+    },
+    "turtlemeat": {
+      "name": "カメの肉"
+    },
+    "turtlemeatbaked": {
+      "name": "焼きカメの肉"
+    },
+    "turtlemeatburned": {
+      "name": "焦げたカメの肉"
+    },
+    "turtlemeatcooked": {
+      "name": "調理済みのカメの肉"
+    },
+    "turtlemeatdried": {
+      "name": "干しカメの肉"
+    },
+    "turtleshell": {
+      "name": "カメの甲羅"
     },
     "underwaterrock": {
       "name": "岩 (藻付き)"
@@ -2167,6 +2508,10 @@
     },
     "wheat": {
       "name": "小麦"
+    },
+    "wolfcub": {
+      "desc": "捕獲されたオオカミの子供。インベントリに長く保管しすぎないでください...",
+      "name": "オオカミの子供"
     },
     "wolfpelt": {
       "name": "オオカミの毛皮"
@@ -2273,13 +2618,20 @@
       "chili": "辛い唐辛子を食べました",
       "cookie": "おいしいクッキーを食べました",
       "corncob": "トウモロコシの芯を食べました",
+      "corncobcooked": "焼きトウモロコシを食べました",
+      "corncoburned": "<color=red>焦げたトウモロコシを食べました</color>",
+      "eggcooked": "卵を食べました",
       "gingerroot": "生のショウガを食べました",
       "lettuce": "レタスを食べました",
       "lettuceleaves": "レタスの葉を食べました",
       "medkit": "救急キットを使用して傷を治療しました",
       "pear": "梨を食べました",
       "potato": "生のジャガイモを食べました",
+      "potatoburned": "<color=red>焦げたジャガイモを食べました</color>",
+      "potatocooked": "焼きジャガイモを食べました",
       "pumpkinslice": "カボチャを一切れ食べました",
+      "pumpkinsliceburned": "<color=red>焦げたカボチャを食べました</color>",
+      "pumpkinslicecooked": "焼きカボチャを食べました",
       "ripepear": "熟れすぎた梨を食べました...",
       "splint": "骨折した脚に添え木を当てました\n\n骨が完全に治るまで注意してください！",
       "steak": "<color=red>生のステーキを食べました。健康に良いかどうかはわかりません...</color>",
@@ -2366,7 +2718,7 @@
       "toolnotavailableyet": "このツールはまだ使用できません"
     },
     "drink": {
-      "nosaltwater": "海水を飲むことはできません",
+      "nosaltwater": "海水を飲むことはできません!",
       "water": "水を飲みました"
     },
     "error": {
@@ -2376,6 +2728,7 @@
         "corrupted": "このブループリントファイルは破損しています！",
         "unsupportedversion": "このブループリントは古すぎるため、ロードできません"
       },
+      "entrypointnotfound": "メソッドを呼び出すことができませんでした。これは、一部のゲームファイルが破損しているか、別のプログラム (例: ウイルス対策プログラム) がゲームをブロックしていることを示しています。\n\nゲームファイルのエラーを確認し、必要に応じて再度ダウンロードしてください。\n\n実際のエラーメッセージ:\n\n<color=yellow>{0}</color>",
       "error": "エラー",
       "exception": "例外が発生しました: \n\n<color=yellow>{0}</color>",
       "filesystemaccessdenied": "ゲーム本体がファイルの読み取り/書き込みを行えませんでした。対象ファイルの読み取り/書き込み権限がゲーム側ないか、別のプログラム(ウイルス対策プログラム等)によってゲームがファイルシステムにアクセスできない状態です。\n\n実際のエラーメッセージ:\n\n<color=yellow>{0}</color>",
@@ -2386,6 +2739,7 @@
       "graphicswarning": "内部エラー 「{0}」が発生しました。通常、これはグラフィックドライバーが古くなっているか、グラフィックカードが特定の機能をRising Worldサポートしていない場合に発生します。\nグラフィックボード製造元のホームページから最新のグラフィックドライバーをダウンロードしてインストールしてください。\n\n<color=yellow>エラー: {1}</color>",
       "header": {
         "compatibilityissue": "互換性の問題",
+        "entrypointnotfound": "エントリポイントが見つかりません",
         "filesystemaccessdenied": "ファイルを読み込み/書き込みできません",
         "gamefilecorrupted": "ゲームファイルが破損しています",
         "initexception": "初期化中の例外エラー",
@@ -2407,13 +2761,22 @@
       "unabletosaveworld": "ワールドの保存中にエラーが発生しました。このメッセージが再度表示された場合、現在の進行状況が失われる可能性があります。その場合はゲームを再起動することをお勧めします。\n\nエラー: {0}",
       "unabletosaveworlddb": "ワールドの保存中にエラーが発生しました。ゲームがローカルディスクにアクセスできません。\n\nウイルス対策プログラムがゲームをブロックしていないことを確認してください。また、空きディスク容量が十分にあることを確認してください。\n\nこのエラーが再度発生した場合、現在の進行状況が失われる可能性があります。その場合はゲームを再起動することをお勧めします。",
       "unknownerror": "不明なエラーが発生しました！",
-      "versiontransition": "Java版または新バージョンのワールドまたはブループリントファイルの一部を移動できませんでした！ファイルはゲームディレクトリに残っています。\n\n新バージョンのファイルは「_New Version」サブフォルダにあります。Javaファイルは、ゲームのルートディレクトリに残っている場合があります。\n\n<color=#00aaff><u><link=\"#gamedir\">ここ</link></u></color>をクリックしてゲームディレクトリを開きます。",
-      "windows7": "残念ながら、最新の Unity バージョンには、Windows 7 でゲームを実行できないバグがあります。このバグは Unity にすでに報告されており、Unity も確認しています。\n\nこれはエンジン自体のバグであるため、残念ながら私たちには制御できません。そのため、Unity がこの問題を修正するまで待つ必要があります。\n\nご不便をおかけして申し訳ございません。この問題に関して Steam フォーラムに固定されたトピックを作成しました。これには、Unity のパブリックバグトラッカーへのリンクも含まれています。何か情報が入り次第スレッドを更新します。"
+      "versiontransition": "Java版または新バージョンのワールドまたはブループリントファイルの一部を移動できませんでした！ファイルはゲームディレクトリに残っています。\n\n新バージョンのファイルは「_New Version」サブフォルダにあります。Javaファイルは、ゲームのルートディレクトリに残っている場合があります。\n\n<color=#00aaff><u><link=\"#gamedir\">ここ</link></u></color>をクリックしてゲームディレクトリを開きます。"
     },
     "farming": {
       "groundfrozen": "地面が凍っているので何も植える事ができません",
       "incompatibleground": "この地面にはこの植物を植えることができません",
       "requiresfarmland": "この植物は耕した地面にのみ植えることができます。\n鍬を使って土地を耕してください"
+    },
+    "fishing": {
+      "catched": "釣れた!",
+      "fishescaped": "魚に逃げられた...",
+      "linesnapped": "釣り糸が切れた!",
+      "noluck": "ここでは何も釣れないようだ...",
+      "wontbite": "近すぎると魚は食いつかない..."
+    },
+    "harvesting": {
+      "cannotharvest": "この植物から苗を入手することはできません"
     },
     "images": {
       "maxamountreached": "アップロード可能な画像の最大数に達しました (権限を参照)",
@@ -2447,6 +2810,10 @@
       "breakwarningprimitiveaxe": "できるだけ早く新しい斧を入手することを<u>強く</u>お勧めします！\nこの斧は永遠に使えるわけではありません...",
       "cantdounderwater": "水の中でそれを行うことはできません",
       "doesnotworkunderwater": "このアイテムは水中では使えません",
+      "grappling": {
+        "dontlookoppositedirection": "引き上げ中は反対方向を見ないでください",
+        "ropesnapped": "ロープが切れました!"
+      },
       "itemstoohot": "あちちっ!! 熱すぎて持てない",
       "itemtoohot": "あちっ！ 熱すぎて持てない",
       "magnifyingglass": {
@@ -2914,7 +3281,7 @@
       "name": "ホッキョクオオカミ"
     },
     "bandit": {
-      "name": "山賊"
+      "name": "盗賊"
     },
     "barbarian": {
       "name": "蛮族"
@@ -3219,6 +3586,10 @@
     "clock": {
       "name": "壁掛け時計"
     },
+    "clothsack": {
+      "desc": "少量のアイテムを保管するのに適しています",
+      "name": "布の袋"
+    },
     "constructionbarrier": {
       "name": "工事用バリケード"
     },
@@ -3423,7 +3794,7 @@
       "name": "原始的な椅子"
     },
     "primitivechest": {
-      "desc": "アイテムの保管に使う小さなチェスト",
+      "desc": "アイテムの保管に使う小さなチェスト\n<color=blue>[暮らして] part.12(B面)</color>",
       "name": "原始的なチェスト"
     },
     "primitivedoor1": {
@@ -3714,9 +4085,11 @@
       "ban": "プレイヤーが他のプレイヤーをBANできるかどうかを決定します",
       "cleanup": "プレイヤーが「cleanup」コマンドを使用できるかどうかを決定します",
       "clearinventory": "プレイヤーがコマンドを使用して自分のインベントリをクリアできるかどうかを決定します",
-      "deletenpc": "プレイヤーが「deletenpc」コマンドを実行できるかどうかを決定します",
-      "deleteplayer": "プレイヤーが「deleteplayer」コマンドを実行できるかどうかを決定します",
-      "disablenpc": "プレイヤーがコマンドを使用してこのサーバー上の特定の NPC を無効にできるかどうかを決定します",
+      "deletenpc": "\"deletenpc\"コマンドを実行してNPCを削除することをプレイヤーに許可するかどうかを決定します",
+      "deleteplayer": "\"deleteplayer\"コマンドを実行してプレイヤーのデータを削除することをプレイヤーに許可するかどうかを決定します",
+      "deletesector": "\"deletesector\"コマンドを実行して島全体を削除/リセットすることをプレイヤーに許可するかどうかを決定します",
+      "disablenpc": "コマンドを介してこのサーバー上の特定のNPCをプレイヤーが無効にすることを許可するかどうかを決定します",
+      "editnpc": "\"editnpc\"コマンドを使用して、既存のNPCを編集（外観、服装、動作などを変更）することをプレイヤーに許可するかどうかを決定します",
       "findbase": "プレイヤーが「findbase」コマンドを使用して、最も多くの建設要素を含むチャンクを見つけることができるかどうかを決定します",
       "gc": "プレイヤーがサーバー側のガベージコレクターを呼び出すことができるかどうかを決定します (「servergc」 コマンド)",
       "getplayerinfo": "プレイヤーが「playerinfo」コマンドを使用してプレイヤー情報を照会できるかどうかを決定します",
@@ -3749,7 +4122,10 @@
       "shutdown": "プレイヤーが「shutdown」コマンドを使用してサーバーをシャットダウンできるかどうかを決定します",
       "spawnnpc": "プレイヤーが「spawnnpc」コマンドを使用して NPC をスポーンできるかどうかを決定します",
       "spawnvehicle": "プレイヤーが「spawnvehicle」コマンドを使用して車両をスポーンできるかどうかを決定します",
+      "sql": "警告: この権限は、プレイヤーが \"sql\" コマンドを実行することを許可するかどうかを決定します。このコマンドは、プレイヤーにワールドデータベースへのフルアクセスを与えます!",
       "teleport": "プレイヤーが「teleport」または「goto」コマンドを使用して自分自身 (または別のプレイヤー) をテレポートできるかどうかを決定します",
+      "toggleterrain": "\"toggleterrain\"コマンド（地形のオン/オフを切り替える）を実行することをプレイヤーに許可するかどうかを決定します",
+      "togglewater": "\"togglewater\"コマンド（水面と水の効果のオン/オフを切り替える）を実行することをプレイヤーに許可するかどうかを決定します",
       "updatescheduler": "プレイヤーがスケジューラを更新できるかどうかを決定します (タスクの追加または削除)",
       "yell": "プレイヤーが「yell」コマンドを使用してアナウンスメッセージを送信できるかどうかを決定します"
     },
@@ -4030,6 +4406,8 @@
     "building": {
       "collisions": "衝突\n<#FFFF00>{0}<#FFFFFF>",
       "currentprecision": "現在の精度",
+      "deletepreset": "本当にプリセットを削除しますか？",
+      "deletepresetheader": "プリセットを削除",
       "empty": "空",
       "flip": "反転 / ミラー",
       "loadpreset": "プリセットを読み込む",
@@ -4726,6 +5104,11 @@
         "bread": {
           "cut": "パンを切る"
         },
+        "climbingrope": {
+          "climb": "登る",
+          "release": "フックを外す",
+          "throw": "投げる"
+        },
         "coconut": {
           "cut": "ココナッツを切る"
         },
@@ -4733,6 +5116,15 @@
           "fuse": "導火線に火をつける",
           "place": "設置する",
           "throw": "投げる"
+        },
+        "fish": {
+          "cut": "魚を捌く"
+        },
+        "grapplinggun": {
+          "cut": "ロープを切る",
+          "pull": "引く",
+          "release": "フックを外す",
+          "shoot": "フックを撃つ"
         },
         "grass": {
           "grassheight": "草の高さを変更",
@@ -5505,6 +5897,10 @@
               "collisiontoggle": "衝突判定無し",
               "growthtoggle": "成長しない",
               "invisibletoggle": "非表示"
+            },
+            "column3": {
+              "lookattoggle": "注視を無効化",
+              "statictoggle": "静的"
             }
           },
           "flagsheader": "属性"
@@ -5580,10 +5976,10 @@
       "creationdate": "アップロード日時",
       "creationdateformat": "yyyy-MM-dd  hh:mm tt",
       "message": {
-        "deleteimage": "この画像を本当に削除しますか? この画像を使用しているポスターもすべて削除されます。",
-        "deleteimageheader": "画像を削除",
-        "renameimage": "この画像を本当に名前を変更しますか?",
-        "renameimageheader": "画像名前変更"
+        "deleteimage": "本当にこの画像を削除しますか？\n\nこの画像を共有しているすべてのポスターも削除されます。",
+        "deleteimageheader": "画像を削除: <color=yellow>{0}</color>",
+        "renameimage": "この画像の新しい名前を入力してください:",
+        "renameimageheader": "画像の名前を変更"
       },
       "ownimages": "Own Images",
       "screen": {
@@ -5705,13 +6101,16 @@
     "settings": {
       "audio": {
         "autodetect": "< 自動検出 >",
-        "customambiencevolume": "環境音",
+        "customambiencevolume": "環境音 (鳥/動物)",
         "customambiencewindvolume": "環境音 (風)",
+        "customfirevolume": "炎",
+        "custominteractionvolume": "アイテム/オブジェクト",
         "customitemobjectvolume": "アイテム / オブジェクト",
         "custommusicplayersvolume": "音楽プレイヤー",
         "customnpcfootstepvolume": "足音 (NPC)",
         "customnpcvolume": "NPC / 動物",
         "customplayereatingvolume": "食事音 (プレイヤー)",
+        "customplayerfootstepvolume": "足音 (プレイヤー)",
         "customplayervolume": "プレイヤーの音",
         "customsystemvolume": "システム (UI)",
         "customvolume": "カスタム音量レベル",
@@ -5728,7 +6127,8 @@
         "tooltips": {
           "customambiencevolume": "環境音 (鳥など) の音量",
           "customambiencewindvolume": "風の音量",
-          "custommusicplayersvolume": "音楽プレイヤー (蓄音機など) の音量",
+          "customfirevolume": "火の音量 (例: キャンプファイア、炉など)",
+          "custommusicplayersvolume": "ワールドに設置された音楽プレイヤー (蓄音機など) の音量",
           "customnpcvolume": "NPCのノイズ (動物の鳴き声など) の音量",
           "customplayereatingvolume": "プレイヤーのすべての食事音の音量",
           "customplayervolume": "プレイヤーのすべてのノイズ (食事、負傷音など) の一般的な音量",
@@ -6077,8 +6477,11 @@
         "creativecopyblockcolor": "ブロックの色をコピー",
         "creativelightintensity": "クリエイティブモードでの光の強さ",
         "creativemodeshowtoolbar": "クリエイティブモードでのツールバーの表示",
+        "customgridsizes": "グリッドサイズ",
         "deadbodydespawntime": "死体の消失時間",
         "disableblood": "血を無効にする",
+        "disablecamerashake": "カメラの揺れを無効にする",
+        "disablethunderlighteffects": "雷の光の効果を無効にする",
         "falldamage": "落下ダメージ (サバイバルのみ)",
         "flymodemovemodes": {
           "default": "デフォルト",
@@ -6094,6 +6497,7 @@
         "gravityobjects": "オブジェクトに重力を有効にする",
         "gravityplants": "植物に重力を有効にする",
         "headbobbing": "首振り",
+        "headeraccessibility": "アクセシビリティ",
         "headerblueprints": "ブループリント",
         "headerbuilding": "建築",
         "headercreative": "クリエイティブモード",
@@ -6138,6 +6542,7 @@
         "shownametags": "ネームタグを表示",
         "showpickupnotifications": "アイテム取得の通知を表示",
         "skiploadingscreen": "ロード画面をスキップ",
+        "spawnbanditsduringday": "昼間に盗賊を出現させる",
         "spawnmonstersatsurface": "地上にモンスターをスポーン",
         "spawnmonsterswithtorch": "常に松明を持ったモンスターをスポーン",
         "spawnrateanimals": "動物のスポーン率",
@@ -6184,6 +6589,8 @@
           "creativeconfirmremoval": "有効にすると、クリエイティブモードの除去ツールを使用して要素を削除するときに確認ダイアログが表示されます",
           "creativecopyblockcolor": "有効にすると、マウスの中クリックを押してブロックをコピーすると、要素の色もコピーされます",
           "creativelightintensity": "クリエイティブモードライト (L) の光の強度を決定します",
+          "customgridsizes": "カスタムグリッドサイズを定義します。値はカンマで区切ります",
+          "customgridsizeshelplabel": "例: \"{0}\"",
           "falldamage": "有効にすると、プレイヤーは落下ダメージを受けません (サバイバルモード)",
           "flymodemovetype": "飛行中の移動方法を決定します。\n\n<color=yellow>デフォルト: 視線方向に飛行</color>\n\n<color=orange>高度を維持: 高度を維持</color>",
           "flymodenoclipping": "有効にすると、飛行モードで壁や地形を通り抜けることができます。無効の場合、通り抜けできません",
@@ -6198,7 +6605,7 @@
           "itemdurability": "アイテムの耐久性を決定します (つまり、壊れるまでの時間)。デフォルトは100%です。\n半分の時間の場合は50%に設定し (アイテムは2倍速く壊れます)、2倍の時間の場合は200%に設定します。\n\n<color=yellow>アイテムの耐久性を無効にするには、これを0に設定します</color>",
           "keepinventory": "有効にすると、死亡後にインベントリを保持します",
           "mountsfollowviewdirection": "有効にすると、騎乗中に騎乗した動物は自動的に視線方向に動きます",
-          "oresmeltingduration": "炉で鉱石を製錬する時間を設定します。デフォルトは100%です。半分の時間の場合は50%に設定し、2倍の時間の場合は200%に設定します。\n<color=blue>[暮らして] part.3</color>",
+          "oresmeltingduration": "炉で鉱石を製錬する時間を設定します。デフォルトは100%です。半分の時間の場合は50%に設定し、2倍の時間の場合は200%に設定します。",
           "pauseinmenu": "有効にすると、ゲーム内メニューがアクティブな場合にゲームが一時停止します (シングルプレイヤーのみ)",
           "peacefulmode": "有効にすると、敵はあなたを攻撃しなくなります (最初に攻撃しない限り)",
           "plantgrowthduration": "植物の成長時間を決定します。\nデフォルトは100%です。半分の時間の場合は50%に設定し、2倍の時間の場合は200%に設定します。",
@@ -6206,7 +6613,7 @@
           "radialmenushowcursor": "ラジアルメニューでマウスカーソルを表示するかどうかを決定します",
           "screenshothooksteam": "有効にすると、スクリーンショットはSteamスクリーンショットライブラリに転送されます",
           "screenshotshowhud": "スクリーンショットにHUDを表示するかどうかを決定します",
-          "seasons": "現在のゲーム内日付に応じて季節を変更するかどうかを決定します\n<color=blue>[暮らして] part.8-B面</color>",
+          "seasons": "現在のゲーム内日付に応じて季節を変更するかどうかを決定します",
           "showbuildinggrid": "建築中にグリッドを表示するかどうかを決定します (グリッドがアクティブな場合のみ)",
           "showbuildinggridonselector": "プレビュー要素にもグリッドを表示するかどうかを決定します",
           "showbuildinginformation": "有効にすると、建築中に画面の左側に建築ツールに関する情報 (グリッド、回転など) が表示されます",
@@ -6214,6 +6621,7 @@
           "showfps": "有効にすると、現在のフレーム/秒がHUDの右下隅に表示されます",
           "shownametags": "有効にすると、他のプレイヤーのネームタグがマルチプレイヤーで表示されます (サーバー設定によって異なります)",
           "skiploadingscreen": "有効にすると、ロード画面がスキップされます (その段階でワールドが完全にロードされていない状態でも)",
+          "spawnbanditsduringday": "有効にすると、昼間にも盗賊が出現します。無効にすると、夜間のみ出現します。\n\n注意: これは温帯地域の盗賊にのみ影響します!",
           "spawnmonstersatsurface": "有効にすると、夜間に地表にモンスターがスポーンします。彼らは夜明けに自動的に消えます",
           "spawnmonsterswithtorch": "有効にすると、スケルトンは地表にスポーンした場合、<u>常に</u>松明を持ちます (これにより、彼らはより見やすくなります)",
           "spawnrateanimals": "動物のスポーン率を決定します。値が高いほど動物が多くなり、値が低いほど動物が少なくなります。デフォルト値は100%です。\n\n注: これはすでにスポーンした動物には影響しません",
@@ -6226,8 +6634,10 @@
           "temperature": "有効にすると、温度はプレイヤーに影響を与えません (サバイバルモード)",
           "temperatureunit": "温度の単位",
           "timeduration": "ゲーム内の一日の長さを決定します。デフォルト: 1時間",
+          "usecustomgridsizes": "独自のグリッドサイズを定義する場合は、この設定を有効にしてください",
           "weatherduration": "現在の天候が続く時間、つまり天候が変化するまでの時間を決定します。\nデフォルトは100%です。天候の変化が2倍の場合は50%に設定し、半分の変化の場合は200%に設定します。"
         },
+        "usecustomgridsizes": "カスタムグリッドを使用",
         "weatherduration": "天候の長さ",
         "weatherpreset": "天候プリセット",
         "weatherpresets": {
@@ -6332,6 +6742,9 @@
               "sortlabel": "並び替え:"
             },
             "worldlistheader": "ワールドを選択または作成"
+          },
+          "subheadercontainer": {
+            "hintlabel": "ワールドを右クリックすると、その他のオプションが表示されます"
           }
         }
       },
