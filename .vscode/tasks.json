@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Find identical translations",
+      "type": "shell",
+      "command": "node",
+      "args": ["scripts/check-identical.js"],
+      "group": "build",
+      "presentation": { "echo": true }
+    }
+  ]
+}
