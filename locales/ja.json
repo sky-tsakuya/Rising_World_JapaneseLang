@@ -1,6 +1,6 @@
 {
   "blockid": {
-    "air": "Air",
+    "air": "空気",
     "block": {
       "category": {
         "asphalt": "アスファルト",
@@ -125,17 +125,18 @@
       "volcanic": "火山",
       "water": "水"
     },
-		"unknown": "不明",
-		"water": {
+    "unknown": "不明",
+    "water": {
       "lava": "溶岩",
       "saltwater": "海水",
       "water": "淡水"
-		}
+    }
   },
   "blueprint": {
     "create": {
       "constructioncount": "構造物: {0}",
       "header": "ブループリントの保存...",
+      "includesterrain": "地形を含む",
       "objectcount": "オブジェクト数: {0}",
       "plantcount": "植物の数: {0}",
       "size": "サイズ: {0} x {1} x {2}"
@@ -167,12 +168,27 @@
     "barbarianhelmet": {
       "name": "蛮族のヘルメット"
     },
+    "bathrobe": {
+      "name": "バスローブ"
+    },
+    "bomberjacket": {
+      "name": "ボンバージャケット"
+    },
     "boonie": {
       "name": "ブーニーハット"
+    },
+    "buckethat": {
+      "name": "バケットハット"
     },
     "bunnymask": {
       "desc": "イースターにピッタリのアクセサリ",
       "name": "うさ耳"
+    },
+    "bunnyoutfit": {
+      "name": "バニー服"
+    },
+    "bunnyoutfit2": {
+      "name": "バニー服 (フードなし)"
     },
     "cappy": {
       "name": "キャップ"
@@ -183,8 +199,17 @@
     "captainhat": {
       "name": "船長の帽子"
     },
+    "cargopants": {
+      "name": "カーゴパンツ"
+    },
+    "cartoonwolfmask": {
+      "name": "マスク (カートゥーン調のオオカミ)"
+    },
     "chefhat": {
       "name": "コック帽"
+    },
+    "coif": {
+      "name": "コイフ"
     },
     "cowboyhat": {
       "desc": "つば広のテンガロンハット",
@@ -197,6 +222,9 @@
       "desc": "これで貴方も紳士に",
       "name": "シルクハット"
     },
+    "dealwithitshades": {
+      "name": "8bitサングラス (細かいことは気にすんな)"
+    },
     "divinggoggles": {
       "desc": "水中を鮮明に見ることができるダイビング装備の一部",
       "name": "ダイビングマスク"
@@ -207,11 +235,24 @@
     "felthat": {
       "name": "フェルト帽"
     },
+    "femalecotte": {
+      "name": "コット"
+    },
+    "femalegown": {
+      "name": "ガウン"
+    },
     "fez": {
       "name": "フェズ(帽子)"
     },
+    "flippers": {
+      "desc": "水中をより素早く移動できるようになるダイビング用具の一部",
+      "name": "フリッパー"
+    },
     "fur": {
       "name": "毛皮"
+    },
+    "gambeson": {
+      "name": "ガンベゾン"
     },
     "groucho": {
       "desc": "完璧な変装が可能。誰もあなたを認識できない",
@@ -221,6 +262,10 @@
       "desc": "現代の作業用ヘルメット",
       "name": "作業用ヘルメット"
     },
+    "helmet_lamp": {
+      "desc": "現代の作業用ヘルメットにライトが取り付けられたもの",
+      "name": "ライト付き作業用ヘルメット"
+    },
     "helmet2": {
       "desc": "現在の登山用ヘルメット",
       "name": "登山用ヘルメット"
@@ -229,12 +274,21 @@
       "desc": "現代の登山用ヘルメットにライトが取り付けられたもの",
       "name": "ライト付き登山用ヘルメット"
     },
-    "helmet_lamp": {
-      "desc": "現代の作業用ヘルメットにライトが取り付けられたもの",
-      "name": "ライト付き作業用ヘルメット"
-    },
     "highvisjacket": {
       "name": "高視認性ベスト"
+    },
+    "indyfedora": {
+      "name": "考古学者の中折れ帽"
+    },
+    "indypants": {
+      "name": "考古学者のパンツ"
+    },
+    "indyshoes": {
+      "name": "考古学者の靴"
+    },
+    "indytop": {
+      "desc": "また会ったな、ジョーンズ博士？",
+      "name": "考古学者のジャケット"
     },
     "jeans": {
       "name": "ジーンズ"
@@ -250,6 +304,9 @@
     "knightsarmor1": {
       "name": "騎士の鎧"
     },
+    "knightsarmorhelmet1": {
+      "name": "騎士の兜"
+    },
     "leatherarmor": {
       "name": "革の鎧"
     },
@@ -260,13 +317,28 @@
     "mask2": {
       "name": "マスク"
     },
+    "maskanubis": {
+      "name": "アヌビスのマスク"
+    },
     "maskbear": {
       "desc": "クマの頭の形のマスク",
       "name": "マスク (クマ)"
     },
+    "maskchicken": {
+      "desc": "ニワトリの頭の形をしたマスク",
+      "name": "マスク (ニワトリ)"
+    },
+    "maskfox": {
+      "desc": "キツネの頭の形をしたマスク",
+      "name": "マスク (キツネ)"
+    },
     "maskgoat": {
       "desc": "ヤギの頭の形のマスク",
       "name": "マスク (ヤギ)"
+    },
+    "maskhorse": {
+      "desc": "ウマの頭の形をしたマスク",
+      "name": "マスク (ウマ)"
     },
     "maskpig": {
       "desc": "ブタの頭の形のマスク",
@@ -279,6 +351,9 @@
     "maskwolf": {
       "desc": "オオカミの頭の形のマスク",
       "name": "マスク (オオカミ)"
+    },
+    "medievalcoif": {
+      "name": "コイフ"
     },
     "medievalfurboots": {
       "name": "毛皮のブーツ"
@@ -302,8 +377,23 @@
       "name": "盗賊の服"
     },
     "mininghelmet": {
-      "desc": "暗い場所でも道を照らすように取り付けられたろうそくを持つ古い鉱夫のヘルメット",
+      "desc": "暗い場所でも道を照らすように取り付けられたろうそくを持つ古い鉱夫のヘルメット\n<color=blue>[暮らして] part.12</color>",
       "name": "鉱夫のヘルメット"
+    },
+    "mountieboots": {
+      "name": "騎馬警官隊のブーツ"
+    },
+    "mountiecap": {
+      "name": "騎馬警官隊のキャップ帽"
+    },
+    "mountiehat": {
+      "name": "騎馬警官隊の帽子"
+    },
+    "mountiejacket": {
+      "name": "騎馬警官隊のジャケット"
+    },
+    "mountiepants": {
+      "name": "騎馬警官隊のパンツ"
     },
     "necklace": {
       "name": "ネックレス"
@@ -313,6 +403,9 @@
     },
     "oldbelt": {
       "name": "古いベルト"
+    },
+    "oldboot": {
+      "name": "古いブーツ"
     },
     "oldboots": {
       "name": "古いブーツ"
@@ -326,14 +419,23 @@
     "oldhelmet": {
       "name": "古いヘルメット"
     },
+    "onesie": {
+      "name": "ロンパース"
+    },
     "paintballmask": {
       "name": "ペイントボールマスク"
+    },
+    "paws": {
+      "name": "肉球"
     },
     "pickelhaube": {
       "name": "ピッケルハウベ"
     },
     "pilgrimhat": {
       "name": "巡礼者の帽子"
+    },
+    "poloshirt": {
+      "name": "ポロシャツ"
     },
     "poncho": {
       "name": "ポンチョ"
@@ -368,11 +470,23 @@
       "desc": "ピスヘルメットとも呼ばれる。布で覆われた軽量のヘルメット",
       "name": "サファリハット"
     },
+    "samuraiarmor": {
+      "name": "サムライの鎧"
+    },
+    "samuraiarmorhelmet": {
+      "name": "サムライの兜"
+    },
     "sandals": {
+      "name": "サンダル"
+    },
+    "sandals2": {
       "name": "サンダル"
     },
     "shorts": {
       "name": "ショートパンツ"
+    },
+    "slippers": {
+      "name": "スリッパ"
     },
     "sneakers1": {
       "name": "スニーカー"
@@ -380,8 +494,14 @@
     "sneakers2": {
       "name": "スニーカー"
     },
+    "sneakers3": {
+      "name": "スニーカー"
+    },
     "sombrero": {
       "name": "ソンブレロ"
+    },
+    "spacearmor": {
+      "name": "ハイテクアーマー"
     },
     "sunglasses1": {
       "name": "サングラス"
@@ -395,17 +515,33 @@
     "tshirt": {
       "name": "Tシャツ"
     },
+    "tunic": {
+      "name": "チュニック"
+    },
+    "turban": {
+      "name": "ターバン"
+    },
+    "type": {
+      "face": "顔",
+      "feet": "足",
+      "head": "頭",
+      "legs": "脚",
+      "top": "上半身"
+    },
     "unclesamhat": {
       "name": "アンクルサムの帽子"
     },
-		"undershirt": {
-			"name": "アンダーシャツ"
-		},
+    "undershirt": {
+      "name": "アンダーシャツ"
+    },
     "ushanka": {
       "name": "ロシア帽"
     },
     "vr": {
       "name": "VRヘッドセット"
+    },
+    "warbonnet": {
+      "name": "ウォーボンネット"
     },
     "winterjacket": {
       "name": "冬用ジャケット"
@@ -505,6 +641,18 @@
     "halfspherehollow": {
       "name": "中空半球体"
     },
+    "halftorus": {
+      "name": "ハーフトーラス"
+    },
+    "hollowarcinverse": {
+      "name": "中空円弧 (逆)"
+    },
+    "hollowarcinversecorner": {
+      "name": "中空円弧角"
+    },
+    "hollowarcinversecornerinner": {
+      "name": "中空円弧内側角"
+    },
     "hollowblock": {
       "name": "中空ブロック"
     },
@@ -543,6 +691,9 @@
     },
     "pillar": {
       "name": "柱"
+    },
+    "plank": {
+      "name": "板"
     },
     "poster": {
       "desc": "ローカルドライブから画像をアップロードして、ワールド内に配置できます",
@@ -584,6 +735,12 @@
     "roundedblock": {
       "name": "丸角ブロック(四角)"
     },
+    "roundedblock2": {
+      "name": "丸角ブロック（平）"
+    },
+    "roundedcylinder": {
+      "name": "丸い円柱"
+    },
     "sphere": {
       "name": "球体"
     },
@@ -602,11 +759,20 @@
     "stair3": {
       "name": "階段 (段差)"
     },
+    "torus": {
+      "name": "円環面"
+    },
+    "torus2": {
+      "name": "円環面（平らな内側）"
+    },
     "triangle": {
       "name": "三角形"
     },
     "window1": {
       "name": "窓枠"
+    },
+    "window10": {
+      "name": "窓枠 (円形)"
     },
     "window2": {
       "name": "窓枠 (組子)"
@@ -631,9 +797,6 @@
     },
     "window9": {
       "name": "窓枠 (丸型)"
-    },
-    "window10": {
-      "name": "窓枠 (円形)"
     }
   },
   "contextmenu": {
@@ -641,6 +804,11 @@
       "delete": "削除",
       "gotofolder": "フォルダを開く",
       "select": "選択"
+    },
+    "color": {
+      "change": "色を変更",
+      "copy": "色をコピー",
+      "paste": "色をペースト"
     },
     "crafting": {
       "collapseall": "すべて折りたたむ",
@@ -704,7 +872,9 @@
       "copyseed": "シード値をコピー",
       "createbackup": "バックアップを作成",
       "deletebackup": "バックアップを削除",
+      "modify": "変更...",
       "openfolder": "フォルダを開く",
+      "pasteseed": "シード値をペースト",
       "rename": "ワールド名を変更",
       "restorebackup": "バックアップを復元"
     }
@@ -973,7 +1143,7 @@
       "vehicles": "乗り物",
       "weapons": "武器"
     },
-    "new": "New",
+    "new": "新",
     "recipecountformat": "({0} / {1})",
     "selectcolor": "建築物の色を選択",
     "subcategory": {
@@ -992,7 +1162,9 @@
       "container": "コンテナ",
       "cooking": "料理",
       "decoration": "装飾",
+      "divinggear": "潜水道具",
       "doors": "ドア",
+      "dresses": "服装",
       "engines": "エンジン",
       "explosives": "爆発物",
       "firearms": "銃器",
@@ -1028,12 +1200,15 @@
       "shootingtargets": "的",
       "signs": "看板",
       "snacks": "おやつ",
+      "specialoutfits": "特別な衣装",
+      "statues": "彫像",
       "storages": "収納",
       "survival": "サバイバル",
       "tables": "テーブル",
       "top": "上部",
       "transmissions": "トランスミッション",
       "traps": "トラップ",
+      "trophies": "トロフィー",
       "vehiclestorages": "収納",
       "wheels": "車輪",
       "windowframes": "窓枠",
@@ -1060,6 +1235,17 @@
     "merrychristmas": "メリークリスマス！",
     "month": "月",
     "months": "ヶ月目",
+    "moonphase": {
+      "bloodmoon": "皆既月食",
+      "fullmoon": "満月",
+      "newmoon": "新月",
+      "waningmoon1": "下弦の月 (10%)",
+      "waxingmoon1": "上弦の月 (10%)",
+      "waxingmoon2": "上弦の月 (30%)",
+      "waxingmoon3": "上弦の月 (50%)",
+      "waxingmoon4": "上弦の月 (70%)",
+      "waxingmoon5": "上弦の月 (90%)"
+    },
     "name": "日付",
     "november": "11月",
     "october": "10月",
@@ -1073,21 +1259,50 @@
     "year": "年",
     "years": "年目"
   },
+  "dungeon": {
+    "category": {
+      "abandoned": "廃墟",
+      "ancient": "古代の建造物",
+      "banditcamp": "盗賊のキャンプ",
+      "boatwreck": "難破船",
+      "camp": "キャンプ",
+      "default": "デフォルト",
+      "info": {
+        "abandoned": "監視塔や古い小屋など、放棄された人工建造物が含まれます。",
+        "ancient": "祭祀場など、はるか昔に建てられたと思われる古代建造物が含まれます。",
+        "banditcamp": "活動中の盗賊のキャンプも含まれます",
+        "boatwreck": "沿岸地域で見つかる古い難破船が含まれます。",
+        "camp": "使用中と思わしきキャンプも含まれます",
+        "misc": "その他の特殊構造物",
+        "natural": "特別な木や岩層などの自然構造物が含まれます。",
+        "shipwreck": "沿岸地域や水中で見つかる古い沈没船が含まれます。",
+        "wrecks": "破壊された馬車などの陸上の残骸が含まれます。"
+      },
+      "misc": "その他",
+      "natural": "自然の構造物",
+      "none": "なし",
+      "shipwreck": "沈没船",
+      "wreck": "残骸"
+    }
+  },
   "gamemode": {
     "creative": "クリエイティブ",
     "survival": "サバイバル"
   },
   "general": {
     "accept": "同意",
+    "allowed": "許可",
     "always": "常に",
     "apply": "適用",
     "cancel": "キャンセル",
+    "comingsoon": "近日公開",
     "continue": "続行",
     "create": "作成",
     "decline": "拒否",
     "default": "デフォルト",
     "disable": "無効化",
     "disabled": "無効",
+    "distance": "距離",
     "edit": "編集",
     "enable": "有効化",
     "enabled": "有効",
@@ -1106,16 +1321,50 @@
     "off": "オフ",
     "ok": "OK",
     "on": "オン",
+    "prohibited": "禁止",
     "select": "選択",
     "unknown": "不明",
     "yes": "はい"
   },
   "input": {
+    "gamepad": {
+      "dpad": "方向キー",
+      "dpad/down": "方向キー 下",
+      "dpad/left": "方向キー 左",
+      "dpad/right": "方向キー 右",
+      "dpad/up": "方向キー 上",
+      "leftshoulder": "LB(L1)",
+      "leftstick": "左スティック",
+      "leftstickpress": "左スティック（押）",
+      "lefttrigger": "左トリガー(L2)",
+      "playstation": {
+        "buttoneast": "○",
+        "buttonnorth": "△",
+        "buttonsouth": "X",
+        "buttonwest": "□",
+        "select": "SHARE",
+        "start": "OPTIONS"
+      },
+      "rightshoulder": "RB(R1)",
+      "rightstick": "右スティック",
+      "rightstickpress": "右スティック（押）",
+      "righttrigger": "右トリガー(R2)",
+      "select": "セレクト",
+      "start": "スタート",
+      "xbox": {
+        "buttoneast": "B",
+        "buttonnorth": "Y",
+        "buttonsouth": "A",
+        "buttonwest": "X",
+        "select": "ビューボタン",
+        "start": "メニューボタン"
+      }
+    },
     "keyboard": {
       "a": "A",
       "backquote": "バッククオート(`)",
       "backslash": "バックスラッシュ(¥)",
-      "backspace": "バックスペース",
+      "backspace": "BackSpace",
       "comma": ",",
       "contextmenu": "コンテキスト",
       "delete": "Delete",
@@ -1170,8 +1419,8 @@
       "middlebutton": "マウス中ボタン",
       "rightbutton": "マウス右ボタン",
       "scroll": "スクロールホイール",
-      "scroll/y+": "ホイール上",
       "scroll/y-": "ホイール下",
+      "scroll/y+": "ホイール上",
       "scrolldown": "ホイール下",
       "scrollleft": "ホイール左",
       "scrollright": "ホイール右",
@@ -1197,6 +1446,15 @@
       "desc": "連発ライフル用の弾。5発入",
       "name": "クリップ(連発長銃用)"
     },
+    "antlerdeer": {
+      "name": "鹿の角"
+    },
+    "antlerdeerred": {
+      "name": "アカシカの角"
+    },
+    "antlermoose": {
+      "name": "ヘラジカの角"
+    },
     "apple": {
       "desc": "リンゴは元気の源",
       "name": "リンゴ"
@@ -1217,7 +1475,7 @@
       "name": "原始的な矢"
     },
     "axe": {
-      "desc": "鉄製の斧。木を伐採したり、木製の構造物を破壊するために使用できます",
+      "desc": "鉄製の斧。木を伐採したり、木製の構造物を破壊するために使用できます\n<color=blue>[暮らして] part.4</color>",
       "name": "斧"
     },
     "axesteel": {
@@ -1274,6 +1532,10 @@
     },
     "boarhide": {
       "name": "イノシシの皮"
+    },
+    "bolt": {
+      "desc": "<u>クロスボウ</u>から発射する",
+      "name": "ボルト"
     },
     "bomb": {
       "desc": "弱い相手ならこいつでドッカン一発だ！",
@@ -1375,6 +1637,7 @@
       "name": "懐中時計"
     },
     "coal": {
+      "desc": "\n<color=blue>[暮らして] part.2</color>",
       "name": "石炭"
     },
     "coalpowder": {
@@ -1382,7 +1645,7 @@
       "name": "石炭の粉末"
     },
     "coarsecloth": {
-      "desc": "粗い布の切れ端",
+      "desc": "粗い布の切れ端\n<color=blue>[暮らして] part.8</color>",
       "name": "布"
     },
     "cobble": {
@@ -1403,7 +1666,7 @@
       "name": "現代のコンパス"
     },
     "compassold": {
-      "desc": "ナビゲーションに便利です",
+      "desc": "ナビゲーションに便利です\n<color=blue>[暮らして] part.2&part.9</color>",
       "name": "コンパス"
     },
     "condition": {
@@ -1450,6 +1713,7 @@
       "name": "ウシの皮"
     },
     "crossbow": {
+      "desc": "弓と同様に機能する遠距離武器ですが、装填しておいてすぐに使用できます。\n\n\nボルトを発射する",
       "name": "クロスボウ"
     },
     "decal": {
@@ -1491,6 +1755,9 @@
     "eggpeeled": {
       "name": "殻をむいた卵"
     },
+    "eggplant": {
+      "name": "ナス"
+    },
     "eggrainbow": {
       "name": "虹色の卵"
     },
@@ -1528,7 +1795,7 @@
       "name": "スポットライト"
     },
     "flour": {
-      "desc": "小麦を挽いて作る。生地とか食物を作る時の材料に使う",
+      "desc": "小麦を挽いて作る。生地とか食物を作る時の材料に使う\n<color=blue>[暮らして] part.9-B面</color>",
       "name": "小麦粉"
     },
     "food": {
@@ -1552,8 +1819,15 @@
     "gingerroot": {
       "name": "ショウガ"
     },
+    "goatling": {
+      "desc": "捕獲されたヤギの子。\nあまり長くインベントリに保管しないほうがいいでしょう...",
+      "name": "ヤギの子"
+    },
     "goatpelt": {
       "name": "ヤギの皮"
+    },
+    "goatpeltblack": {
+      "name": "ヤギの皮（黒）"
     },
     "goldingot": {
       "name": "金インゴット"
@@ -1585,6 +1859,7 @@
       "name": "砂利"
     },
     "group": {
+      "antler": "角",
       "cloth": "布",
       "dirt": "土",
       "fibers": "綿 / 繊維",
@@ -1618,6 +1893,9 @@
       "desc": "捕獲されたノウサギ。あまり長くインベントリに入れておくべきではありません...",
       "name": "ノウサギ"
     },
+    "heart": {
+      "name": "心臓"
+    },
     "hellstone": {
       "name": "地獄の石"
     },
@@ -1641,7 +1919,7 @@
       "name": "干しニシン"
     },
     "hoe": {
-      "desc": "土地を耕すのに使う",
+      "desc": "土地を耕すのに使う\n<color=blue>[暮らして] part.7</color>",
       "name": "鍬"
     },
     "hoesteel": {
@@ -1658,15 +1936,20 @@
       "name": "鉄インゴット"
     },
     "ironore": {
+      "desc": "\n<color=blue>[暮らして] part.2</color>",
       "name": "鉄鉱石"
     },
     "ironplate": {
-      "desc": "鉄インゴットから作る基礎となる素材",
+      "desc": "鉄インゴットから作る基礎となる素材\n<color=blue>[暮らして] part.8</color>",
       "name": "鉄シート"
     },
     "ironwire": {
       "desc": "鉄製の細いワイヤー",
       "name": "鉄ワイヤー"
+    },
+    "javelinspear": {
+      "desc": "",
+      "name": "ジャベリン（槍）"
     },
     "koi": {
       "name": "コイ"
@@ -1682,6 +1965,10 @@
     },
     "koidried": {
       "name": "干しコイ"
+    },
+    "lamb": {
+      "desc": "捕らえられた子羊。\nあまり長くインベントリに保管しないほうがいいでしょう...",
+      "name": "子羊"
     },
     "lantern": {
       "name": "ランタン"
@@ -1706,7 +1993,7 @@
       "name": "ライオンの毛皮"
     },
     "lumber": {
-      "desc": "クラフトの基礎素材",
+      "desc": "クラフトの基礎素材\n<color=blue>[暮らして] part.1</color>",
       "name": "木材"
     },
     "magnifyingglass": {
@@ -1714,7 +2001,7 @@
       "name": "虫眼鏡"
     },
     "map": {
-      "desc": "今いる島の概略図",
+      "desc": "今いる島の概略図\n<color=blue>[暮らして] part.9&B面</color>",
       "name": "地図"
     },
     "measuringtape": {
@@ -1776,7 +2063,7 @@
     "moosepelt": {
       "name": "ヘラジカの毛皮"
     },
-    "morningstar": {
+    "morningstar1": {
       "name": "モーニングスター"
     },
     "mud": {
@@ -1807,8 +2094,11 @@
     "obsidian": {
       "name": "黒曜石"
     },
+    "oldboot": {
+      "name": "古いブーツ"
+    },
     "oldshears": {
-      "desc": "毛糸を作るための羊の毛を刈り取るのに使う",
+      "desc": "毛糸を作るための羊の毛を刈り取るのに使う\n<color=blue>[暮らして] part.8</color>",
       "name": "ハサミ"
     },
     "oredetector": {
@@ -1828,7 +2118,7 @@
       "name": "ペイントローラー"
     },
     "paper": {
-      "desc": "白紙の紙",
+      "desc": "白紙の紙\n<color=blue>[暮らして] part.9&B面</color>",
       "name": "紙"
     },
     "pear": {
@@ -1860,7 +2150,7 @@
       "name": "干しオヤニラミ"
     },
     "pickaxe": {
-      "desc": "鉄製のツルハシ。石や鉱石を採掘するために使う",
+      "desc": "鉄製のツルハシ。石や鉱石を採掘するために使う\n<color=blue>[暮らして] part.4</color>",
       "name": "ツルハシ"
     },
     "pickaxesteel": {
@@ -1869,6 +2159,10 @@
     },
     "pighide": {
       "name": "ブタの皮"
+    },
+    "piglet": {
+      "desc": "捕らえられた子豚。\nあまり長くインベントリに保管しないほうがいいでしょう...",
+      "name": "子豚"
     },
     "plaice": {
       "name": "カレイ"
@@ -1909,11 +2203,11 @@
       "name": "ポーチ"
     },
     "primitiveaxe": {
-      "desc": "原始的なツール。岩を壊したり木を切ったりするのに使用できますが、あまり効果的ではありません",
+      "desc": "原始的なツール。岩を壊したり木を切ったりするのに使用できますが、あまり効果的ではありません\n<color=blue>[暮らして] part.1</color>",
       "name": "原始的な石の斧"
     },
     "primitiveknife": {
-      "desc": "原始的なナイフ。あまり効果的ではありませんが、基本的な近接武器と、皮をなめすのに使える",
+      "desc": "原始的なナイフ。あまり効果的ではありませんが、基本的な近接武器と、皮をなめすのに使える\n<color=blue>[暮らして] part.2</color>",
       "name": "原始的な石のナイフ"
     },
     "primitivespear": {
@@ -1936,7 +2230,7 @@
       "name": "調理済みパンプキンスライス"
     },
     "rags": {
-      "desc": "ぼろ布。紙にリサイクルできます。",
+      "desc": "ぼろ布。紙にリサイクルできます。\n<color=blue>[暮らして] part.9&B面</color>",
       "name": "ぼろ布"
     },
     "rake": {
@@ -1944,7 +2238,7 @@
       "name": "熊手"
     },
     "rakewood": {
-      "desc": "地面をならすために使用します",
+      "desc": "地面をならすために使用します\n<color=blue>[暮らして] part.2&part.3</color>",
       "name": "木製の熊手"
     },
     "rawglass": {
@@ -2162,7 +2456,7 @@
       "name": "苗木 (ヤナギガシ)"
     },
     "scythe": {
-      "desc": "広い範囲の草を刈るのに便利です",
+      "desc": "広い範囲の草を刈るのに便利です\n<color=blue>[暮らして] part.5</color>",
       "name": "大鎌"
     },
     "scythesteel": {
@@ -2190,6 +2484,9 @@
     "sheeppelt": {
       "name": "羊の毛皮"
     },
+    "sheeppeltblack": {
+      "name": "羊の毛皮（黒）"
+    },
     "shrimp": {
       "name": "エビ"
     },
@@ -2206,7 +2503,7 @@
       "name": "干しエビ"
     },
     "sickle": {
-      "desc": "草や小さな植物を集めるのに便利です",
+      "desc": "草や小さな植物を集めるのに便利です\n<color=blue>[暮らして] part.7</color>",
       "name": "鎌"
     },
     "sicklesteel": {
@@ -2214,7 +2511,7 @@
       "name": "鎌(スチール)"
     },
     "sledgehammer": {
-      "desc": "建築ブロックを破壊しないでアイテム化するのに使います",
+      "desc": "建築ブロックを破壊しないでアイテム化するのに使います\n<color=blue>[暮らして] part.4</color>",
       "name": "大ハンマー"
     },
     "sledgehammersteel": {
@@ -2245,7 +2542,8 @@
       "name": "脚用の添え木"
     },
     "standingtorch": {
-      "name": "常設の松明"
+      "desc": "周辺を照らします。どこにでも配置できます\n<color=blue>[暮らして] part.2</color>",
+      "name": "自立式の松明"
     },
     "steak": {
       "name": "生肉"
@@ -2263,7 +2561,7 @@
       "name": "干し肉"
     },
     "stick": {
-      "desc": "クラフトの基礎素材",
+      "desc": "クラフトの基礎素材\n<color=blue>[暮らして] part.1</color>",
       "name": "棒"
     },
     "stone": {
@@ -2282,6 +2580,18 @@
     "sword1": {
       "desc": "木刀。威力は殆どない。まあ、訓練用だな…",
       "name": "木刀"
+    },
+    "sword10": {
+      "desc": "無銘の刀。日本で使わている片刃の両手剣",
+      "name": "刀"
+    },
+    "sword11": {
+      "desc": "片刃の片手剣。ラテン語のファルクス(鎌)に由来する",
+      "name": "ファルシオン"
+    },
+    "sword12": {
+      "desc": "中東で使われている片手剣の曲刀",
+      "name": "三日月刀"
     },
     "sword2": {
       "desc": "古くて錆びた剣",
@@ -2313,18 +2623,6 @@
     "sword9": {
       "name": "サーベル"
     },
-    "sword10": {
-      "desc": "無銘の刀。日本で使わている片刃の両手剣",
-      "name": "刀"
-    },
-    "sword11": {
-      "desc": "片刃の片手剣。ラテン語のファルクス(鎌)に由来する",
-      "name": "ファルシオン"
-    },
-    "sword12": {
-      "desc": "中東で使われている片手剣の曲刀",
-      "name": "三日月刀"
-    },
     "tentbag": {
       "name": "テントバッグ"
     },
@@ -2336,7 +2634,7 @@
       "name": "ツールベルト"
     },
     "torch": {
-      "desc": "光源として使います",
+      "desc": "光源として使います\n<color=blue>[暮らして] part.2&part.2-B面</color>",
       "name": "松明"
     },
     "treelog": {
@@ -2490,6 +2788,7 @@
       "name": "じょうろ"
     },
     "watermelon": {
+      "desc": "\n<color=blue>[暮らして] part.3</color>",
       "name": "スイカ"
     },
     "watermelonseeds": {
@@ -2512,12 +2811,21 @@
     "wolfpelt": {
       "name": "オオカミの毛皮"
     },
+    "wolfpeltblack": {
+      "name": "オオカミの毛皮（黒）"
+    },
+    "wolfpeltgrey": {
+      "name": "オオカミの毛皮（グレー）"
+    },
+    "wolfpeltwhite": {
+      "name": "オオカミの毛皮（白）"
+    },
     "wool": {
       "desc": "羊から入手可能。糸車を使って糸を紡ぐことができる",
       "name": "羊毛"
     },
     "yarn": {
-      "desc": "糸車で繊維等を紡いで作った糸。布地なんかを作るのに使われます",
+      "desc": "糸車で繊維等を紡いで作った糸。布地なんかを作るのに使われます\n<color=blue>[暮らして] part.8</color>",
       "name": "糸"
     },
     "zebrahide": {
@@ -2558,6 +2866,7 @@
       "cannotplace": "ブループリントを配置できません",
       "created": "ブループリントを作成しました！\n\nブループリントテーブルでクラフトできるようになりました！",
       "missingblueprinttable": "近くにブループリントテーブルがありません！",
+      "terrainalwaysgrid": "ブループリントに地形が含まれている場合、グリッドをオフにすることはできません",
       "terrainnopivots": "ブループリントに地形が含まれている場合、モジュラースナップを使用できません！"
     },
     "building": {
@@ -2566,6 +2875,7 @@
       "grid": {
         "off": "グリッド: 無効",
         "on": "グリッド: 有効",
+        "simplebuilding": "シンプル構築モードではグリッドを無効にすることはできません。\n\n\nさらに制御するには、シンプル構築モードを無効にしてください ({0} を押し続ける)",
         "size": "グリッドの大きさ: {0}"
       },
       "manual": {
@@ -2576,7 +2886,12 @@
       "modular": {
         "notsupported": "この要素にはモジュラースナップはサポートされていません",
         "off": "モジュラースナップ: 無効",
-        "on": "モジュラースナップ: 有効"
+        "on": "モジュラースナップ: 有効",
+        "simplebuilding": "モジュラー スナップは、シンプル構築モードでは使用できません。\n\n\nさらに制御するには、シンプル構築モードを無効にしてください ({0} を押し続ける)"
+      },
+      "pivotcenter": {
+        "off": "センター編集モードを無効にする",
+        "on": "センター編集モードを有効にする"
       },
       "position": "位置 X {0} Y {1} Z {2}",
       "rotation": "回転 X {0}° Y {1}° Z {2}°",
@@ -2585,11 +2900,14 @@
         "local": "回転モード: ローカル",
         "world": "回転モード: ワールド"
       },
+      "rotationreset": "回転をリセット",
       "size": "大きさ X {0} Y {1} Z {2}",
+      "sizereset": "サイズのリセット",
       "surfaceedit": {
         "notsupported": "この要素では表面の編集はサポートされていません",
         "off": "表面の編集: 無効",
-        "on": "表面の編集: 有効"
+        "on": "表面の編集: 有効",
+        "simplebuilding": "シンプル構築モードでは地表の編集は使用できません。\n\n\nさらに制御するには、シンプル構築モードを無効にしてください ({0} を押し続ける)"
       },
       "surfaceoffset": "面のオフセット X {0} Y {1} Z {2}",
       "surfacesize": "面のサイズ X {0} Y {1} Z {2}",
@@ -2606,11 +2924,26 @@
       "bacondried": "乾燥ベーコンを食べました",
       "bandage": "傷口に包帯を巻きました",
       "bellpepper": "ピーマンを食べました",
+      "blobfishmeat": "ニュウドウカジカの生肉を食べました",
+      "blobfishmeatbaked": "焼いたニュウドウカジカの肉を食べました",
+      "blobfishmeatburned": "焦げたニュウドウカジカの肉を食べました",
+      "blobfishmeatcooked": "調理したニュウドウカジカの肉を食べました",
+      "blobfishmeatdried": "干したニュウドウカジカを食べました",
       "breadhalf": "パンを食べました",
       "candy": "キャンディーを舐めました",
       "candycane": "スティックキャンディーを食べました",
+      "carp": "生のコイを食べました",
+      "carpbaked": "焼いたコイを食べました",
+      "carpburned": "焦げたコイを食べました",
+      "carpcooked": "調理したコイを食べました",
+      "carpdried": "コイの干物を食べました",
       "carrot": "ニンジンを食べました",
       "carrotslices": "ニンジンの輪切りを食べました",
+      "catfish": "生のナマズを食べました",
+      "catfishbaked": "焼いたナマズを食べました",
+      "catfishburned": "焦げたナマズを食べました",
+      "catfishcooked": "調理したナマズを食べました",
+      "catfishdried": "干したナマズを食べました",
       "chili": "辛い唐辛子を食べました",
       "cookie": "おいしいクッキーを食べました",
       "corncob": "トウモロコシの芯を食べました",
@@ -2618,10 +2951,30 @@
       "corncoburned": "<color=red>焦げたトウモロコシを食べました</color>",
       "eggcooked": "卵を食べました",
       "gingerroot": "生のショウガを食べました",
+      "herring": "生のニシンを食べました",
+      "herringbaked": "焼いたニシンを食べました",
+      "herringburned": "焦げたニシンを食べました",
+      "herringcooked": "調理したニシンを食べました",
+      "herringdried": "干したニシンを食べました",
+      "koi": "生の鯉を食べました",
+      "koibaked": "焼いた鯉を食べました",
+      "koiburned": "焦げた鯉を食べました",
+      "koicooked": "調理した鯉を食べました",
+      "koidried": "干した鯉を食べました",
       "lettuce": "レタスを食べました",
       "lettuceleaves": "レタスの葉を食べました",
       "medkit": "救急キットを使用して傷を治療しました",
       "pear": "梨を食べました",
+      "perch": "生のスズキを食べました",
+      "perchbaked": "焼いたスズキを食べました",
+      "perchburned": "焦げたスズキを食べました",
+      "perchcooked": "調理したスズキを食べました",
+      "perchdried": "干したスズキを食べました",
+      "plaice": "生のカレイを食べました",
+      "plaicebaked": "焼いたカレイを食べました",
+      "plaiceburned": "焦げたカレイを食べました",
+      "plaicecooked": "調理したカレイを食べました",
+      "plaicedried": "干したカレイを食べました",
       "potato": "生のジャガイモを食べました",
       "potatoburned": "<color=red>焦げたジャガイモを食べました</color>",
       "potatocooked": "焼きジャガイモを食べました",
@@ -2629,6 +2982,21 @@
       "pumpkinsliceburned": "<color=red>焦げたカボチャを食べました</color>",
       "pumpkinslicecooked": "焼きカボチャを食べました",
       "ripepear": "熟れすぎた梨を食べました...",
+      "salmonsteak": "生のサーモンステーキを食べました",
+      "salmonsteakbaked": "焼いたサーモンステーキを食べました",
+      "salmonsteakburned": "焦げたサーモンステーキを食べました",
+      "salmonsteakcooked": "調理したサーモンステーキを食べました",
+      "salmonsteakdried": "干したサーモンステーキを食べました",
+      "seacucumbermeat": "生のナマコを食べました",
+      "seacucumbermeatbaked": "焼いたナマコの肉を食べました",
+      "seacucumbermeatburned": "焦げたナマコの肉を食べました",
+      "seacucumbermeatcooked": "調理したナマコの肉を食べました",
+      "seacucumbermeatdried": "干したナマコを食べました",
+      "shrimp": "生のエビを食べました",
+      "shrimpbaked": "焼きエビを食べました",
+      "shrimpburned": "焦げたエビを食べました",
+      "shrimpcooked": "調理したエビを食べました",
+      "shrimpdried": "干しエビを食べました",
       "splint": "骨折した脚に添え木を当てました\n\n骨が完全に治るまで注意してください！",
       "steak": "<color=red>生のステーキを食べました。健康に良いかどうかはわかりません...</color>",
       "steakburned": "<color=red>焦げたステーキを食べました</color>",
@@ -2636,6 +3004,21 @@
       "steakdried": "干し肉を食べました",
       "sugarbeet": "テンサイを食べました",
       "tomato": "トマトを食べました",
+      "trout": "生のマスを食べました",
+      "troutbaked": "焼いたマスを食べました",
+      "troutburned": "焦げたマスを食べました",
+      "troutcooked": "調理したマスを食べました",
+      "troutdried": "干したマスを食べました",
+      "tunasteak": "生のマグロステーキを食べました",
+      "tunasteakbaked": "焼いたマグロステーキを食べました",
+      "tunasteakburned": "焦げたマグロステーキを食べました",
+      "tunasteakcooked": "調理したマグロステーキを食べました",
+      "tunasteakdried": "干したマグロステーキを食べました",
+      "turtlemeat": "生のカメの肉を食べました",
+      "turtlemeatbaked": "焼いたカメの肉を食べました",
+      "turtlemeatburned": "焦げたカメの肉を食べました",
+      "turtlemeatcooked": "調理したカメの肉を食べました",
+      "turtlemeatdried": "干したカメの肉を食べました",
       "water": "水を飲みました",
       "watermelon": "スイカを丸ごと食べました！",
       "watermelonslice": "スイカを一切れ食べました"
@@ -2671,14 +3054,18 @@
       "areadeleted": "エリアが削除されました",
       "areaedit": "エリア編集ツール",
       "areareset": "選択をリセット",
+      "arearotation": "エリア回転: {0}°",
+      "arearotationresethint": "{0} {1} でリセット",
       "brushshapecircle": "ブラシ形状: 円",
       "brushshaperect": "ブラシ形状: 正方形",
+      "brushsize": "ブラシ サイズ: {0}",
       "confirmremoval": "選択したエリア内のすべての要素を本当に削除しますか？\n<align=left><color=yellow>\n\\t{0} 建築物\n\\t{1} オブジェクト\n\\t{2} 植物\n</color></align>",
       "confirmremovalheader": "削除を確認",
       "continuouseditoff": "連続編集を無効化",
       "continuousediton": "連続編集を有効化",
       "creatingarea": "エリアを作成しています...",
       "creativemodeonly": "このオプションはクリエイティブモードでのみ使用できます",
+      "densitypercent": "配置密度: {0} %",
       "disabled": "クリエイティブモードが無効",
       "editcolor": "色を変更",
       "editconstructions": "建築要素を編集 (エリア)",
@@ -2704,6 +3091,8 @@
       "removeobjects": "オブジェクトを削除",
       "removevegetations": "植物を削除",
       "selectareafirst": "最初にエリアを選択する必要があります",
+      "selectedplant": "選択された植物: {0}",
+      "selectedplanthint": "{0} で植物の選択画面を開きます",
       "terrainaddsubtract": "追加 / 削除ツール",
       "terrainarea": "エリア選択ツール",
       "terrainpaint": "ペイントツール",
@@ -2715,6 +3104,7 @@
     },
     "drink": {
       "nosaltwater": "海水を飲むことはできません!",
+      "notdrinkable": "それは飲めません！",
       "water": "水を飲みました"
     },
     "error": {
@@ -2754,6 +3144,7 @@
       "steamapi": "Steam API を初期化できませんでした。\n\nほとんどの場合、Steam クライアントを再起動することでこの問題を解決できます。",
       "steamapitimeout": "Steam API を初期化できませんでした (タイムアウト)\n\nほとんどの場合、Steam クライアントを再起動することでこの問題を解決できます。",
       "steamlibmissing": "Steamworks ライブラリが見つかりませんでした。これは、一部のゲームファイルが破損または欠落しているか、ゲームがそれらにアクセスできないことを示します。\n\nゲームファイルの整合性を確認してください: \n\n  1. Steam ライブラリで Rising World を右クリックします\n  2. 「プロパティ」を選択します\n  3. 「ローカル ファイル」に移動します\n  4. 「ゲームファイルの整合性を確認」を選択します",
+      "unabletocreatemaptile": "マップタイルを作成できませんでした。 \n\nエラー: {0}",
       "unabletosaveworld": "ワールドの保存中にエラーが発生しました。このメッセージが再度表示された場合、現在の進行状況が失われる可能性があります。その場合はゲームを再起動することをお勧めします。\n\nエラー: {0}",
       "unabletosaveworlddb": "ワールドの保存中にエラーが発生しました。ゲームがローカルディスクにアクセスできません。\n\nウイルス対策プログラムがゲームをブロックしていないことを確認してください。また、空きディスク容量が十分にあることを確認してください。\n\nこのエラーが再度発生した場合、現在の進行状況が失われる可能性があります。その場合はゲームを再起動することをお勧めします。",
       "unknownerror": "不明なエラーが発生しました！",
@@ -2772,8 +3163,10 @@
       "wontbite": "近すぎると魚は食いつかない..."
     },
     "harvesting": {
-      "cannotharvest": "この植物から苗を入手することはできません"
+      "cannotharvest": "この植物から苗を入手することはできません",
+      "dontdestroylog": "丸太をさらに切ると使えなくなります。 \n\n\n木材を集めるには、丸太を拾います"
     },
+    "holdinteractionformoreoptions": "{0} を押し続けるとその他のオプションが表示されます",
     "images": {
       "maxamountreached": "アップロード可能な画像の最大数に達しました (権限を参照)",
       "uploadfailed": "画像のアップロードに失敗しました",
@@ -2805,7 +3198,15 @@
       "breakwarning": "このアイテムはもう長く持たない……",
       "breakwarningprimitiveaxe": "できるだけ早く新しい斧を入手することを<u>強く</u>お勧めします！\nこの斧は永遠に使えるわけではありません...",
       "cantdounderwater": "水の中でそれを行うことはできません",
+      "crossbow": {
+        "changingbolt": "ボルトを変更: {0}",
+        "nobolts": "ボルトがありません",
+        "onlyonebolttype": "在庫にあるボルトは 1 種類だけです。"
+      },
       "doesnotworkunderwater": "このアイテムは水中では使えません",
+      "firework": {
+        "timer": "花火は {0} 秒後に打ち上げられます"
+      },
       "grappling": {
         "dontlookoppositedirection": "引き上げ中は反対方向を見ないでください",
         "ropesnapped": "ロープが切れました!"
@@ -2814,6 +3215,12 @@
       "itemtoohot": "あちっ！ 熱すぎて持てない",
       "magnifyingglass": {
         "equip": "最大ズームレベル ({0}) が増加しました\n\n虫眼鏡をインベントリの装備スロットに入れることもできます！"
+      },
+      "measuringtape": {
+        "locked": "メジャーはロックされ、表示されたままになります。\n\nリセットするにはもう一度 {0} を押します",
+        "locking": "メジャーを固定中...",
+        "unequipstilllocked": "注: メジャーはまだロックされており、アクティブなままです。\n\n解除するには、再度アイテムを装備して {0} を押してください。",
+        "unlocked": "メジャーの固定が解除されました!"
       },
       "medical": {
         "bandage": {
@@ -2829,6 +3236,9 @@
           "cannotuse": "すでに脚に添え木をしています！",
           "notneeded": "今は骨折していません"
         }
+      },
+      "poster": {
+        "noposterforcopy": "インベントリにポスターがありません。 \n\nこのポスターをコピーしたい場合は、インベントリに空のポスターがあることを確認してください"
       },
       "terrain": {
         "cannotchangeplacemode": "このアイテムの配置モードを変更することはできません"
@@ -2910,6 +3320,9 @@
       "connectionerror": "接続エラー",
       "corruptedplayer": "【！】プレイヤーデータが破損しています。\nサーバー管理者に連絡してください",
       "groupinvite": "{0} があなたをグループに招待しようとしています",
+      "groupinvitedeclined": "{0} さんがグループへの招待を拒否しました",
+      "groupjoined": "{0} があなたのグループに参加しました",
+      "groupleft": "{0} さんがグループから退会しました",
       "illegalstate": "不正な状態の制限を超えました！インターネット接続を確認し、改造されたゲームファイルを使用していないことを確認してください！",
       "incorrectauthentication": "認証手順が正しくありません",
       "incorrectversion": "このゲームのバージョンはサーバーとのバージョンと異なります！\n<color=yellow>このゲームVer: {0}</color>\n<color=yellow>サーバーのVer: {1}</color>",
@@ -2966,7 +3379,10 @@
       },
       "mount": {
         "brokenbag": "この鞍のバッグにアクセスできません",
+        "findmountwhileriding": "うーむ...もしかしてあなたは今、鞍に座っているのですか？",
+        "probablydead": "鞍が見つかりませんでした。\n残念ながら亡くなってしまったのかもしれません…",
         "removebagsfirst": "最初に鞍のバッグを取り外す必要があります",
+        "removeitemsfirst": "バッグにはまだアイテムが入っています。 \n\nまずそれらを取り出してください",
         "saddlerequired": "最初に鞍を取り付ける必要があります",
         "saddlerequiredforbags": "最初に鞍を取り付ける必要があります"
       },
@@ -3083,6 +3499,8 @@
     "permission": {
       "blueprintelementlimit": "権限: このサーバーでは、その数の建築部品を含むブループリントを配置することは許可されていません！",
       "blueprintplacelimit": "権限: このセッション中にサーバーに更ににブループリントを配置することはできません！",
+      "groupalreadyexists": "権限グループ '{0}' はすでに存在します。",
+      "groupnameinvalid": "グループ名が無効です。\n有効なファイル名を選択してください",
       "insufficient": "権限が不足しています！",
       "invalidpermissionsnotify": "1 つ以上の権限を読み込めませんでした。次の権限ファイルの構文を確認してください: \n{0}",
       "itemforbidden": "このアイテムはこのプレイヤーには禁止されています",
@@ -3099,6 +3517,10 @@
     "placed": "{0}を設置しました",
     "placing": "{0}を設置しています",
     "processing": "処理中…",
+    "respawn": {
+      "message": "注意: 自殺する場合、装備を失う可能性があります。続けますか？",
+      "title": "リスポーン"
+    },
     "settings": {
       "ingameview": {
         "body": "ビュー設定はゲーム内でのみ調整できます",
@@ -3132,7 +3554,8 @@
       "p2p": {
         "cannotjoin": "Steamフレンドのゲームに参加できません！",
         "friendnotfound": "Steamフレンドが見つかりません: {0}",
-        "notavailable": "Steam P2P マルチプレイヤーは Steam クライアント経由でのみ利用可能です！\n代わりに通常の LAN モードを使用してください"
+        "notavailable": "Steam P2P マルチプレイヤーは Steam クライアント経由でのみ利用可能です！\n代わりに通常の LAN モードを使用してください",
+        "sessionrequest": "{0} があなたのゲームに参加したいと考えています。 \n\n受け入れますか？"
       }
     },
     "storagefull": "空き容量がありません",
@@ -3142,6 +3565,8 @@
       "cannotdowhilepassengers": "誰かが乗っている間はできません",
       "changegear": "加速するには {0} を使用し、{1} でギアを変更してください！",
       "exit": "ESCキーを押して降ります",
+      "missingcomponent": "この車両にはまだ {0} の部品がありません",
+      "missingcomponents": "この車両にはまだ {0} 個以上の部品がありません",
       "nofreeseat": "空席がありませんでした",
       "otherstagerequired": "この組立キット<color=yellow>{0}</color>でのみ組み立てることができます",
       "placingvehicle": "乗り物の部品を配置しています...",
@@ -3160,11 +3585,14 @@
       "outofammo": "弾切れ"
     },
     "world": {
+      "createbackup": "ワールドのバックアップを作成しますか?\n\n\nバックアップはゲームディレクトリの「Backups」フォルダに保存されます。 \n\n\n復元は、シングルプレイヤー メニューのワールドを右クリックで可能です。",
       "createbackupfirst": "最初にワールドのバックアップを作成しますか？\n\nバックアップは、シングルプレイヤーメニューでワールドを右クリックするといつでも復元できます。",
+      "createbackupfirsttitle": "最初にバックアップを作成しますか?",
       "createbackuptitle": "最初にバックアップを作成しますか？",
       "deletesector": "本当にセクター {0} {1} を削除しますか？これにより、このセクター内のすべてのチャンクが削除されます (つまり、そこに建てられたすべてのものが削除されます)。\n\n<b>注: 現在のセクター位置を確認するには、F3キーを押すと上部に現在のセクターが表示されます。</b>\n\n<color=red>この操作を中止するには、キャンセルを押してください</color>",
       "deletesectorconfirm": "本当にセクターを削除することを確認してください。セクターには以下が含まれています: \n<color=yellow>\nチャンク数 : {0} \n建築要素数 : {1}\nオブジェクト数 : {2}\n</color>\n<b>セクターを削除すると、チャンクを復元する方法はありません！</b>",
       "deletesectorheader": "セクターを削除:  {0}   {1}",
+      "outofbounds": "あなたはこのサーバー上の許可されたプレイエリア外にいます",
       "overridebiomeregion": "本当にセクター {0} | {1} の気候地域を上書きしますか？\n\n<color=red>これによりセクターが完全にリセットされるため、このセクターに建てられたすべてのものが回復不能な状態で削除されることに注意してください！</color>",
       "overridebiomeregionheader": "セクターの気候地域を上書き  {0}   {1}",
       "sectordeleted": "本当にセクター {0} {1} を削除しますか？これにより、このセクター内のすべてのチャンクが削除されます (つまり、そこに建てられたすべてのものが削除されます)。\n\n注: 現在のセクター位置を確認するには、F3キーを押すと上部に現在のセクターが表示されます。\n\n<color=red>この操作を中止するには、キャンセルを押してください</color>",
@@ -3176,6 +3604,7 @@
         },
         "construction": "元に戻す: 建築要素が復元されました！",
         "nomoresteps": "元に戻す: 元に戻すステップはもうありません",
+        "notallowed": "このサーバーでは元に戻すことはできません。",
         "notready": "元に戻す: 元に戻すアクションの準備ができていません。数秒後に再度お試しください",
         "object": "元に戻す: オブジェクトが復元されました！",
         "terrain": "元に戻す: 地形が復元されました！",
@@ -3187,13 +3616,14 @@
     "ban": "BAN",
     "deadbody": "死体",
     "experimental": "試験的な機能",
+    "featureunsupported": "この機能は現在サポートされていません",
     "flags": {
       "countries": "国旗",
       "special": "特殊な旗"
     },
     "kick": "キック",
     "map": {
-      "directionstexture": "map-directions-en"
+      "directionstexture": "map-directions-ja"
     },
     "measuring": {
       "measuringtape": "距離: {0} {3}\n<size=60%>横: {1} {3}\n縦: {2} {3}</size>",
@@ -3220,12 +3650,17 @@
         "disabled": "洞窟なし",
         "enabled": "洞窟あり"
       },
+      "disablednpcs": "NPCを無効化",
       "flatness": {
         "default": "デフォルト",
         "flat": "平坦",
         "steep": "険しい",
         "veryflat": "すごく平坦",
         "verysteep": "すごく険しい"
+      },
+      "npcs": {
+        "allenabled": "すべてのNPCがアクティブ",
+        "disabledheader": "NPCが無効"
       },
       "oreamount": {
         "default": "デフォルト",
@@ -3235,6 +3670,11 @@
         "veryhigh": "大量",
         "verylow": "微量"
       },
+      "pois": {
+        "allenabled": "すべてのPOIがアクティブ",
+        "disabledheader": "POIが無効"
+      },
+      "rightclicktomodify": "右クリックして変更します",
       "vegetation": {
         "disabled": "草木なし",
         "enabled": "草木あり"
@@ -3275,6 +3715,9 @@
     },
     "arcticwolf": {
       "name": "ホッキョクオオカミ"
+    },
+    "arcticwolfcub": {
+      "name": "北極オオカミの子"
     },
     "bandit": {
       "name": "盗賊"
@@ -3331,7 +3774,7 @@
       "name": "シカ (オス)"
     },
     "dummy": {
-      "name": "Dummy"
+      "name": "ダミー"
     },
     "earthworm": {
       "name": "ミミズ"
@@ -3405,6 +3848,9 @@
     "piglet": {
       "name": "子豚"
     },
+    "pigmale": {
+      "name": "豚（オス）"
+    },
     "polarbear": {
       "name": "ホッキョクグマ"
     },
@@ -3438,6 +3884,9 @@
     "spider": {
       "name": "クモ"
     },
+    "stallion": {
+      "name": "種牡馬"
+    },
     "unicorn": {
       "name": "ユニコーン"
     },
@@ -3465,13 +3914,22 @@
       "desc": "2つの回転する光線。ガラスにペイントすることで光の色を変える事ができます。",
       "name": "回転灯"
     },
+    "anchor": {
+      "name": "アンカー"
+    },
+    "animalcorpse": {
+      "name": "動物の死体"
+    },
     "animalfeeder": {
       "desc": "野生動物を引き付けるために使う。",
       "name": "動物の餌箱"
     },
     "anvil": {
-      "desc": "インゴットを加工するために必要です。",
+      "desc": "インゴットを加工するために必要です。\n<color=blue>[暮らして] part.8</color>",
       "name": "金床"
+    },
+    "armoredchest": {
+      "name": "チェストアーマー"
     },
     "barrierlight": {
       "name": "バリケード用の照明"
@@ -3491,6 +3949,9 @@
     "blueprinttable": {
       "desc": "ブループリントの整理や取捨選択をするための机",
       "name": "ブループリント テーブル"
+    },
+    "boatwreck": {
+      "name": "難破船"
     },
     "bone": {
       "name": "骨"
@@ -3526,6 +3987,9 @@
       "desc": "暖を取るのに使う。ほんのり明るい",
       "name": "火鉢"
     },
+    "brokencarriage": {
+      "name": "馬車（破壊された）"
+    },
     "brokenchest": {
       "name": "壊れたチェスト"
     },
@@ -3541,12 +4005,15 @@
     "cabinet1": {
       "name": "キャビネット"
     },
+    "cairn": {
+      "name": "石塚"
+    },
     "calendar": {
       "desc": "現在の季節と日を表示します",
       "name": "カレンダー"
     },
     "campfire": {
-      "desc": "こいつの周辺は夜でも明るくて安全だし、何より暖かい。肉を焼くこともできるぞ",
+      "desc": "こいつの周辺は夜でも明るくて安全だし、何より暖かい。肉を焼くこともできるぞ\n<color=blue>[暮らして] part.1</color>",
       "name": "キャンプファイアー"
     },
     "campfiregrill": {
@@ -3554,7 +4021,17 @@
       "name": "たき火用グリル"
     },
     "candle": {
+      "desc": "\n<color=blue>[暮らして] part.4&part.6-B面</color>",
       "name": "キャンドル"
+    },
+    "carriage": {
+      "name": "馬車"
+    },
+    "carriagechest": {
+      "name": "荷馬車"
+    },
+    "cauldron": {
+      "name": "大釜"
     },
     "ceilinglamp1": {
       "name": "シーリングライト"
@@ -3563,7 +4040,7 @@
       "name": "椅子"
     },
     "chest1": {
-      "desc": "アイテムを保管するために使用します",
+      "desc": "アイテムを保管するために使用します\n<color=blue>[暮らして] part.7</color>",
       "name": "古風なチェスト"
     },
     "chest2": {
@@ -3573,6 +4050,12 @@
     "chest3": {
       "desc": "ロック可能なチェスト。アイテムを保管するために使用します",
       "name": "チェスト"
+    },
+    "chest4": {
+      "name": "海賊のチェスト"
+    },
+    "chestwood": {
+      "name": "船員のチェスト"
     },
     "chickencoop": {
       "desc": "鶏を安全に飼育できます。鶏はここで卵を産みます",
@@ -3594,6 +4077,15 @@
     },
     "crowdbarrier": {
       "name": "進入禁止バリケード"
+    },
+    "crudebanner": {
+      "name": "バナー"
+    },
+    "crudeflag": {
+      "name": "旗"
+    },
+    "debris": {
+      "name": "残骸"
     },
     "decal": {
       "desc": "ポスターに似ていますが、こちらは地面に設置するのに使います。凹凸のある表面に画像を表示したい場合に最適です",
@@ -3652,16 +4144,27 @@
     "doorold5": {
       "name": "古風なドア 5"
     },
+    "doorprison": {
+      "name": "刑務所の扉"
+    },
+    "doorprisonhalf": {
+      "name": "刑務所の扉（ハーフ）"
+    },
     "drawbridge": {
       "desc": "5x10 ブロックサイズの、大きくて頑丈な跳ね橋",
       "name": "跳ね橋"
     },
     "firelogs": {
+      "desc": "\n<color=blue>[暮らして] part.6-B面</color>",
       "name": "暖炉の薪"
     },
     "floodlight": {
       "desc": "内蔵バッテリー付きの汎用的な多目的投光器。非常に明るい光を提供します",
       "name": "投光器"
+    },
+    "fossilbone": {
+      "desc": "古代の骨",
+      "name": "骨の化石"
     },
     "frontdoorglass1": {
       "desc": "モダンなガラス製の玄関ドア",
@@ -3683,6 +4186,9 @@
       "desc": "どこにでも配置できるプレゼント。アイテムを中に置くことができます。",
       "name": "ギフト"
     },
+    "goldchest": {
+      "name": "金のチェスト"
+    },
     "gramophone": {
       "desc": "レコードを再生するための装置",
       "name": "蓄音機"
@@ -3691,23 +4197,37 @@
       "name": "振り子時計"
     },
     "grinder": {
-      "desc": "固形物を粉砕するために使用されます",
+      "desc": "固形物を粉砕するために使用されます\n<color=blue>[暮らして] part.9&B面</color>",
       "name": "グラインダー"
     },
     "grindstone": {
-      "desc": "砥石。剣などの特定のツールや武器を研ぎ、修理するために使用します",
+      "desc": "砥石。剣などの特定のツールや武器を研ぎ、修理するために使用します\n<color=blue>[暮らして] part.8-B面</color>",
       "name": "砥石"
+    },
+    "guillotine": {
+      "desc": "斬首による処刑に使用される装置",
+      "name": "ギロチン"
+    },
+    "handcart": {
+      "name": "手押し車"
     },
     "igloo": {
       "desc": "雪で建てられたシェルター",
       "name": "イグルー"
     },
+    "ironmaiden": {
+      "desc": "恐ろしい拷問器具",
+      "name": "鉄の処女(アイアンメイデン)"
+    },
     "ironsign1": {
-      "desc": "鉄製の吊り下げ看板。テキストを表示できます",
+      "desc": "鉄製の吊り下げ看板。テキストを表示できます（※日本語対応)\n<color=blue>[暮らして] part.5-B面</color>",
       "name": "吊り下げ式の鉄の看板"
     },
+    "jackalbox": {
+      "name": "ジャッカルの棺"
+    },
     "jackolantern": {
-      "desc": "ハロウィーンの装飾に使われる、彫刻されたカボチャ",
+      "desc": "ハロウィーンの装飾に使われる、彫刻されたカボチャ\n<color=blue>[暮らして] part.12</color>",
       "name": "ジャック・オー・ランタン"
     },
     "juicepress": {
@@ -3715,10 +4235,14 @@
       "name": "ジューサー"
     },
     "ladder": {
+      "desc": "\n<color=blue>[暮らして] part.4</color>",
       "name": "はしご"
     },
     "lantern": {
       "name": "ランタン"
+    },
+    "lantern2": {
+      "name": "ランタン（四角）"
     },
     "leatherarmchair": {
       "name": "肘掛け椅子(革製)"
@@ -3744,6 +4268,10 @@
       "desc": "衣服を織るために必要です",
       "name": "機織り機"
     },
+    "magiclamp": {
+      "desc": "それは本当に魔法ですか？それとも普通のオイルランプでしょうか？",
+      "name": "魔法のランプ"
+    },
     "manholecover": {
       "name": "マンホールの蓋"
     },
@@ -3768,7 +4296,7 @@
       "name": "オブジェクト"
     },
     "paperpress": {
-      "desc": "ぼろ布を紙に変えます",
+      "desc": "ぼろ布を紙に変えます\n<color=blue>[暮らして] part.9&B面</color>",
       "name": "製紙機"
     },
     "piano": {
@@ -3779,6 +4307,13 @@
       "desc": "テキストを記入できる大きなシート",
       "name": "プラカード"
     },
+    "plaque": {
+      "desc": "空のトロフィー",
+      "name": "表彰楯（空）"
+    },
+    "portapotty": {
+      "name": "仮設トイレ"
+    },
     "poster": {
       "desc": "ポスター。ローカルディスクから画像を読み込んで、ワールド内に配置できます",
       "name": "ポスター"
@@ -3787,7 +4322,7 @@
       "name": "原始的な椅子"
     },
     "primitivechest": {
-      "desc": "アイテムの保管に使う小さなチェスト",
+      "desc": "アイテムの保管に使う小さなチェスト\n<color=blue>[暮らして] part.12(B面)</color>",
       "name": "原始的なチェスト"
     },
     "primitivedoor1": {
@@ -3799,26 +4334,36 @@
       "name": "原始的なドア (アーチ型)"
     },
     "primitivefurnace": {
-      "desc": "鉱石をインゴットに製錬できますが、容量が限られています (8スロット)",
-      "name": "原始的な製錬炉"
+      "desc": "鉱石をインゴットに製錬できますが、容量が限られています (8スロット)\n<color=blue>[暮らして] part.2&part.3</color>",
+      "name": "原始的な溶鉱炉"
     },
     "primitiveshelf": {
       "name": "原始的な棚"
     },
     "primitiveshelter": {
-      "desc": "即席のシェルター。ここで寝てリスポーンポイントの設定ができますが、あまり安定していないようです...",
+      "desc": "即席のシェルター。ここで寝てリスポーンポイントの設定ができますが、あまり安定していないようです...\n<color=blue>[暮らして] part.1</color>",
       "name": "原始的なシェルター"
     },
     "primitivetable": {
       "name": "原始的なテーブル"
     },
     "primitiveworkbench": {
-      "desc": "最も基本的なレシピにのみ使用される、最初の作業台です",
+      "desc": "最も基本的なレシピにのみ使用される、最初の作業台です\n<color=blue>[暮らして] part.1</color>",
       "name": "原始的な作業台"
     },
     "radiator": {
       "desc": "暖房を提供します",
       "name": "ラジエーター"
+    },
+    "refrigerator": {
+      "desc": "食品の保管が可能になります。腐敗率を大幅に低減します",
+      "name": "冷蔵庫"
+    },
+    "roundaltar": {
+      "name": "円形の祭壇"
+    },
+    "ruggedcasket": {
+      "name": "頑丈な棺"
     },
     "safe": {
       "desc": "ほぼ破壊不可能な、ロック可能な箱で、貴重品を安全に保管できます",
@@ -3883,6 +4428,9 @@
       "desc": "足場の小型バージョン",
       "name": "小型の足場 (B)"
     },
+    "seachest": {
+      "name": "海のチェスト"
+    },
     "seat": {
       "name": "座席"
     },
@@ -3891,6 +4439,12 @@
     },
     "sheltercanopy1b": {
       "name": "キャノピーシェルター (迷彩柄)"
+    },
+    "shipswheel": {
+      "name": "舵輪"
+    },
+    "shipwreck": {
+      "name": "沈没船"
     },
     "shootingtarget1": {
       "desc": "射撃練習に便利です",
@@ -3901,23 +4455,29 @@
       "name": "射撃の的 (自立式)"
     },
     "sign": {
-      "desc": "テキストを表示できるシンプルな木製の看板",
+      "desc": "テキストを表示できるシンプルな木製の看板（※日本語対応)",
       "name": "看板"
     },
     "sign1": {
-      "desc": "テキストを表示できる小さな木製の看板",
+      "desc": "テキストを表示できる小さな木製の看板（※日本語対応)",
       "name": "小さな木の看板"
     },
     "sign2": {
-      "desc": "テキストを表示できる木製の看板",
+      "desc": "テキストを表示できる木製の看板（※日本語対応)",
       "name": "木の看板"
     },
     "sign3": {
-      "desc": "テキストを表示できる自立式の木製看板",
+      "desc": "テキストを表示できる自立式の木製看板（※日本語対応)",
       "name": "自立式の看板"
     },
+    "silverchest": {
+      "name": "銀のチェスト"
+    },
+    "skeleton": {
+      "name": "スケルトン"
+    },
     "skewer": {
-      "desc": "シンプルな木の串。キャンプファイヤーの上に置いて肉を調理します",
+      "desc": "シンプルな木の串。キャンプファイヤーの上に置いて肉を調理します\n<color=blue>[暮らして] part.5</color>",
       "name": "串"
     },
     "skull": {
@@ -3925,6 +4485,12 @@
     },
     "skullcandle": {
       "name": "ドクロのキャンドル"
+    },
+    "skullchest": {
+      "name": "ドクロチェスト"
+    },
+    "skullgate": {
+      "name": "ドクロゲート"
     },
     "skullgold": {
       "desc": "価値ありそう！",
@@ -3937,13 +4503,26 @@
     "soccergoal": {
       "name": "サッカーゴール"
     },
+    "spidercocoon": {
+      "name": "蜘蛛の繭（卵嚢）"
+    },
+    "spiderweb": {
+      "name": "蜘蛛の巣"
+    },
     "spinningwheel": {
-      "desc": "繊維や羊毛から糸を紡ぐのに使います",
+      "desc": "繊維や羊毛から糸を紡ぐのに使います\n<color=blue>[暮らして] part.8</color>",
       "name": "糸車"
     },
     "standingtorch": {
-      "desc": "周辺を照らします。どこにでも配置できます",
+      "desc": "周辺を照らします。どこにでも配置できます\n<color=blue>[暮らして] part.3&part.6-B面</color>",
       "name": "自立式の松明"
+    },
+    "stoneark": {
+      "name": "石の箱舟"
+    },
+    "stonechair": {
+      "desc": "あまり快適そうには見えません...",
+      "name": "石の椅子"
     },
     "strawbed": {
       "name": "藁のベッド"
@@ -3966,6 +4545,12 @@
     "teddy": {
       "name": "ぬいぐるみ"
     },
+    "tentcrudemedium": {
+      "name": "粗末なテント"
+    },
+    "tentcrudesmall": {
+      "name": "粗末なテント（小）"
+    },
     "tentmodern": {
       "desc": "2人用のテントで、寝ることもできますし、スポーン地点を設定することもできます",
       "name": "現代的なテント"
@@ -3978,11 +4563,20 @@
       "desc": "テキストのみが表示される透明な看板",
       "name": "テキスト"
     },
+    "thronestone": {
+      "desc": "巨大な石で作られた大きな玉座",
+      "name": "玉座（石）"
+    },
     "torch": {
       "name": "松明"
     },
     "toro": {
-      "name": "灯篭"
+      "desc": "\n<color=blue>[暮らして] part.6-B面</color>",
+      "name": "灯籠"
+    },
+    "torturerack": {
+      "desc": "あまり快適そうには見えません...",
+      "name": "拷問台"
     },
     "trapdoor": {
       "desc": "特定の足場に取り付けできるトラップドア",
@@ -4000,30 +4594,83 @@
       "desc": "不要になったアイテムを処分するのに使います",
       "name": "小型のゴミ箱"
     },
+    "trophybear": {
+      "name": "トロフィー（クマ）"
+    },
+    "trophydeer": {
+      "name": "トロフィー（鹿）"
+    },
+    "trophyfox": {
+      "name": "トロフィー（キツネ）"
+    },
+    "trophylion": {
+      "name": "トロフィー（ライオン）"
+    },
+    "trophymoose": {
+      "name": "トロフィー（シカ）"
+    },
+    "trophypolarbear": {
+      "name": "トロフィー（シロクマ）"
+    },
+    "trophyreddeer": {
+      "name": "トロフィー（アカシカ）"
+    },
+    "trophyskeleton": {
+      "name": "トロフィー（スケルトン）"
+    },
+    "trophywolf": {
+      "name": "トロフィー（オオカミ）"
+    },
     "trough": {
       "desc": "水を入れることができる容器",
       "name": "水槽"
     },
+    "tub": {
+      "desc": "水を入れることができる容器です。屋外に置いた場合、雨水を溜められます。",
+      "name": "桶"
+    },
+    "vaultdoor1": {
+      "name": "強化した金属ゲート"
+    },
+    "vaultdoor1b": {
+      "name": "強化した金属ゲート（丸型）"
+    },
     "walltorch": {
       "name": "壁掛けの松明"
+    },
+    "watchtower": {
+      "name": "監視塔"
+    },
+    "watchtowerbroken": {
+      "name": "監視塔（破壊された）"
     },
     "weathervane": {
       "desc": "現在の風向きを示します",
       "name": "風見鶏"
+    },
+    "wickerchest": {
+      "name": "籐(トウ）のチェスト"
+    },
+    "wigwam": {
+      "name": "ウィグワム（円錐形テント）"
     },
     "woodenbarrel": {
       "desc": "アイテムの保管ができる",
       "name": "木製のタル"
     },
     "woodenbarrelopen": {
-      "desc": "水を入れることができる容器",
+      "desc": "水を入れることができる容器\n<color=blue>[暮らして] part.7</color>",
       "name": "木製のタル (蓋なし)"
+    },
+    "woodencrate": {
+      "desc": "アイテムの保管に使用できます",
+      "name": "木箱"
     },
     "woodshelf1": {
       "name": "戸棚"
     },
     "workbench": {
-      "desc": "一般的なツール、武器、建築資材などを製作するために使う標準的な作業台",
+      "desc": "一般的なツール、武器、建築資材などを製作するために使う標準的な作業台\n<color=blue>[暮らして] part.2&part.3</color>",
       "name": "作業台"
     },
     "workbenchmodern": {
@@ -4050,6 +4697,9 @@
       "setpermission": "プレイヤーがエリアのデフォルトの権限を変更できるかどうかを設定できます",
       "setpriority": "プレイヤーがエリアの優先度を変更できるかどうかを設定できます"
     },
+    "arealabel": "エリア",
+    "areapermission": "エリアの許可",
+    "areapermissiononly": "エリアの権限のみ",
     "blueprint": {
       "create": "プレイヤーが（すべての建物から)新しいブループリントを作成できるかどうかを設定できます",
       "createown": "プレイヤーが自分の建物のみの新しいブループリントを作成できるかどうかを設定できます",
@@ -4070,6 +4720,7 @@
       "image": "画像",
       "info": "各種情報",
       "map": "地図",
+      "teleport": "テレポート",
       "world": "ワールド"
     },
     "command": {
@@ -4136,6 +4787,8 @@
       "terraintools": "プレイヤーがクリエイティブモードの地形ツール (F5) を使用できるかどうかを決定します",
       "watertools": "プレイヤーがクリエイティブモードの水ツール (F5) を使用できるかどうかを決定します"
     },
+    "defaultlabel": "デフォルト",
+    "defaultpermission": "デフォルトの権限",
     "forbidden": {
       "crafting": "プレイヤーが使用できないクラフトレシピのオプションリスト",
       "items": "プレイヤーがクラフト、拾う、または使用できないアイテムのオプションリスト",
@@ -4159,8 +4812,8 @@
       "fixedspawn": "プレイヤーが常にデフォルトのサーバーのスポーン位置でスポーンするかどうかを決定します",
       "fly": "プレイヤーが飛行できるかどうかを決定します",
       "godmode": "プレイヤーが無敵かどうかを決定します",
-      "instantdigging": "プレイヤーが少ないストロークで地形やオブジェクトを破壊できるかどうかを決定します",
       "healthregeneration": "体力回復機能。0に設定すると体力回復が無効になります",
+      "instantdigging": "プレイヤーが少ないストロークで地形やオブジェクトを破壊できるかどうかを決定します",
       "keepinventory": "プレイヤーが死亡時にインベントリを保持するかを決定します",
       "noclipping": "飛行中にプレイヤーの衝突が無効かを決定します (\"no clipping\")",
       "nofalldamage": "プレイヤーの落下ダメージが無効かを決定します",
@@ -4182,6 +4835,9 @@
       "useallvehicles": "プレイヤーがすべての車両 (所有していない車両も含む) を使用できるかを決定します",
       "voicechat": "プレイヤーがボイスチャットを使用できるかどうかを決定します"
     },
+    "grouplabel": "グループ",
+    "grouppermission": "グループの権限",
+    "grouppermissiononly": "グループの権限のみ",
     "image": {
       "delete": "プレイヤーがサーバー上の任意の画像を削除できるかどうかを決定します",
       "deleteown": "プレイヤーが自分の画像を削除できるかどうかを決定します",
@@ -4245,6 +4901,7 @@
     "agavehavardiana": "アガベ・ハバールディアナ",
     "alcyonacea": "珊瑚(ウミトサカ)",
     "aloevera": "アロエベラ",
+    "ancienttree": "古代の巨木",
     "apple": "リンゴの木",
     "appledead": "リンゴの木(枯れている)",
     "applegreen": "リンゴの木(青い)",
@@ -4277,6 +4934,7 @@
       "underwater": "水中",
       "water": "海草"
     },
+    "cattail": "ガマ",
     "chili": "唐辛子(植物)",
     "coral": "珊瑚",
     "corallimorpharia": "ホネナシサンゴ",
@@ -4287,6 +4945,7 @@
     "dandelion": "タンポポ",
     "deadbush": "枯れた茂",
     "drygrass": "枯草",
+    "duckweed": "ウキクサ",
     "eusmilia": "ユースミリア",
     "felledtree": "倒木",
     "fern": "シダ",
@@ -4298,6 +4957,7 @@
     "henbane": "ヒヨス",
     "hickory": "ヒッコリー",
     "hogweed": "ハナウド",
+    "ice": "氷",
     "icechest": "凍ったチェスト",
     "icerock": "凍った岩",
     "ivy": "ツタ",
@@ -4324,6 +4984,7 @@
     "scrollcoral": "巻き珊瑚",
     "seagrass": "海草",
     "seaweed": "海藻",
+    "spookytree": "不気味な木",
     "spruce": "トウヒ",
     "spruce2": "トウヒ 2",
     "sprucedead": "トウヒ(枯れている)",
@@ -4340,6 +5001,7 @@
     },
     "starcoral": "スターコーラル",
     "sugarbeet": "テンサイ",
+    "tentacletree": "触手の木",
     "tomato": "トマト",
     "treetrunk": "木の幹",
     "treetrunkhollow": "木の幹(中空)",
@@ -4392,22 +5054,44 @@
       "setplayerpermissionmessage": "選択したプレイヤーに適用する権限を選択してください",
       "setpriority": "優先度を設定",
       "setprioritymessage": "このエリアに設定する優先度 (整数) を設定してください。デフォルト: 0",
-      "showname": "エリア名を表示: {0}\n(エリアに入るとき)"
+      "showname": "エリア名を表示: {0}\n(エリアに入るとき)",
+      "tooltips": {
+        "addplayer": "エリアにプレイヤーを追加します。 \n\n\nこれは対象プレイヤーに対してのみ、エリア内の権限を上書きできるようになります\n (そのため、デフォルトのエリア権限はこのプレイヤーに対して無効になります)。",
+        "delete": "このエリアを削除（長押し）",
+        "removeplayer": "以前に追加したプレイヤーをエリアから削除します",
+        "setname": "エリアのカスタム名を設定します",
+        "setpermission": "このエリアの<u>デフォルトの権限</u>を設定します。 \n\n\nこの権限は、エリアに入るすべてのプレイヤーに対して有効です (このプレイヤーが特定の権限でエリアに追加された場合を除く)",
+        "setpriority": "この領域の優先度を設定します (デフォルトの優先度: 0)。\n\n\nこの設定は重複するエリアがある場合に関係します。プレーヤーが同時に複数のエリア内にいる場合、最も優先度の高いエリアの（権限などの）設定が有効になります。",
+        "showname": "プレーヤーがエリアに入ったときに、エリア名を表示するかどうかを決定します"
+      }
+    },
+    "areaselect": {
+      "hidepivot": "ピボットを非表示",
+      "reset": "選択をリセット",
+      "save": "保存",
+      "showpivot": "ピボットを編集"
     },
     "back": "戻る",
     "building": {
+      "advancedmenu": "詳細メニュー",
+      "basicmenu": "ベーシックメニュー",
       "collisions": "衝突\n<#FFFF00>{0}<#FFFFFF>",
       "currentprecision": "現在の精度",
       "deletepreset": "本当にプリセットを削除しますか？",
       "deletepresetheader": "プリセットを削除",
       "empty": "空",
       "flip": "反転 / ミラー",
+      "grid": "グリッド",
       "loadpreset": "プリセットを読み込む",
+      "manualplacement": "手動での配置",
+      "modularsnapping": "モジュール式スナップ",
       "movemode": "移動モード\n<#FFFF00>{0}<#FFFFFF>",
       "moveprecision": "移動精度\n<#FFFF00>{0}<#FFFFFF>",
       "pivotmode": "ピボットモード\n<#FFFF00>{0}<#FFFFFF>",
       "precision": "精度",
       "preset": "プリセット {0}",
+      "resetrotation": "回転をリセット",
+      "resetsize": "サイズをリセット",
       "rotateprecision": "回転精度\n<#FFFF00>{0}<#FFFFFF>",
       "rotationmode": "回転モード\n<#FFFF00>{0}<#FFFFFF>",
       "savepreset": "プリセットを保存",
@@ -4418,14 +5102,26 @@
       "texturealignment": "テクスチャ調整\n<#FFFF00>{0}<#FFFFFF>",
       "texturescale": "テクスチャスケール\n<#FFFF00>{0}<#FFFFFF>",
       "tooltips": {
+        "advancedmenu": "詳細な構築メニューに切り替えると、より詳細な制御が可能になります。\n\n\n<color= yellow>これは、建築システムに慣れてから行うのが推奨されます。</color>",
+        "basicmenu": "ベーシック構築メニューに戻る",
+        "collisions": "要素の衝突を切り替えます。無効にすると、要素はその中心点がワールド内で現在見ている位置になるように配置されます。\n\n\nデフォルトでは有効です",
         "flip": "要素をミラー/反転します",
+        "grid": "グリッドを切り替えます。\nグリッドが有効な場合、要素は常にグリッドにスナップします。 \n\n\nグリッド サイズは <b>\"{0}\"</b> と <b>\"{1}\"</b> で変更できます。\n\n\nあるいは、<b>「{2}」</b> を押すことでグリッドを切り替えることもできます。",
+        "loadpreset": "以前に保存したサイズのプリセットをロードできます",
+        "manualplacement": "手動による配置に切り替えます。\n有効にすると、要素はカーソルを追従せず、現在の位置にロックされたままになります。\n\n\nロックされた要素を移動するには、回転と同じキーを使用します。\n\n\nあるいは、<b>「{0}」</b> を押して手動配置を切り替えることもできます",
+        "modularsnapping": "モジュラースナップを切り替えます。\n有効にすると、要素は現在表示している要素に自動的にスナップされます。\n\n\n (要素を見ているときの) 緑色の点がアクティブなピボットになります。要素を回転するときは、この点を中心に回転します。\n\n\nあるいは、<b>「{0}」</b> を押してモジュラースナップを切り替えることもできます。",
         "movemode": "手動移動モード (キー: {0}) の動作方法を決定します。\n\n<align=left><color=yellow>\nワールド: 移動は常に固定されたワールド軸に沿って行われます (デフォルト)\nローカル: 移動はローカル要素軸に沿って行われます (つまり、要素の回転に依存します)\n</color></align>",
         "moveprecision": "手動移動モード (キー: {0}) がアクティブな場合の精度を決定します",
         "pivotmode": "モジュラースナップ (キー: {0}) がどのように機能するかを決定します。\n\n<align=left><color=yellow>\n自動: 最も近いピボットが自動的に選択されます。推奨モード (デフォルト)\n手動: アクティブなピボットを手動で選択します (キー {1} と {2} を使用)\n</color></align>",
+        "resetrotation": "現在の要素の回転をリセットします。\n\n\nまたは、<b>「{0}」</b> を押して回転をリセットします",
+        "resetsize": "サイズをデフォルトの <nobr>{0}</nobr> にリセットします\n\n\nまたは、<b>「{1}」</b> を押してサイズをリセットします",
         "rotateprecision": "要素を回転するときの精度を決定します",
+        "rotationmode": "要素をどのように回転するかを決定します。\n\n\n<align=left>\n\n<color= yellow>デフォルト:</color> ワールドモードとローカルモードの組み合わせ (デフォルト)\n\n\n<color= yellow>ワールド:</color> 要素の回転に関係なく、回転は常にワールドの軸固定になります。\n\n\n<color= yellow>ローカル:</color> 要素の回転に基づいて、回転は常にローカルの軸固定になります。\n\n</align>",
+        "savepreset": "現在の要素のサイズをプリセットとして保存し、いつでもロードできます。",
         "scaleprecision": "要素のサイズを変更するときの精度を決定します",
         "surfaceedit": "高度な表面編集モードを有効/無効にします。これにより、要素の上部を個別に移動できます",
-        "texturealignment": "テクスチャのアライメントを決定します。テクスチャが要素の回転に従うか、固定されたワールドアライメントを持つ必要があるかどうかを決定します"
+        "texturealignment": "テクスチャのアライメントを決定します。テクスチャが要素の回転に従うか、固定されたワールドアライメントを持つ必要があるかどうかを決定します",
+        "texturescale": "テクスチャのサイズを決定します。\n値が低いほどテクスチャは大きく見え、値が高いほどテクスチャは小さく見えます。\n\n\nデフォルト値は 1 です"
       }
     },
     "corpse": {
@@ -4450,12 +5146,22 @@
       "resize": "サイズ変更",
       "rotate": "回転",
       "shape": "形状の変更",
-      "texture": "テクスチャの変更"
+      "texture": "テクスチャの変更",
+      "tooltips": {
+        "color": "要素のペイントカラーを変更します",
+        "repeat": "この要素に対して最後に実行されたアクションを実行します",
+        "resize": "要素のサイズを変更します",
+        "rotate": "要素を回転します",
+        "shape": "要素の形状を変更します",
+        "texture": "要素のテクスチャ/マテリアルを変更します"
+      }
     },
     "items": {
       "fireworkrocket": {
         "setoff": "打ち上げ",
-        "setoffall": "近くのものをすべて打ち上げ"
+        "setoffall": "近くのものをすべて打ち上げ",
+        "setoffnow": "今すぐ出発",
+        "timer": "タイマーを設定"
       },
       "measuringtape": {
         "precision": {
@@ -4472,7 +5178,7 @@
           "name": "単位\n<#FFFF00>{0}<#FFFFFF>"
         }
       },
-      "pickup": "Pickup"
+      "pickup": "取り出す"
     },
     "mount": {
       "mount": "乗る",
@@ -4482,7 +5188,9 @@
     },
     "objects": {
       "bed": {
+        "lie": "横になる",
         "removespawn": "リスポーンを削除 (ベッド)",
+        "rest": "寝る",
         "setspawn": "リスポーンを設定 (ベッド)",
         "sleep": "寝る"
       },
@@ -4531,6 +5239,12 @@
         "play": "ピアノを弾く"
       },
       "pickup": "拾う (長押し)",
+      "poster": {
+        "changeimage": "イメージを変更",
+        "clearimage": "画像をクリア",
+        "copyimage": "画像をコピー",
+        "settings": "設定"
+      },
       "seating": {
         "sitdown": "座る"
       },
@@ -4564,9 +5278,22 @@
       "trashcan": "チェストを開く"
     },
     "plants": {
+      "currentdensity": "密度\n<#FFFF00>{0} %<#FFFFFF>",
+      "density": "密度",
       "randomrotation": "ランダムに回転\n<#FFFF00>{0}<#FFFFFF>",
       "randomscale": "ランダムに大きさ変更\n<#FFFF00>{0}<#FFFFFF>",
-      "select": "植物を選択\n<#FFFF00>{0}<#FFFFFF>"
+      "select": "植物を選択\n<#FFFF00>{0}<#FFFFFF>",
+      "tooltips": {
+        "density": "植物をどの程度近づけて配置するかを決定します",
+        "randomrotation": "有効にすると、植物を配置するたびにランダムな回転が適用されます。",
+        "select": "植物の選択メニューを開きます"
+      }
+    },
+    "player": {
+      "groupinvite": "グループに招待",
+      "groupleave": "グループを離れる",
+      "pm": "プライベートメッセージを送信",
+      "trade": "貿易"
     },
     "rgb": {
       "brightness": "明るさ",
@@ -4755,6 +5482,7 @@
       }
     },
     "crafting": {
+      "alreadyininventory": "インベントリ内: {0}",
       "screen": {
         "craftingcontainer": {
           "centercontainer": {
@@ -4783,6 +5511,13 @@
             "craftobject": "オブジェクトを作成",
             "selectshape": "形状を選択",
             "selectvariant": "種類を選択"
+          }
+        },
+        "leftabsolutecontainer": {
+          "journalhelpelement": {
+            "journalcontainer": {
+              "journalheaderlabel": "ジャーナル\n(ヘルプ)"
+            }
           }
         },
         "leftcontainer": {
@@ -4900,6 +5635,18 @@
           "worldseedcontainer": {
             "worldseedlabel": "シード値:"
           }
+        },
+        "settingscontainer": {
+          "advancedsettingsheader": "<smallcaps>詳細設定</smallcaps>",
+          "oreheader": "鉱石の設定",
+          "ores": {
+            "column1": {
+              "spawnoresinallregionstoggle": "すべての地域で鉱石を産出"
+            },
+            "column2": {
+              "disablesurfaceoretoggle": "地表の鉱石の岩を無効にする"
+            }
+          }
         }
       },
       "headercontainer": {
@@ -4908,7 +5655,9 @@
       "slots": {
         "animals": "動物",
         "caves": "洞窟",
+        "npcs": "NPC",
         "oreamount": "鉱石の量",
+        "pois": "ランドマーク",
         "vegetation": "草木の設定",
         "worldtype": "ワールドの種類"
       }
@@ -4986,6 +5735,10 @@
     },
     "filebrowser": {
       "created": "作成日時:{0}",
+      "directory": {
+        "root": "Root",
+        "rootwin": "このコンピュータ"
+      },
       "header": "ファイルの選択…",
       "images": {
         "header": "アップロードしたい画像を選択してください"
@@ -5069,7 +5822,7 @@
         "grid": "<color=#FEAEAE>グリッド</color>の有効/無効を切り替えます。グリッドがない場合、要素を自由に配置できます。グリッドがある場合は、自動的にグリッドにスナップします",
         "header": "ヘルプ: 建築要素",
         "manual": "<color=#FFA61A>手動配置</color>の有効/無効を切り替えます。つまり、移動キーで要素を移動する機能です。\n<size=50%> </size>\n手動配置がアクティブな間、このボタンを押し続けると要素を<color=orange>回転</color>させます",
-        "modular": "<color=#BEFAA4>モジュラーピボットスナップ</color>の有効/無効を切り替えます。つまり、要素が自動的に別の要素にスナップします",
+        "modular": "<color=#BEFAA4>モジュラーピボットスナップ</color>の有効/無効を切り替えます。つまり、要素が自動的に別の要素にスナップします\n<color=blue>[暮らして] part.4</color>",
         "move": "<color=orange>要素を</color><color=#5C8EFF>X</color>、<color=green>Y</color>、<color=yellow>Z</color>軸を中心に<color=orange>回転</color>させます。\n<size=50%> </size>\n<color=#D164FF>リサイズボタン</color>が押されている場合、代わりに要素をリサイズします。\n<size=50%> </size>\n<color=red>表面編集</color>がアクティブな場合、要素の上側のみを移動またはリサイズします",
         "plusminus": "<color=#FEAEAE>グリッド</color>がアクティブな場合、グリッドサイズを変更します。\n<size=50%> </size>\nそれ以外の場合、<color=#D164FF>リサイズボタン</color>が押されている場合は、これらのボタンを使用して要素を比例的にリサイズします",
         "previousnextpivot": "<color=#BEFAA4>モジュラースナップ</color>がアクティブで、ピボットモードが手動に設定されている場合 (「<color=#8DF1FF>建築ラジアルメニュー</color>」を参照)、前の/次のピボットを選択します",
@@ -5091,6 +5844,8 @@
         "bow": {
           "aim": "狙う",
           "changearrow": "矢を変更 (長押し)",
+          "changebolt": "ボルト交換(長押し)",
+          "reload": "リロード",
           "shoot": "撃つ"
         },
         "bread": {
@@ -5111,6 +5866,14 @@
         },
         "fish": {
           "cut": "魚を捌く"
+        },
+        "fishingrod": {
+          "abort": "中断",
+          "cast": "糸を投げる",
+          "reelin": "巻き上げる（長押し）"
+        },
+        "food": {
+          "eat": "食べる"
         },
         "grapplinggun": {
           "cut": "ロープを切る",
@@ -5134,6 +5897,10 @@
           "raisemap": "地図を上げる",
           "showcursor": "カーソルを表示"
         },
+        "measuringtape": {
+          "lock": "メジャーをロック",
+          "unlock": "メジャーのロックをリリース"
+        },
         "oredetector": {
           "changetargetore": "探知する鉱石を変更"
         },
@@ -5147,6 +5914,14 @@
         "rake": {
           "primary": "土をならす (掘る)",
           "secondary": "土をならす (盛る)"
+        },
+        "rope": {
+          "catchnpc": "動物を捕まえる",
+          "pullnpc": "引く",
+          "releasenpc": "リリース"
+        },
+        "saddle": {
+          "attach": "アタッチ（マウント）"
         },
         "shears": {
           "shearsheep": "羊の毛を刈る"
@@ -5172,6 +5947,11 @@
           "sharpen": "武器を研ぐ (長押し)",
           "sharpenandrepair": "武器を研いで修理する (長押し)"
         }
+      },
+      "objects": {
+        "header": "ヘルプ: オブジェクト",
+        "modular": "<color=#BEFAA4>モジュラーピボットスナップ</color>を有効または無効にします。要素は自動的に別の要素にスナップします。\n特定のオブジェクトでのみサポートされています。",
+        "resize": "ボタンを押し続けると、要素の<color=#D164FF>サイズを変更</color>できます。すべてのオブジェクトのサイズを変更できるわけではないので注意してください。"
       },
       "place": {
         "plantselection": "植物を選択する",
@@ -5352,10 +6132,15 @@
       "screen": {
         "pausemenucontainer": {
           "buttoncontainer": {
+            "backupbutton": "ワールドバックアップの作成",
+            "consolebutton": "コンソール",
             "friendsbutton": "フレンド",
             "mainmenubutton": "メインメニューに戻る",
-            "permissionsbutton": "権限の設定",
+            "permissionsbuttoncontainer": {
+              "permissionsbutton": "権限の設定"
+            },
             "quitbutton": "終了",
+            "respawnbutton": "リスポーン",
             "settingsbutton": "設定"
           },
           "pauselabel": "- 一時停止 -"
@@ -5365,12 +6150,19 @@
             "backbutton": "戻る",
             "permissionheaderlabel": "現在の権限"
           }
+        },
+        "reportbutton": {
+          "text": "レポート\n送信"
         }
+      },
+      "tooltips": {
+        "reportbutton": "エラーレポートを送信するには、ここをクリックしてください。\n\nあるいは、コンソールに「report」と入力して送信もできます"
       }
     },
     "inventory": {
       "chestheader": "チェスト",
       "chestheaderwithname": "チェスト: {0}",
+      "goldbalance": "{0} 金",
       "inventoryheader": "インベントリ",
       "inventoryheaderwithname": "{0} (インベントリ)",
       "screen": {
@@ -5389,6 +6181,13 @@
           },
           "trashcontainer": {
             "trashheaderlabel": "ゴミ箱"
+          }
+        },
+        "leftabsolutecontainer": {
+          "journalhelpelement": {
+            "journalcontainer": {
+              "journalheaderlabel": "ジャーナル\n(ヘルプ)"
+            }
           }
         },
         "rightcontainer": {
@@ -5443,7 +6242,7 @@
               },
               "text1": "<size=80%>アイテムを<u>クラフト</u>するには、インベントリを開く ({Inventory} を押す) 押して右側の「クラフト」をクリックするか、{Crafting} を押します</size>",
               "text2": "<size=80%>左側には様々なカテゴリがあり、中央にはサブカテゴリ別に分けられたレシピが含まれています。\n\nサブカテゴリ (例: 「リソース」) をクリックして、折りたたみ・展開します。</size>",
-              "text3": "<size=80%>一部のレシピは未知な場合があります (<u>ハテナ</u>で表示されます)。これはレシピを習得(解禁)していないためです。習得(解禁)するには、特定の要件 (素材の収集、アイテムの作成など) を実施する必要があります。</size>",
+              "text3": "<size=80%>一部のレシピは未知な場合があります (<u>ハテナ</u>で表示されます)。これはレシピを習得(解禁)していないためです。習得(解禁)するには、特定の要件 (素材の収集、アイテムの作成など) を実施する必要があります。(<color=blue>[暮らして] part.10-B面にて解説</color>)</size>",
               "text4": "<size=80%>レシピを選択すると、右側で必要な素材と必要な作業台が表示されます。</size>",
               "text5": "<size=80%>必要な作業台は近くに設置されていればOKです。\n\n近くに作業台があり、インベントリ内に必要な素材を持っている場合、要件のテキストは緑色になります (そうでない場合、テキストは赤色になります)。</size>"
             },
@@ -5465,7 +6264,7 @@
                 "label": "伐採された木 - 丸太を叩き続けて、より小さくします (それらは拾うことができます)"
               },
               "text1": "<size=80%>原始的な石の斧を装備してください。斧がホットバーにある場合は、キー<b>1〜5</b>を使用してスロットを選択できます (たとえば、斧が1番目のスロットにある場合は1など)。\n\nそれ以外の場合は、インベントリ ({Inventory}) を開き、斧を下部の目的のホットバースロットに移動します。\n\n\n次に、木を見つけます...</size>",
-              "text2": "<size=80%>斧で木を叩き続けます。木が倒れるまで、大きな木の場合は最大10回以上叩く必要があるかもしれません。</size>",
+              "text2": "<size=80%>斧で木を叩き続けます。木が倒れるまで、大きな木の場合は最大10回以上叩く必要があるかもしれません。(<color=blue>[暮らして] part.1面にて解説</color>)</size>",
               "text3": "<size=80%>伐採された丸太を叩いて、より小さな丸太にします。これらの丸太は拾うことができます (それらを見て<b>F</b>を押します)。\n\n通常、丸太を切り倒した後、いくつかの苗木も見つかります。それらは収集して、新しい木を植えるために使用できます。</size>\n<size=60%>\n注: 切り株からは成長しません!</size>"
             },
             "page_firststeps5": {
@@ -5474,7 +6273,7 @@
                 "label": "原始的な作業台"
               },
               "text1": "<size=80%>インベントリ ({Inventory}) を開いて、すでに持っている丸太の数を確認してください。必要に応じて、別の木を切り倒してください。\n\n十分な丸太 (8 個) を入手したら、再度クラフトメニューを開き、<b>原始的な作業台</b>を選択します (「作業台」の下にあります)。\n\n右側の材料が緑色の場合、クラフトできます。(作業台を 1 つだけクラフトするため)右下の「カウント」が 1 に設定されていることを確認してください 。\n\n青い「作成」ボタンをクリックして、原始的な作業台をクラフトします。自動的にインベントリに入るはずです。</size>",
-              "text2": "<size=80%>作業台を配置するには、(斧で行ったのと同様の方法で)まず装備する必要があります 。ホットバースロットに移動する (1〜5 で装備する) か、インベントリを開き、作業台を右クリックして「アイテムを装備」を選択します。\n\n装備したら、目の前の地面を見てください。作業台のプレビューが表示されるはずです。矢印キーを使用して回転させます。\n\n{SecondaryAction} を長押しして作業台を配置します。</size>"
+              "text2": "<size=80%>作業台を配置するには、(斧で行ったのと同様の方法で)まず装備する必要があります 。ホットバースロットに移動する (1〜5 で装備する) か、インベントリを開き、作業台を右クリックして「アイテムを装備」を選択します。\n\n装備したら、目の前の地面を見てください。作業台のプレビューが表示されるはずです。矢印キーを使用して回転させます。\n\n{SecondaryAction} を長押しして作業台を配置します。(<color=blue>[暮らして] part.1にて解説</color>)</size>"
             },
             "page_firststeps6": {
               "header": "VI. 最初のシェルター",
@@ -5484,7 +6283,7 @@
               "image2": {
                 "label": "より多くのオプションを提供するラジアルメニュー (表示するには、オブジェクトを見ながら {Interaction} を長押しします)"
               },
-              "text1": "<size=80%>次にクラフトしたいのは、原始的なシェルターかもしれません。\n\n中で寝ることができます。これにより、夜をスキップできますが、スポーン地点も更新されます。これにより、コンパスで基地を見つけやすくなりますが、さらに重要なのは、死亡した場合に自動的にそこにリスポーンすることです。\n\n中で寝るには、シェルターに向かって<b>F</b>を押します。</size>",
+              "text1": "<size=80%>次にクラフトしたいのは、原始的なシェルターかもしれません。\n\n中で寝ることができます。これにより、夜をスキップできますが、スポーン地点も更新されます。これにより、コンパスで基地を見つけやすくなりますが、さらに重要なのは、死亡した場合に自動的にそこにリスポーンすることです。\n\n中で寝るには、シェルターに向かって<b>F</b>を押します。(<color=blue>[暮らして] part.1にて解説</color>)</size>",
               "text2": "<size=80%>オブジェクトを見ながら {Interaction} を押すと、任意のオブジェクトとインタラクトできます。通常、十字線は実行されるアクションを示します (シェルターの場合は「睡眠」など)。\n\n{Interaction} を<u>押し続ける</u>と、オブジェクトに応じてより多くのオプションを提供する<b>ラジアルメニュー</b>を表示することもできます。</size>",
               "text3": "<size=80%>ちなみに、これによりオブジェクトを再び拾うオプションも提供されます。たとえば、別の場所に配置したい場合に便利です。</size>"
             },
@@ -5508,7 +6307,7 @@
               "image2": {
                 "label": "燃料ハッチ"
               },
-              "text1": "<size=80%>十分な鉄鉱石を集めたら、<u>原始的な作業台</u>で<b>製錬炉</b>を作成できます。</size>",
+              "text1": "<size=80%>十分な鉄鉱石を集めたら、<u>原始的な作業台</u>で<b>製錬炉</b>を作成できます。(<color=blue>[暮らして] part.3にて解説</color>)</size>",
               "text2": "<size=80%>すべての炉には<b>燃料</b>が必要です:\n\n石炭 (地下) を既に見つけた場合は、もちろんそれを使用できます。あるいは、<u>木材</u>または<u>丸太</u>を使用することもできます。</size>",
               "text3": "<size=80%>炉に燃料を補給するには、炉の<u>左側</u>に小さな燃料ラッチがあります。\n\n{SecondaryAction} を押して炉に燃料を追加します。</size>",
               "text4": "<size=80%>次に、鉱石を手で持ち、炉の中のさまざまなスロットを見てください。ここに鉱石を配置できます。\n<size=60%>\nヒント: スロットを見ながら {SecondaryAction} を押し続けると、鉱石をより簡単かつ迅速に配置できます!</size>\n\n鉱石を配置したら、炉をオンにします ({Interaction} を押して見ます)。鉱石の製錬には数分かかる場合があります。\n\nインゴットの準備ができたら、炉をオフにし、インゴットを冷ましてから、{Interaction} を押して拾い上げます。</size>\n<size=60%>\nヒント: 炉のラジアルメニュー ({Interaction} を押して見ます) には、すべてのインゴットを一度に拾い上げるオプションもあります!</size>"
@@ -5527,7 +6326,7 @@
               },
               "text1": "<size=80%>十分な鉄のインゴットを入手したら、通常の<b>作業台</b>をクラフトできます。これにより、さらに多くのクラフトレシピにアクセスできます。\n\n時に、糸を必要とする布やロープが必要になるかもしれません。糸は羊毛、綿、繊維から作られ、<b>糸車</b>が必要です。</size>",
               "text2": "<size=80%>糸を入手するには、 (羊毛、綿、繊維を手で持ちながら)糸車に向かって、{SecondaryAction} を押し続けます。</size>",
-              "text3": "<size=80%>もう1つの特別な作業台は<b>粉砕機</b>です。特定の素材を粉砕するために使用されます。\n\nたとえば、<u>石炭</u>または<u>硫黄</u>を粉末に、石を砂利に、または<u>小麦</u>を<u>小麦粉</u>に変えることができます。\n\nまた、<u>布</u>を<u>ぼろ布</u>に変えることもできます。これは、<b>紙プレス機</b>での紙の作成に使用されます</size>。"
+              "text3": "<size=80%>もう1つの特別な作業台は<b>粉砕機</b>です。特定の素材を粉砕するために使用されます。\n\nたとえば、<u>石炭</u>または<u>硫黄</u>を粉末に、石を砂利に、または<u>小麦</u>を<u>小麦粉</u>に変えることができます。\n\nまた、<u>布</u>を<u>ぼろ布</u>に変えることもできます。これは、<b>紙プレス機</b>での紙の作成に使用されます(<color=blue>[暮らして] part.9-B面にて解説</color>)</size>。"
             },
             "page_index": {
               "building": "建築",
@@ -5739,14 +6538,6 @@
       },
       "phrases": {
         "1": "物理演算の調整をしています",
-        "2": "海に塩をまいています",
-        "3": "木を植えています",
-        "4": "宝箱を隠しています",
-        "5": "ダンジョンに鍵をかけています",
-        "6": "モンスターと交戦中",
-        "7": "バグを誤魔化しています",
-        "8": "谷を形成しています",
-        "9": "空を青く染めています",
         "10": "火山を鎮めています",
         "11": "太陽を点火しています",
         "12": "重力を調整しています",
@@ -5757,6 +6548,7 @@
         "17": "宇宙を拡大しています",
         "18": "ブロックを成形しています",
         "19": "動物たちに餌をやっています",
+        "2": "海に塩をまいています",
         "20": "洞窟を掘っています",
         "21": "雲を生成しています",
         "22": "落ち込んでしだれているヤナギを慰めています",
@@ -5767,12 +6559,19 @@
         "27": "動物を手懐けています",
         "28": "豊かな土壌を作っています",
         "29": "風を起こしています",
+        "3": "木を植えています",
         "30": "生垣を刈り込んでいます",
         "31": "土を耕しています",
         "32": "落ち葉を集めています",
         "33": "岩を配置しています",
         "34": "世界を創造しています",
-        "35": "海岸に砂をまいて砂浜にしています"
+        "35": "海岸に砂をまいて砂浜にしています",
+        "4": "宝箱を隠しています",
+        "5": "ダンジョンに鍵をかけています",
+        "6": "モンスターと交戦中",
+        "7": "バグを誤魔化しています",
+        "8": "谷を形成しています",
+        "9": "空を青く染めています"
       },
       "stage": {
         "canceling": "キャンセル中",
@@ -5865,7 +6664,7 @@
               "refreshbutton": "更新する"
             },
             "headercontainer": {
-              "serverlistheaderlabel": "Server list"
+              "serverlistheaderlabel": "サーバーリスト"
             }
           }
         }
@@ -5912,9 +6711,6 @@
         },
         "skincontainer": {
           "generalcontainer": {
-            "gendercontainer": {
-              "genderheader": "Gender"
-            },
             "skinpartscontainer": {
               "row1": {
                 "beardcontainer": {
@@ -5931,6 +6727,14 @@
                 "texturecontainer": {
                   "textureheader": "体"
                 }
+              }
+            },
+            "typecontainer": {
+              "gendercontainer": {
+                "genderheader": "性別"
+              },
+              "variantcontainer": {
+                "variantheader": "バリエーション"
               }
             }
           },
@@ -5960,6 +6764,37 @@
       },
       "header": "- NPC {0} (ID: {1}) -"
     },
+    "permissioneditor": {
+      "createnew": {
+        "areapermission": "エリア権限",
+        "content": "グループ/エリア権限の名前を入力します:",
+        "header": "新しい権限を作成..."
+      },
+      "deletepermission": "この権限グループを削除してもよろしいですか? \n名前: <color= yellow>{0}</color>",
+      "deletepermissiontitle": "権限グループの削除",
+      "savechanges": "この権限グループへの変更を保存しますか?\n名前: <color= yellow>{0}</color>",
+      "savechangestitle": "変更を保存",
+      "screen": {
+        "permissioneditorcontainer": {
+          "permissiongroupscontainer": {
+            "buttoncontainer": {
+              "copybutton": "コピー",
+              "deletebutton": "消去",
+              "newbutton": "新規作成"
+            },
+            "headercontainer": {
+              "label": "権限"
+            }
+          },
+          "permissionscontainer": {
+            "buttoncontainer": {
+              "resetbutton": "リセット",
+              "savebutton": "保存"
+            }
+          }
+        }
+      }
+    },
     "poster": {
       "buttons": {
         "delete": "画像を消す",
@@ -5973,7 +6808,7 @@
         "renameimage": "この画像の新しい名前を入力してください:",
         "renameimageheader": "画像の名前を変更"
       },
-      "ownimages": "Own Images",
+      "ownimages": "自分の画像",
       "screen": {
         "postercontainer": {
           "bottomcontainer": {
@@ -6002,6 +6837,12 @@
             }
           }
         }
+      },
+      "settings": {
+        "billboard": "看板",
+        "billboardvertical": "垂直方向にも調整します",
+        "header": "ポスターの設定",
+        "smoothsurface": "滑らかな表面"
       },
       "uploadindicator": "画像をアップロードしています"
     },
@@ -6081,14 +6922,34 @@
     "selectnpcmessagebox": {
       "buttoncontainer": {
         "buttoncentercontainer": {
+          "cancelbutton": "キャンセル",
           "selectbutton": "確認"
         }
       },
       "headeranimals": "動物たち",
       "headercontainer": {
+        "headerbuttoncontainer": {
+          "allbutton": "全て",
+          "nonebutton": "なし"
+        },
         "headerlabel": "NPCの有効/無効を選択する"
       },
       "headerenemies": "敵対人物とモンスター"
+    },
+    "selectpoimessagebox": {
+      "buttoncontainer": {
+        "buttoncentercontainer": {
+          "cancelbutton": "キャンセル",
+          "selectbutton": "確認"
+        }
+      },
+      "headercontainer": {
+        "headerbuttoncontainer": {
+          "allbutton": "全て",
+          "nonebutton": "なし"
+        },
+        "headerlabel": "有効にするまたは無効にするランドマークを選択してください"
+      }
     },
     "settings": {
       "audio": {
@@ -6189,6 +7050,7 @@
         "customcommand": "コンソールコマンド",
         "customcommands": "コンソールコマンドのホットキー",
         "debug": "デバッグ表示",
+        "devices": "デバイス",
         "dropitem": "アイテムを落とす",
         "flymode": "飛行モード",
         "fpscounter": "FPSカウンター",
@@ -6234,6 +7096,7 @@
         "sprinttoggle": "走る (トグル)",
         "tooltips": {
           "changeblockshape": "ブロックの形状を変更するためのオプションのホットキー。これは、装備しているアイテムと、カーソルがインベントリ内の目的のアイテム上にある両方で機能します",
+          "collision": "この設定は次のものと衝突します \n<color= yellow>「{0}」</color>",
           "copyblock": "現在見ているワールド内のブロックのコピーをインベントリに追加し、 (インベントリにそのブロックがない場合は)装備します。\nサバイバルモードでは、ブロックがすでにインベントリにある場合にのみ装備されます",
           "customcommand": "コンソールコマンドを入力し、キーに割り当てます。\nキーを押すたびに、コンソールコマンドが実行されます",
           "itemduplicate": "インベントリ内のアイテムを複製するためのオプションのホットキー (カーソルがアイテム上にある間)",
@@ -6257,6 +7120,21 @@
         "walktoggle": "歩く (トグル)",
         "zoom": "ズーム",
         "zoomtoggle": "ズーム (トグル)"
+      },
+      "gamepad": {
+        "analogdeadzone": "スティック無効域",
+        "enabled": "コントローラー入力の有効",
+        "general": "一般",
+        "invert": "Y軸を反転",
+        "mapping": "マッピング",
+        "rumbleintensity": "振動の強さ",
+        "sensitivity": "コントローラーの感度",
+        "tooltips": {
+          "analogdeadzone": "このしきい値を下回るスティック入力は無視されます。 \n<color= yellow>デフォルト値: 15%</color>",
+          "defaultvalue": "デフォルト値: {0}",
+          "gamepadinvert": "設定すると、スティックの Y軸が反転します",
+          "rumbleintensity": "振動の強度を決定します。(振動は特定の状況でのみ発生します) 無効にするには 0 に設定します。"
+        }
       },
       "graphics": {
         "ambientocclusion": "アンビエントオクルージョン(AO)",
@@ -6283,11 +7161,15 @@
         "display": "ディスプレイ",
         "displaymode": "ディスプレイモード",
         "dithering": "ディザリング",
+        "dlsssharpnessenabled": "DLSS シャープネス",
         "dynamicwater": "水の流れ",
         "filmgrain": "フィルムグレイン効果",
         "footprints": "足跡",
         "framelimiter": "フレームレート制限",
+        "fsrmode": "FSRモード",
+        "fsrsharpnessenabled": "FSR シャープネス",
         "fullscreen": "フルスクリーン",
+        "gpuresidentdrawer": "GPU 常駐ドロワー",
         "graphicsquality": "画質",
         "graphicsqualitypreset": "画質プリセット",
         "grass": "草",
@@ -6319,8 +7201,10 @@
         "shadows": "影",
         "shadowsgrass": "草の影",
         "shadowsterrain": "地形の影",
+        "sharpness": "シャープネス",
         "smaaquality": "SMAAの質",
         "softparticles": "ソフトパーティクル",
+        "supersampling": "スーパーサンプリング",
         "taastrength": "TAAシャープ強度",
         "terraindistanceblend": "地形の混合距離",
         "terrainheightblend": "地形の高さの混合",
@@ -6330,6 +7214,7 @@
         "tooltips": {
           "ambientocclusion": "アンビエントオクルージョン(AO)を有効にするかどうかを決定します",
           "anisotropicfilter": "異方性フィルタリングは、急な角度から見たときのテクスチャの「ぼやけ」を軽減します",
+          "antialiasingdisabledbyupscaler": "DLSS または FSR がアクティブな間は効果がありません",
           "antialiasingmode": "アンチエイリアシングモードを決定します (エイリアシングを軽減するため)。\nFXAA はパフォーマンスにほとんど影響を与えませんが、TAA と SMAA もパフォーマンスにわずかな影響しか与えません",
           "chunkhelp": "この設定は Java バージョンの {0} チャンクに相当します",
           "chunkhelplabel": "注意: 1 チャンクは Java バージョンの 4 チャンクに相当します ({0} は {1} チャンクに相当します)",
@@ -6342,6 +7227,7 @@
           "dynamicwater": "水を動的 (流れるよう) にするかどうかを決定します。無効にすると、水は常に静的になります",
           "filmgrain": "有効にすると、わずかなフィルムグレイン効果が表示されます",
           "framelimiter": "最大 FPS を制限します",
+          "gpuresidentdrawer": "Unity の GPU 常駐ドロワーを有効または無効にします。有効にするとパフォーマンスが向上しますが、問題が発生した場合は無効にしてみてください。",
           "grassocclusion": "草の密集度は、家具や建設要素などのオブジェクトを貫通して草が表示されるのを防ぎます",
           "keepdistantbuildingsvisible": "有効にすると、建物は (一度生成されると) 建物の表示距離設定に関係なく、最大表示距離を超えて表示されたままになります",
           "lodbias": "特定のオブジェクト (植物など) の高詳細バージョンをどれくらいの時間表示するかを決定します (距離に応じて)。\n値を小さくすると、低詳細 (LOD) バージョンがはるかに早く表示されるようになります",
@@ -6371,6 +7257,7 @@
           "shadowsgrass": "草が影を落とすかどうかを決定します",
           "shadowsterrain": "地形が影を落とすかどうかを決定します。この設定はアクティブに保つことをお勧めします",
           "softparticles": "有効にすると、パーティクルはオブジェクトと交差するときに滑らかな境界線になります",
+          "supersampling": "スーパーサンプリング/アップスケールフィルターを設定します。これによりパフォーマンスが大幅に向上します",
           "terraindistanceblend": "有効にすると、地形テクスチャは遠くから見たときにはるかに良く見えます",
           "terrainheightblend": "有効にすると、地形上の異なるテクスチャは、その高さを考慮してブレンドされます。\n無効にすると、テクスチャ間の基本的な線形補間のみが行われます",
           "texturequality": "全体的なテクスチャ品質を決定します。VRAMが不足している場合にのみ、この値を下げてください",
@@ -6386,6 +7273,25 @@
           "vsync": "「ティアリング」を防ぐために、フレームレートをモニターのリフレッシュレートに制限します。\nこれはパフォーマンスに影響を与える可能性があります",
           "waterupdateinterval": "ゲームが1<b>秒</b>あたりに水の流れを再計算する頻度を決定します。<u>値が高いほど、パフォーマンスへの影響が大きくなります</u>",
           "wind": "風の流れを決定します"
+        },
+        "upscaler": {
+          "dlss": "NVIDIA DLSS",
+          "fsr1": "AMD FSR 1.0 (レガシー)",
+          "fsr2": "AMD FSR 2.0",
+          "modes": {
+            "balanced": "バランス",
+            "custom": "カスタム",
+            "highquality": "高品質",
+            "performance": "パフォーマンス",
+            "quality": "品質",
+            "ultraperformance": "高パフォーマンス",
+            "ultraquality": "超高品質"
+          },
+          "name": "アップスケーラー",
+          "none": "なし",
+          "quality": "品質",
+          "recommended": "推奨: {0}",
+          "simple": "基本アップスケーラー"
         },
         "viewadjustment": {
           "brightness": "明るさ",
@@ -6419,18 +7325,18 @@
         "vsync": "垂直同期",
         "water": {
           "0": "Disabled",
+          "05": "0.5x",
           "1": "1x",
-          "2": "2x",
-          "4": "4x",
           "10": "10x",
+          "100": "100x",
+          "2": "2x",
           "20": "20x",
           "30": "30x",
+          "4": "4x",
           "40": "40x",
           "50": "50x",
           "60": "60x",
-          "80": "80x",
-          "100": "100x",
-          "05": "0.5x"
+          "80": "80x"
         },
         "waterheader": "水(試験段階の機能)",
         "waterupdateinterval": "水の更新頻度",
@@ -6440,9 +7346,11 @@
       "misc": {
         "allowconsolecommands": "コンソールのコマンドを許可",
         "allowflymode": "飛行モードを許可 (サバイバルのみ)",
+        "allowglobalmapmarkers": "グローバル マップ マーカーを許可する",
         "alwaysshowgridonconstructions": "常に建築物にグリッドを表示",
         "alwaysshowgridonterrain": "常に地形にグリッドを表示",
         "blueprintcentermode": "ブループリント: ピボットポイント",
+        "blueprintincludeair": "空間を含む",
         "blueprints": {
           "centerarea": "領域の選択 (旧式)",
           "centerdefault": "中心 (デフォルト)",
@@ -6453,9 +7361,15 @@
         "blueprintsortmode": "ブループリント: 並び順",
         "blueprintvisualizebounds": "ブループリント: 境界を可視化",
         "buildingdefaultsize": "デフォルトの建造物サイズ",
+        "buildinggridmode": "グリッドモード",
+        "buildinggridmodes": {
+          "default": "デフォルト",
+          "legacy": "レガシー"
+        },
         "buildinginformationopacity": "HUD: 建築情報背景の不透明度",
         "buildingmultiplacedirections": "行列配置方向",
         "buildingpivotkeeprotation": "スナップモードで回転を維持",
+        "buildingpivotsnaptoalltypes": "スナップ モード: オブジェクトをブロックにスナップします",
         "buildingresizemode": "リサイズモード",
         "buildingresizemodes": {
           "default": "デフォルト",
@@ -6502,20 +7416,29 @@
         "headervehicleandmounts": "乗り物と騎乗",
         "healthregeneration": "体力回復",
         "hidenametags": "ネームタグを非表示",
+        "hudquickslotcolor": "HUD: クイックスロットの色",
+        "hudquickslotopacity": "HUD: クイックスロットの不透明度",
         "hudquickslotsize": "HUD: クイックスロットの大きさ",
         "hudshowquickslotsduration": "HUD: クイックスロットバーの表示時間",
         "hudshowselecteditem": "HUD: 選択したアイテムを表示",
         "hungerthirst": "空腹/喉の渇き (サバイバルのみ)",
+        "hungerthirstduration": "空腹/喉の渇きまでの時間",
         "imagemaxresolution": "最大解像度",
         "instantdigging": "インスタント掘削 (サバイバルのみ)",
+        "inventorybackgroundcolor": "HUD: インベントリの色",
+        "inventorybackgroundopacity": "HUD: インベントリの不透明度",
         "itemdespawntime": "アイテム消失までの時間",
         "itemdurability": "アイテムの耐久性",
         "keepinventory": "死後にインベントリを保持",
+        "moonbrightness": "月の明るさ",
+        "moonphases": "月の満ち欠けの有効化",
         "mountsfollowviewdirection": "騎乗: 視線方向に従う",
         "oresmeltingduration": "鉱石の製錬時間",
         "pauseinmenu": "メニューでゲームを一時停止",
         "peacefulmode": "ピースフルモード",
         "plantgrowthduration": "植物の成長期間",
+        "playergroupmarkeropacity": "プレーヤーマーカーの不透明度",
+        "playergroupmarkershowoffscreen": "プレーヤーマーカーのオフスクリーン表示",
         "radialmenuautoclose": "ラジアルメニューの自動クローズ",
         "radialmenushowcursor": "ラジアルメニューのカーソルを表示",
         "screenshothook": "{0}ライブラリに保存",
@@ -6524,6 +7447,7 @@
         "screenshotsize": "サイズ / 解像度",
         "screenshotthumbnail": "サムネイルを作成",
         "seasons": "季節",
+        "sharedcraftingprogression": "共有クラフトの進行状況 (協力)",
         "showbuildinggrid": "グリッドを表示",
         "showbuildinggridonselector": "プレビュー要素にグリッドを表示",
         "showbuildinginformation": "情報を表示",
@@ -6546,34 +7470,38 @@
           "p2plegacy": "レガシー",
           "p2psockets": "ソケット"
         },
+        "steamallowalljoinrequests": "すべての参加リクエストを許可する",
         "steamp2ptype": "Steam P2P タイプ",
         "steamshowfriendlist": "フレンドリストを表示",
         "temperature": "温度 (サバイバルのみ)",
         "temperatureunit": "温度のスケール",
         "timeduration": "ゲーム内の一日の長さ",
         "timedurations": {
-          "1h": "1時間",
-          "1h30m": "1時間 30分",
-          "2h": "2時間",
-          "4h": "4時間",
           "10m": "10分",
           "12h": "12時間",
+          "1h": "1時間",
+          "1h30m": "1時間 30分",
           "20m": "20分",
           "24h": "24時間",
+          "2h": "2時間",
           "30m": "30分",
+          "4h": "4時間",
           "disabled": "無効",
           "realtime": "現実と同じ (24時間)"
         },
         "tooltips": {
           "allowconsolecommands": "コンソールコマンドを許可するかどうかを決定します",
           "allowflymode": "サバイバルモードで飛行 ({0}) を許可するかどうかを決定します",
+          "allowglobalmapmarkers": "有効にすると、すべてのプレイヤーがグローバル マップ マーカー (すべてのプレイヤーに表示されるマップ マーカー) を作成できます。",
           "alwaysshowgridonconstructions": "有効にすると、建築要素に常にグリッドが表示されます。\nそれ以外の場合は、建築中にのみ表示されます",
           "alwaysshowgridonterrain": "有効にすると、地形に常にグリッドが表示されます",
+          "blueprintincludeair": "有効の場合、空間もブループリントによって配置されます (ブループリントに地形が含まれている場合のみ)",
           "blueprintsortmode": "ブループリントの並び替え/表示方法を決定します",
           "blueprintvisualizebounds": "有効にすると、ブループリントの配置中に境界が可視化されます",
           "buildingdefaultsize": "新しい建築要素のオプションのデフォルトサイズを設定します。空白で区切られた X、Y、Z 軸に沿ったサイズを決定します。\n<color=yellow>例: \"1.0  2.0  0.1\"</color>",
           "buildingmultiplacedirections": "複数の建築ブロックなどを連続して配置する場合に許可される同時方向の数",
           "buildingpivotkeeprotation": "有効にすると、ピボットスナップモードがアクティブな間に要素を配置した後、ゲームは要素の回転をリセットしなくなります",
+          "buildingpivotsnaptoalltypes": "ピボット スナップがアクティブな場合、オブジェクト (家具、ドアなど) もブロックにスナップするかどうかを決定します",
           "buildingresizemode": "リサイズ動作を制御します。\n\nレガシー: リサイズは Java バージョンでビームをリサイズするのと同じように機能します。つまり、上/下は高さを変更し、左/右は幅<u>と</u>奥行きを変更します\n\nデフォルト: X、Y、Z 軸を個別にリサイズできます",
           "buildingsnaprotation": "有効にすると、要素を回転させるときに自動的に X、Y、または Z 軸にスナップします",
           "camerafollowvehicles": "有効にすると、カメラは自動的に乗り物の回転に追従します",
@@ -6590,22 +7518,31 @@
           "gravityobjects": "有効にすると、浮遊したオブジェクト (家具など) は、壁や地面と接触していないと壊れます",
           "gravityplants": "有効にすると、浮遊した植物は、地面と接触していない場合には壊れます",
           "healthregeneration": "体力が自動的に回復するかどうかを決定します (プレイヤーが喉が渇いていない、または空腹でない場合)",
+          "hudquickslotopacity": "ホットバースロットの透明/不透明の程度を決定します。",
           "hudshowselecteditem": "現在装備しているアイテムをHUDの右上隅に表示するかどうかを決定します",
           "hungerthirst": "サバイバルモードで空腹と喉の渇きを有効にするかどうかを決定します",
+          "hungerthirstduration": "プレイヤーがお腹が空く/喉が渇くまでの時間係数。\n\n\nデフォルトは 100% です。\n値が小さいほど、プレイヤーはより頻繁にお腹が空いたり喉が渇いたりします。",
           "imagemaxresolution": "カスタム画像/ポスターの最大許容解像度を決定します。変更は、新たにアップロードされる画像にのみ影響します!\n\n注: 高解像度はより多くのグラフィックメモリを消費し、パフォーマンスに大きな影響を与えます!",
           "instantdigging": "有効にすると、サバイバルモードですべてのものが一撃で壊れます (クリエイティブモードでの掘削方法と同様)",
           "itemdurability": "アイテムの耐久性を決定します (つまり、壊れるまでの時間)。デフォルトは100%です。\n半分の時間の場合は50%に設定し (アイテムは2倍速く壊れます)、2倍の時間の場合は200%に設定します。\n\n<color=yellow>アイテムの耐久性を無効にするには、これを0に設定します</color>",
           "keepinventory": "有効にすると、死亡後にインベントリを保持します",
+          "moonbrightness": "夜間/月の光に適用される明るさ係数。\nデフォルト: 100%",
+          "moonphases": "月の満ち欠けを有効にするかを決定します。\n常に満月（常に明るい）が必要な場合は false に設定します。",
           "mountsfollowviewdirection": "有効にすると、騎乗中に騎乗した動物は自動的に視線方向に動きます",
           "oresmeltingduration": "炉で鉱石を製錬する時間を設定します。デフォルトは100%です。半分の時間の場合は50%に設定し、2倍の時間の場合は200%に設定します。",
           "pauseinmenu": "有効にすると、ゲーム内メニューがアクティブな場合にゲームが一時停止します (シングルプレイヤーのみ)",
           "peacefulmode": "有効にすると、敵はあなたを攻撃しなくなります (最初に攻撃しない限り)",
           "plantgrowthduration": "植物の成長時間を決定します。\nデフォルトは100%です。半分の時間の場合は50%に設定し、2倍の時間の場合は200%に設定します。",
+          "playergroupmarkeropacity": "プレーヤー グループ マーカーの不透明度を決定します (別のプレーヤーをグループに招待すると表示されます)",
+          "playergroupmarkershowoffscreen": "有効の場合、プレーヤー グループ マーカーは画面外にある場合でも表示されます。",
           "radialmenuautoclose": "有効にすると、インタラクションキーを離すとラジアルメニューが自動的に閉じます",
           "radialmenushowcursor": "ラジアルメニューでマウスカーソルを表示するかどうかを決定します",
           "screenshothooksteam": "有効にすると、スクリーンショットはSteamスクリーンショットライブラリに転送されます",
+          "screenshotquality": "スクリーンショットの JPEG 品質設定。\n品質が低いほど、ファイル サイズは小さくなります (ただし、スクリーンショットに圧縮ノイズが多く表示されます)",
           "screenshotshowhud": "スクリーンショットにHUDを表示するかどうかを決定します",
+          "screenshotsize": "スクリーンショットの解像度を決定します。 \n100% は現在のゲーム解像度を使用することを意味し、50% は半分などを意味します。",
           "seasons": "現在のゲーム内日付に応じて季節を変更するかどうかを決定します",
+          "sharedcraftingprogression": "有効にすると、協力プレイでのクラフトの進行状況がすべてのプレイヤーと共有されます。 \nホスト設定のみが有効化されます。",
           "showbuildinggrid": "建築中にグリッドを表示するかどうかを決定します (グリッドがアクティブな場合のみ)",
           "showbuildinggridonselector": "プレビュー要素にもグリッドを表示するかどうかを決定します",
           "showbuildinginformation": "有効にすると、建築中に画面の左側に建築ツールに関する情報 (グリッド、回転など) が表示されます",
@@ -6621,14 +7558,18 @@
           "spawnratesurfacemonsters": "夜間に地表にスポーンするモンスターのスポーン率を決定します。デフォルト値は100%です。\n\n注: これはすでにスポーンしたモンスターには影響しません",
           "spawnrateundergroundmonsters": "地下 (洞窟、地獄など) にスポーンするモンスターのスポーン率を決定します。デフォルト値は100%です。\n\n注: これはすでにスポーンしたモンスターには影響しません",
           "stamina": "有効にすると、プレイヤーはサバイバルモードで無制限のスタミナを持ちます",
+          "steamallowalljoinrequests": "有効の場合、すべての友達がゲームに参加できます。\nそれ以外の場合は、受信した参加リクエストを手動で許可/拒否する必要があります。",
           "steamp2ptype": "\"友達とプレイ\"オプションを使用する場合、使用されるネットワークタイプを決定します。この設定は、ゲームをホストしているプレイヤーにのみ関連します。\n\n<color=yellow>デフォルト設定は\"ソケット\"です。問題が発生している場合にのみ変更してください！</color>",
           "steamshowfriendlist": "有効にすると、Steamフレンドリストがメインメニューに表示されます",
           "temperature": "有効にすると、温度はプレイヤーに影響を与えません (サバイバルモード)",
           "temperatureunit": "温度の単位",
           "timeduration": "ゲーム内の一日の長さを決定します。デフォルト: 1時間",
+          "undosteps": "元に戻せるアクションの数を決定します",
           "usecustomgridsizes": "独自のグリッドサイズを定義する場合は、この設定を有効にしてください",
-          "weatherduration": "現在の天候が続く時間、つまり天候が変化するまでの時間を決定します。\nデフォルトは100%です。天候の変化が2倍の場合は50%に設定し、半分の変化の場合は200%に設定します。"
+          "weatherduration": "現在の天候が続く時間、つまり天候が変化するまでの時間を決定します。\nデフォルトは100%です。天候の変化が2倍の場合は50%に設定し、半分の変化の場合は200%に設定します。",
+          "weatherpreset": "天気の設定します。\n\n<b>オフ:</b> 天気の変化が無効になります。天気は自動的に変化しなくなります。\n\n<b>デフォルト:</b> デフォルトの天気プリセットを設定します。\n\n<b>晴れ:</b> 基本的に良い天気。時折雨が降るかもしれませんが、晴れる日も多いでしょう。\n\n<b>不安定:</b> 基本的に悪天候。雨や嵐が多くなります。"
         },
+        "undosteps": "手順を元に戻す",
         "usecustomgridsizes": "カスタムグリッドを使用",
         "weatherduration": "天候の長さ",
         "weatherpreset": "天候プリセット",
@@ -6753,6 +7694,7 @@
         "playwithfriends": "P2Pマルチプレイヤーセッションを起動します。友達はフレンドリストを通じてゲームに参加できます"
       },
       "worldlistentry": {
+        "beforeconversion": "変換前",
         "created": "作成日: {0}",
         "seed": "シード: {0}",
         "version": "バージョン: {0}"
@@ -6764,6 +7706,7 @@
         "custom": "色をカスタムする"
       },
       "crafting": {
+        "alreadyininventory": "すでにインベントリにあるアイテム",
         "category": "<color=#0185BC>カテゴリ: {0}  ({1})</color>",
         "colorpicker": "クリックしてデフォルトの色を変更\n\n<color=yellow>右クリックで色をリセット</color>",
         "recipeforbidden": "このサーバーではこのレシピは禁止されています",
@@ -6789,13 +7732,19 @@
         "top": "一番上までスクロール",
         "user": "ユーザーフォルダ"
       },
+      "general": {
+        "hotkey": "ホットキー: {0}"
+      },
       "inventory": {
         "add": "新しいアイテムを追加",
         "armor": "防御力 / 防具",
+        "blueprints": "ブループリントを追加",
         "health": "体力",
         "hunger": "満腹度",
+        "journal": "ジャーナルを開く (ヘルプ)",
         "merge": "スタックを結合",
         "sort": "アイテムを並び替え",
+        "stamina": "効果的なスタミナ",
         "temperature": "体感温度",
         "thirst": "喉の渇き"
       },
@@ -6803,13 +7752,16 @@
         "blueprint": "ブループリント:{0}",
         "clothes": {
           "absorbency": "防水性: {0}",
+          "attractlightning": "雷を引き寄せる可能性がある",
           "divinggoggles": "水中でのクリアな視界を提供します",
+          "flippers": "速く泳ぐ",
           "insulation": "断熱性: {0}",
           "nvg": "暗視ができます",
           "protection": "防御力: {0}",
           "provideslight": "光源を提供します",
           "saddle": "騎乗するために使用します",
           "saddlebag": "サドルに取り付け可能。アイテムを保管します",
+          "stamina": "スタミナ: {0}",
           "storesitems": "アイテムを保管します"
         },
         "color": "色: {0}",
@@ -6837,9 +7789,11 @@
       },
       "map": {
         "buttonaltitude": "高度を表示",
+        "buttonbiomes": "バイオームを表示",
         "buttonfocus": "プレイヤーに移動",
         "buttonfollowplayer": "プレイヤーを追跡",
         "buttonhelp": "ヘルプ",
+        "buttonroutehome": "スポーンまでのルートを表示",
         "deathmarker": "ここで死亡しました..."
       },
       "texteditor": {
@@ -6851,6 +7805,62 @@
         "fontsize": "フォントの大きさ",
         "help": "書式設定ヘルプ",
         "richtextpreview": "解析されたすべての書式設定タグ（リッチテキスト）でテキストを表示するには長押しします\n\n詳細については、右側のヘルプボタンをクリックしてください"
+      },
+      "transform": {
+        "rotate": {
+          "x": "X軸に沿って回転 (ピッチ)",
+          "y": "Y軸に沿って回転 (ヨー)",
+          "z": "Z軸に沿って回転（ロール）"
+        }
+      }
+    },
+    "transformmessagebox": {
+      "contentcontainer": {
+        "transformcontainer": {
+          "coordinatecontainer": {
+            "positionxcontainer": {
+              "xheader": "X"
+            },
+            "positionycontainer": {
+              "yheader": "Y"
+            },
+            "positionzcontainer": {
+              "zheader": "Z"
+            }
+          },
+          "eulercontainer": {
+            "eulerxcontainer": {
+              "pitchheader": "ピッチ (X)"
+            },
+            "eulerycontainer": {
+              "yawheader": "ヨー (Y)"
+            },
+            "eulerzcontainer": {
+              "rollheader": "ロール (Z)"
+            }
+          },
+          "movecontainer": {
+            "movebuttonscontainer": {
+              "precisioncolumn": {
+                "precisionheader": "精度"
+              }
+            },
+            "moveheader": "移動"
+          },
+          "relativecoordinatestoggle": "相対座標？",
+          "rotatecontainer": {
+            "rotatebuttonscontainer": {
+              "precisioncolumn": {
+                "precisionheader": "精度"
+              }
+            },
+            "rotateheader": "回転"
+          }
+        }
+      },
+      "header": "変換の編集",
+      "notes": {
+        "npcstatic": "注: この npc に「static」属性を設定すると、npc を自由に回転および移動できます"
       }
     },
     "vehicle": {
@@ -6868,7 +7878,7 @@
       "name": "手漕ぎボート"
     },
     "sailboat": {
-      "desc": "小さな帆船。推進力に風力を使用しますが、そのため風向に依存し、制御は間接的です。しかし、かなり高速になる可能性があります。3人分のスペースを提供します。",
+      "desc": "小さな帆船。推進力に風力を使用しますが、そのため風向に依存し、制御は間接的です。しかし、かなり高速になる可能性があります。3人分のスペースを提供します。\n<color=blue>[暮らして] part.5-B面</color>",
       "name": "帆船"
     }
   }
