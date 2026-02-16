@@ -1,0 +1,15 @@
+{
+  "i18n-ally.localesPaths": ["locales"],
+  "i18n-ally.defaultLanguage": "en",
+  "i18n-ally.displayLanguage": "ja",
+  "i18n-ally.enabledFrameworks": ["general"],
+  "i18n-ally.namespace": false,
+  "i18n-ally.keysInUse": ["*"],
+  "i18n-ally.enabledCodeScans": ["**/*.json"],
+  "i18n-ally.scanForTranslationsIn": "json",
+  "i18n-ally.sourceLanguage": "en",
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.sortKeys": true,
+  "i18n-ally.sortCompare": "locale",  // "binary" or "locale"（日本語順推奨）
+  "i18n-ally.keepFulfilled": true     // 翻訳済キーのみ保持
+}
