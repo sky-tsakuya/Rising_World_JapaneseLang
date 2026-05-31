@@ -262,20 +262,20 @@
       "desc": "A modern safety helmet",
       "name": "Safety helmet"
     },
+    "helmet_lamp": {
+      "desc": "A modern safety helmet with a lamp attached to it",
+      "name": "Safety helmet (lamp)"
+    },
     "helmet2": {
-			"desc": "A modern climbing helmet",
+      "desc": "A modern climbing helmet",
       "name": "Climbing helmet"
     },
     "helmet2_lamp": {
-			"desc": "A modern climbing helmet with a lamp attached to it",
+      "desc": "A modern climbing helmet with a lamp attached to it",
       "name": "Climbing helmet (lamp)"
     },
-		"helmet_lamp": {
-			"desc": "A modern safety helmet with a lamp attached to it",
-			"name": "Safety helmet (lamp)"
-		},
     "highvisjacket": {
-			"name": "High-visibility vest"
+      "name": "High-visibility vest"
     },
     "indyfedora": {
       "name": "Archaeologist fedora"
@@ -771,33 +771,33 @@
     "window1": {
       "name": "Window frame"
     },
+    "window10": {
+      "name": "Window frame (round)"
+    },
     "window2": {
-			"name": "Window frame (muntin)"
+      "name": "Window frame (muntin)"
     },
     "window3": {
-			"name": "Window frame (muntins type A)"
+      "name": "Window frame (muntins type A)"
     },
     "window4": {
-			"name": "Window frame (muntins type B)"
+      "name": "Window frame (muntins type B)"
     },
     "window5": {
       "name": "Window frame (muntins type C)"
     },
     "window6": {
-			"name": "Window frame (muntins type D)"
+      "name": "Window frame (muntins type D)"
     },
     "window7": {
-			"name": "Window frame (triangular)"
+      "name": "Window frame (triangular)"
     },
     "window8": {
-			"name": "Window frame (right-angled)"
+      "name": "Window frame (right-angled)"
     },
     "window9": {
-			"name": "Window frame (rounded)"
-    },
-		"window10": {
-			"name": "Window frame (round)"
-		}
+      "name": "Window frame (rounded)"
+    }
   },
   "contextmenu": {
     "blueprints": {
@@ -836,6 +836,7 @@
       "duplicate": "Duplicate",
       "equip": "Equip item",
       "open": "Open",
+      "place": "Place",
       "split": "Split stack",
       "wearclothes": "Wear"
     },
@@ -872,10 +873,12 @@
       "copyseed": "Copy Seed",
       "createbackup": "Create Backup",
       "deletebackup": "Delete Backup",
+      "load": "<color=yellow>Load World</color>",
       "modify": "Modify...",
       "openfolder": "Open Folder",
       "pasteseed": "Paste Seed",
       "rename": "Rename World",
+      "repair": "<color=orange>Repair World</color>",
       "restorebackup": "Restore Backup"
     }
   },
@@ -1318,10 +1321,12 @@
     "min": "Min",
     "never": "Never",
     "no": "No",
+    "nothing": "Nothing",
     "off": "Off",
     "ok": "Ok",
     "on": "On",
     "prohibited": "Prohibited",
+    "repair": "Repair",
     "select": "Select",
     "unknown": "Unknown",
     "yes": "Yes"
@@ -1419,8 +1424,8 @@
       "middlebutton": "Mouse Middle",
       "rightbutton": "Mouse Right",
       "scroll": "Scroll Wheel",
-      "scroll/y+": "Mouse Wheel Up",
       "scroll/y-": "Mouse Wheel Down",
+      "scroll/y+": "Mouse Wheel Up",
       "scrolldown": "Mouse Wheel Down",
       "scrollleft": "Mouse Wheel Left",
       "scrollright": "Mouse Wheel Right",
@@ -1459,8 +1464,15 @@
       "desc": "A healthy apple",
       "name": "Apple"
     },
+    "arcticfoxcub": {
+      "name": "Snow fox cub"
+    },
     "arcticfoxpelt": {
       "name": "Snow fox pelt"
+    },
+    "arcticwolfcub": {
+      "desc": "A captured arctic wolf cub. You shouldn't keep it in your inventory for too long...",
+      "name": "Arctic wolf cub"
     },
     "arrow": {
       "desc": "A stabilized and accurate arrow.\nFired from bows",
@@ -1542,7 +1554,7 @@
       "name": "Old grenade"
     },
     "bottle": {
-      "desc": "A simple glass bottle",
+      "desc": "A simple glass bottle. Can be filled with water",
       "name": "Bottle"
     },
     "bow1": {
@@ -1565,6 +1577,14 @@
     },
     "breadhalf": {
       "name": "Half bread"
+    },
+    "bucketwood": {
+      "desc": "Used for carrying liquids",
+      "name": "Wooden bucket"
+    },
+    "butter": {
+      "desc": "Dairy product",
+      "name": "Butter"
     },
     "candycane": {
       "name": "Candy cane"
@@ -1810,6 +1830,10 @@
     "forestground": {
       "name": "Dirt (forest ground)"
     },
+    "foxcub": {
+      "desc": "A captured fox cub. You shouldn't keep it in your inventory for too long...",
+      "name": "Fox cub"
+    },
     "foxpelt": {
       "name": "Fox pelt"
     },
@@ -1948,7 +1972,6 @@
       "name": "Iron wire"
     },
     "javelinspear": {
-      "desc": "",
       "name": "Javelin (spear)"
     },
     "koi": {
@@ -2081,7 +2104,8 @@
       "condition": {
         "alive": "Alive",
         "dead": "Dead"
-      }
+      },
+      "newborn": "Newborn"
     },
     "objectkit": {
       "desc": "Represents a placeable object",
@@ -2178,6 +2202,9 @@
     },
     "plaicedried": {
       "name": "Dried plaice"
+    },
+    "plantitem": {
+      "name": "Plant"
     },
     "polarbearpelt": {
       "name": "Polar bear pelt"
@@ -2521,6 +2548,9 @@
     "snakemeat": {
       "name": "Snake meat"
     },
+    "snakemeatbaked": {
+      "name": "Baked snake meat"
+    },
     "snakemeatburned": {
       "name": "Burned snake meat"
     },
@@ -2833,12 +2863,26 @@
     }
   },
   "liquids": {
+    "empty": "Empty",
+    "goatmilk": {
+      "name": "Goat milk"
+    },
     "lava": {
       "name": "Lava"
+    },
+    "milk": {
+      "name": "Milk"
+    },
+    "saltwater": {
+      "name": "Salt water"
+    },
+    "sheepmilk": {
+      "name": "Sheep milk"
     },
     "sugarbeet": {
       "name": "Sugar beet juice"
     },
+    "unknown": "Unknown",
     "water": {
       "name": "Water"
     }
@@ -2930,6 +2974,7 @@
       "blobfishmeatcooked": "You've eaten cooked blobfish meat",
       "blobfishmeatdried": "You've eaten dried blobfish meat",
       "breadhalf": "You've eaten some bread",
+      "butter": "You've eaten some butter...",
       "candy": "You've eaten some candy",
       "candycane": "You've eaten a candy cane",
       "carp": "You've eaten a raw carp",
@@ -2997,6 +3042,11 @@
       "shrimpburned": "You've eaten a burned shrimp",
       "shrimpcooked": "You've eaten a cooked shrimp",
       "shrimpdried": "You've eaten a dried shrimp",
+      "snakemeat": "You've eaten some raw snake meat",
+      "snakemeatbaked": "You've eaten some baked snake meat",
+      "snakemeatburned": "You've eaten some burned snake meat",
+      "snakemeatcooked": "You've eaten some cooked snake meat",
+      "snakemeatdried": "You've eaten some dried snake meat",
       "splint": "You have splinted your broken leg\n\nBe careful until your bone is fully healed!",
       "steak": "<color=red>You've eaten a raw steak. Not sure if this is healthy...</color>",
       "steakburned": "<color=red>You've eaten a burned steak</color>",
@@ -3120,6 +3170,7 @@
       "filesystemaccessdenied": "The game was unable to read/write a file. This indicates that the game either has no permission to read/write the target file, or another program (e.g. an anti-virus program) prevents the game from accessing the file system.\n\nThis is the actual error message: \n\n<color=yellow>{0}</color>",
       "gamefilecorrupted": "One or more game files are corrupted! \nPlease try to verify the integrity of the game cache or download the game again.\n\n<color=orange>Corrupted file: \n{0}</color>",
       "gamefilecorruptedsteam": "One or more game files are corrupted! \n\nPlease try to verify the integrity of the game cache:\n1. Rightclick on Rising World in your Steam library\n2. Select \"Properties\"\n3. Go to \"Local files\"\n4. Select \"Verify integrity of game files\"\n\n\n<color=orange>Corrupted file: \n{0}</color>",
+      "graphicsdrivermissing": "It seems that no proper graphics driver is installed. This might result in performance issues or crashes. \nPlease download and install the latest graphics driver from the homepage of your graphics card manufacturer. \n\n<color=yellow>Detected adapter: {0}</color>",
       "graphicserror": "An internal {0} error occurred. This happens if the graphics driver is outdated or if there is not enough VRAM available, for example.\n\nPlease download and install the latest graphics driver from the homepage of your graphics card manufacturer. If the error still persists, please contact our support.\n\nError message: {1}",
       "graphicsmemory": "There seems to be an error related to {0} or your graphics memory. This is either caused by insufficient VRAM, or by a graphics driver issue. If your graphics driver is up-to-date, consider lowering some graphics settings (especially regarding texture quality) to reduce the VRAM consumption.\n\n<color=yellow>Error: {1}</color>",
       "graphicswarning": "An internal {0} error occurred. Usually this happens if the graphics driver is outdated, or if the graphics card does not support a particular feature.\nPlease download and install the latest graphics driver from the homepage of your graphics card manufacturer. \n\n<color=yellow>Error: {1}</color>",
@@ -3137,9 +3188,11 @@
       "initializationtakestoolong": "Loading the game takes too long. This indicates that accessing the hard drive is too slow. Please check your hard drive. \n\nThis could also be caused by an anti-virus program. Try to disable it temporarily or add the game to the exception list and see if the issue still persists. ",
       "nocomputeshaders": "Compute shaders are required, but apparently not supported by this graphics adapter: \n\n<color=red>{0}</color>\n\nThis may be caused by an outdated or erroneous graphics driver. Please try to download and install the latest graphics driver.",
       "noinstancing": "GPU instancing is required, but not supported by this graphics adapter: \n\n<color=red>{0}</color>\n\nThis may be caused by an outdated or erroneous graphics driver. Please try to download and install the latest graphics driver.",
+      "notexture3d": "3D Textures are required, but not supported by this graphics adapter: \n\n<color=red>{0}</color>\n\nThis may be caused by an outdated or erroneous graphics driver. Please try to download and install the latest graphics driver.",
       "notexturearrays": "Texture Arrays are required, but not supported by this graphics adapter: \n\n<color=red>{0}</color>\n\nThis may be caused by an outdated or erroneous graphics driver. Please try to download and install the latest graphics driver.",
       "recordingdeviceerror": "Unable to initialize your recording device\nPlease try to select a different recording device in the audio settings",
       "somethingwentwrong": "Something went wrong...",
+      "sqlitecorrupted": "It seems that one or more world files are corrupted. This might be caused by Steam Cloud sync (especially in combination with a game crash), but there might also be other reasons for the data corruption. \n\nThe game can try to repair the world. To do that, click on the red \"Repair\" button. Alternatively you can use the \"repairworld\" console command.\n\nIf that doesn't work, please contact us.\n\n<align=left>\\tError message: \n<color=orange>\\t{0}</color></align>",
       "sqlitereadonly": "The game cannot write to the world file on the hard drive. This indicates that either the world file is corrupted, or another program (like an anti-virus program or a firewall) blocks the game. \n\nPlease try to put the game on the allow-list of your anti-virus program or firewall. Alternatively try to disable it temporarily to see if this solves the issue. \n\nPlease also make sure that no other process is currently accessing the world file.",
       "steamapi": "Could not initialize Steam API.\n\nIn most cases you can fix this issue by restarting your Steam client.",
       "steamapitimeout": "Could not initialize Steam API (Timeout)\n\nIn most cases you can fix this issue by restarting your Steam client.",
@@ -3197,6 +3250,13 @@
       "break": "Your item just broke!",
       "breakwarning": "This item will not last much longer...",
       "breakwarningprimitiveaxe": "You should <u>really</u> get a new axe as soon as possible! \nBecause this axe won't last forever...",
+      "bucket": {
+        "alreadyfull": "This bucket is already full",
+        "empty": "This bucket is empty",
+        "holdtopour": "Hold to empty the bucket"
+      },
+      "cannotpickup": "You cannot pick up this item",
+      "cannotplace": "You cannot place this item",
       "cantdounderwater": "You can't do that while you're underwater",
       "crossbow": {
         "changingbolt": "Changing bolt: {0}",
@@ -3217,9 +3277,9 @@
         "equip": "Max zoom level ({0}) is now increased\n\nYou can also put the magnifying glass into an equipment slot in your inventory!"
       },
       "measuringtape": {
-        "locked": "Tape measure is now locked and will remain visible.\nPress {0} again to reset it",
+        "locked": "Tape measure is now locked and will remain visible.\nPress <u>{0}</u> again to reset it",
         "locking": "Locking tape measure...",
-        "unequipstilllocked": "NOTE: The tape measure is still locked and remains active.\nTo remove it, equip the item again and press {0}",
+        "unequipstilllocked": "NOTE: The tape measure is still locked and remains active.\nTo remove it, equip the item again and press <u>{0}</u>",
         "unlocked": "Tape measure is unlocked again!"
       },
       "medical": {
@@ -3290,6 +3350,12 @@
         "deleteworld": "Do you really want to delete this world?",
         "deleteworldtitle": "Delete World: {0}",
         "nop2pofflinemode": "You cannot host a P2P multiplayer session in offline mode!",
+        "recovery": {
+          "failure": "World recovery seems to have failed",
+          "partlysuccess": "<color=yellow>World recovery was partly successful!</color>\nYou should try to load the world and see if it worked. \n\nIf it does not work, please send a report. To do that, open the console and type \"report\". Please add a brief description that restoring a world failed.",
+          "recovering": "Recovering world...",
+          "success": "World seems to have been successfully restored!"
+        },
         "renameworld": "Please enter a new name for the world:",
         "selectworldfirst": "Please select a world first!",
         "worldalreadyexists": "World {0} already exists",
@@ -3319,6 +3385,7 @@
       "blacklisted": "You are not allowed to join this server! (Blacklist)",
       "connectionerror": "Connection error",
       "corruptedplayer": "Corrupted player data.\nPlease contact a server admin!",
+      "craftingrecipemismatch": "The crafting recipe on the server does not match",
       "groupinvite": "{0} wants to invite you into his group",
       "groupinvitedeclined": "{0} declined your group invite",
       "groupjoined": "{0} joined your group",
@@ -3367,6 +3434,11 @@
     "noloot": "There is nothing to loot...",
     "notsupportedyet": "Not supported yet",
     "npc": {
+      "cannotdowhilesleeping": "You cannot do that while the animal is sleeping",
+      "cannotgetmilk": "You cannot get milk from this animal",
+      "cannotgetmilkfrombull": "You can only get milk from female animals.\nThis, however, is a bull",
+      "cannotgetmilkfromcalf": "This animal is too young to produce milk",
+      "cannotgetmilkwhilelying": "You can't milk this animal while it's lying down",
       "cannotride": "You cannot ride this horse yet",
       "delete": {
         "all": "All",
@@ -3377,6 +3449,11 @@
         "deletenpcs": "Do you really want to delete these npcs?\nNpc: {0}\nRange: {1}",
         "deletenpcstitle": "Delete <u>all</u> npcs..."
       },
+      "dontpickupnewborn": "You shouldn't pick up a newborn yet",
+      "milkcooldown": "This animal is not giving any milk at the moment",
+      "milking": "Milking...",
+      "milkpregnancy": "This animal no longer produces milk. You can only get milk after the animal has had offspring",
+      "milkudder": "To milk this animal, you have to use the udder",
       "mount": {
         "brokenbag": "You cannot access this saddle bag",
         "findmountwhileriding": "Um... could it be that you're sitting on the mount right now?",
@@ -3392,6 +3469,13 @@
       "tooyoungtoshear": "This lamb is too young to be shorn"
     },
     "objects": {
+      "butterchurn": {
+        "alreadyready": "Your butter is already ready. Open the churn to collect it",
+        "churnfaster": "You have to churn the milk faster so it turns into butter!",
+        "insertmilk": "You have to insert milk first",
+        "progress": "Progress: {0}",
+        "ready": "Your butter is ready. Open the churn to collect it"
+      },
       "calendar": {
         "currentdate": "It's currently day {0} of {1}",
         "remainingday": "There is only {0} day remaining until {1}!",
@@ -3459,6 +3543,7 @@
         "nofuelrefill": "This oven has no fuel.\nYou can refuel it on the left side"
       },
       "paperpress": {
+        "turnclothintoragsfirst": "You'll need to turn the cloth in rags first.\nUse a grinder to do this",
         "waterrequired": "You first have to add water to turn the rags into paper"
       },
       "placed": "Placed: {0}",
@@ -3472,6 +3557,7 @@
         "holdinteracttoedit": "Hold {0} to edit the text"
       },
       "spinningwheel": {
+        "progress": "Progress: {0}",
         "usereel": "To use the spinning wheel, interact with the reel while holding fibers or wool in your hand"
       },
       "storage": {
@@ -3595,6 +3681,9 @@
       "outofbounds": "You are outside the permitted play area on this server",
       "overridebiomeregion": "Do you really want to override the climate region for sector {0} | {1} ? \n\n<color=red>Please note that this will also fully reset the sector, which means that everything that was built in this sector will be irretrievably deleted!</color>",
       "overridebiomeregionheader": "OVERRIDE CLIMATE REGION FOR SECTOR  {0}   {1}",
+      "recover": "This tool tries to repair corrupted worlds and restore as much data as possible.\n\nPlease note that this might not always work and it might also not be able to restore all world data, depending on the degree of data corruption. \n\nThe game will create a backup of the corrupted world before trying to repair it.",
+      "recoverfrommenuonly": "You can only run the world repair/recovery from the main menu!",
+      "recovertitle": "World Repair: <color=yellow>{0}</color>",
       "sectordeleted": "Do you really want to delete sector {0} {1}? This will remove all chunks in this sector (this also means that everything that was built there will be removed). \n\nNote: To check your current sector position, you can press F3 to see your current sector at the top. \n\n<color=red>Press cancel to abort this operation</color>",
       "undo": {
         "blueprint": "UNDO: Blueprint removed!",
@@ -3650,6 +3739,7 @@
         "disabled": "No caves",
         "enabled": "Caves enabled"
       },
+      "corrupted": "Corrupted",
       "disablednpcs": "Disabled NPCs",
       "flatness": {
         "default": "Default",
@@ -3781,6 +3871,9 @@
     },
     "elephant": {
       "name": "Elephant"
+    },
+    "elephantcalf": {
+      "name": "Elephant calf"
     },
     "firewolf": {
       "name": "Fire wolf"
@@ -4001,6 +4094,10 @@
     },
     "bulkheadlamp2": {
       "name": "Bulkhead lamp (single)"
+    },
+    "butterchurn": {
+      "desc": "A plunger-type butter churn. Used to convert milk into butter",
+      "name": "Butter churn"
     },
     "cabinet1": {
       "name": "Cabinet"
@@ -4639,10 +4736,13 @@
       "name": "Wall torch"
     },
     "watchtower": {
-      "name": "Watch tower"
+      "name": "Watch Tower"
     },
     "watchtowerbroken": {
-      "name": "Watch tower (destroyed)"
+      "name": "Watch Tower (destroyed)"
+    },
+    "watchtowerlarge": {
+      "name": "Large Watch Tower"
     },
     "weathervane": {
       "desc": "Shows the current direction of the wind",
@@ -4728,12 +4828,14 @@
       "ban": "Determines if the player is allowed to ban other players",
       "cleanup": "Determines if the player is allowed to use the \"cleanup\" command",
       "clearinventory": "Determines if the player is allowed to clear his inventory via command",
+      "deletechunks": "Determines if the player is allowed to execute the \"deletechunk\" command to fully delete/reset a chunk",
       "deletenpc": "Determines if the player is allowed to execute the \"deletenpc\" command to delete an npc",
       "deleteplayer": "Determines if the player is allowed to execute the \"deleteplayer\" command to delete the data of a player",
       "deletesector": "Determines if the player is allowed to execute the \"deletesector\" command to delete/reset an entire island",
       "disablenpc": "Determines if the player is allowed to disable a certain npc on this server via command",
       "editnpc": "Determines if the player is allowed to use the \"editnpc\" command to edit existing npcs (change their appearance, clothes, behaviour etc)",
       "findbase": "Determines if the player is allowed to use the \"findbase\" command to find the chunk which contains most construction elements",
+      "findmount": "Determines if the player is allowed to execute the \"findmount\" command to find his last used mount",
       "gc": "Determines if the player is allowed to invoke the serverside garbage collector (\"servergc\" command)",
       "getplayerinfo": "Determines if the player may query player information via \"playerinfo\" command",
       "getserverinfo": "Determines if the player may query server information via \"serverinfo\" command",
@@ -4822,6 +4924,7 @@
       "notemperature": "Determines if temperature will be disabled for the player",
       "opencrafting": "Determines if the player is allowed to open the crafting menu",
       "openinventory": "Determines if the player is allowed to open his inventory",
+      "peacefulmode": "Enables or disables peaceful mode (i.e enemies won't attack first). If this permission is set, it overwrites the setting in the server.properties!",
       "pickupitems": "Determines if the player is allowed to pick up items",
       "placeitems": "Determines if the player is allowed to place items in the world",
       "placevehicles": "Determines if the player is allowed to place or assemble vehicles",
@@ -4830,9 +4933,12 @@
       "ridemounts": "Determines if the player is allowed to ride mounts",
       "unlockalldoors": "Determines if the player is allowed to unlock all doors (even doors he does not own)",
       "useallchests": "Determines if the player is allowed to access all chests (even chests he does not own)",
+      "usealldoors": "Determines if the player is allowed to open or close all doors (even doors he does not own)",
+      "useallfurnaces": "Determines if the player is allowed to use all furnaces (even furnaces he does not own)",
       "usealllights": "Determines if the player is allowed to modify all lamps and lights (even lamps he does not own)",
       "useallobjects": "Determines if the player is allowed to interact with all objects (even objects he does not own)",
       "useallvehicles": "Determines if the player is allowed to use all vehicles (even vehicles he does not own)",
+      "usenaturalobjects": "Determines if the player is allowed to use interact with naturally spawned objects (e.g objects in POI's)",
       "voicechat": "Determines if the player is allowed to use voice chat"
     },
     "grouplabel": "Group",
@@ -4841,6 +4947,8 @@
     "image": {
       "delete": "Determines if the player is allowed to delete any image on the server",
       "deleteown": "Determines if the player is allowed to delete his own images",
+      "edit": "Determines if the player is allowed to modify all images/posters on the server",
+      "editown": "Determines if the player is allowed to modify his own images/posters",
       "maxamount": "Determines the max amount of images (posters) the player is allowed to upload",
       "maxresolution": "Determines the max allowed resolution for uploaded custom images (posters)"
     },
@@ -4869,7 +4977,8 @@
     "map": {
       "allicons": "Determines if the player should be allowed to create all available map icons. Otherwise only the default markers are available",
       "createglobalmarker": "Determines if the player is allowed to create global markers (i.e. markers which are visible for every player)",
-      "createlocalmarker": "Determines if the player is allowed to create own markers (i.e. markers which are only visible for this particular player)"
+      "createlocalmarker": "Determines if the player is allowed to create own markers (i.e. markers which are only visible for this particular player)",
+      "deletetile": "Determines if the player should be allowed to delete a  map tile (forcing the server to re-generate it)"
     },
     "world": {
       "destroyconstructions": "Determines if the player is allowed to destroy construction elements",
@@ -4890,7 +4999,8 @@
       "placeobjectsexception": "If \"placeobjects\" is not allowed, you can specify exceptions here (i.e. objects the player is still allowed to place)",
       "placeterrain": "Determines if the player is allowed to place terrain",
       "placevegetations": "Determines if the player is allowed to place plants or trees",
-      "undo": "Determines if the player is allowed to use the \"undo\" command"
+      "undo": "Determines if the player is allowed to use the \"undo\" command",
+      "undoinsurvival": "Determines if the player is allowed to use the \"undo\" command in survival mode"
     }
   },
   "plant": {
@@ -5129,6 +5239,15 @@
       "identify": "Identify",
       "loot": "Loot"
     },
+    "creative": {
+      "area": "Area Tools",
+      "edit": "Edit Tools",
+      "normal": "Normal Mode",
+      "npc": "Npc Tools",
+      "placement": "Placement Tools",
+      "removal": "Removal Tools",
+      "terrain": "Terrain Tools"
+    },
     "doors": {
       "close": "Close",
       "deconstruct": "Deconstruct",
@@ -5157,6 +5276,7 @@
       }
     },
     "items": {
+      "drop": "Drop item",
       "fireworkrocket": {
         "setoff": "Set off",
         "setoffall": "Set off all (nearby)",
@@ -5178,7 +5298,9 @@
           "name": "Unit\n<#FFFF00>{0}<#FFFFFF>"
         }
       },
-      "pickup": "Pickup"
+      "pickup": "Pickup",
+      "place": "Place item",
+      "unequip": "Unequip item"
     },
     "mount": {
       "mount": "Ride",
@@ -5544,7 +5666,7 @@
           "sendbutton": "Send Report"
         },
         "commentcontainer": {
-          "commentheaderlabel": "Are there any other information you would like to share about the error?"
+          "commentheaderlabel": "Please provide a brief description of the error: "
         },
         "filecontainer": {
           "fileheaderlabel": "The following files will be attached:"
@@ -5851,6 +5973,11 @@
         "bread": {
           "cut": "Cut bread"
         },
+        "bucket": {
+          "milk": "Milk",
+          "pour": "Pour",
+          "refill": "Refill"
+        },
         "climbingrope": {
           "climb": "Climb",
           "release": "Release hook",
@@ -6106,12 +6233,15 @@
               },
               "terrainwatertool": {
                 "label": "Water"
+              },
+              "waterareatool": {
+                "label": "Area\n(Water)"
               }
             }
           },
           "journalinfocontainer": {
             "journalinfotextcontainer": {
-              "label": "Press  <b>J</b>  to open the journal to get help and more information"
+              "label": "Press  <b>{0}</b>  to open the journal to get help and more information"
             }
           },
           "righttopcontainer": {
@@ -6341,6 +6471,7 @@
               "resources": "Resources",
               "servernotes": "Server Notes",
               "servernotes_tooltip": "Notes set up by the server you're currently playing on",
+              "survival": "Survival",
               "worldnotes": "World Notes",
               "worldnotes_tooltip": "Own notes which are only available on this world"
             },
@@ -6455,12 +6586,16 @@
                 "text2": "To get pelts or hides from dead animals, use a knife - a primitive knife is sufficient for this."
               },
               "resources_paper": {
+                "arrow1_label": "add water",
                 "header": "Paper",
                 "image1": {
                   "label": "Grinder + cloth = rags"
                 },
                 "image2": {
-                  "label": "Paper press to turn rags into paper"
+                  "label": "Paper press to turn rags into paper. \nBut add water first"
+                },
+                "image3": {
+                  "label": "Important: Use a bucket to add water"
                 },
                 "text1": "Paper is made from rags and requires a <u>paper press</u>.",
                 "text2": "Rags are made from cloth: place the cloth in the grinder in order to turn it into rags. \nYou can then put the rags into the paper press to turn them into paper."
@@ -6538,15 +6673,7 @@
       },
       "phrases": {
         "1": "Reinventing physics",
-        "2": "Salting seas",
-        "3": "Planting trees",
-        "4": "Hiding treasures",
-        "5": "Locking dungeons",
-        "6": "Engaging monsters",
-        "7": "Camouflaging bugs",
-        "8": "Forming valleys",
-        "9": "Tinting skies blue",
-				"10": "Calming volcanoes",
+        "10": "Calming volcanoes",
         "11": "Igniting sun",
         "12": "Adjusting gravity",
         "13": "Watering flowers",
@@ -6556,7 +6683,8 @@
         "17": "Expanding universe",
         "18": "Shaping blocks",
         "19": "Feeding animals",
-				"20": "Digging caves",
+        "2": "Salting seas",
+        "20": "Digging caves",
         "21": "Producing clouds",
         "22": "Comforting weeping willows",
         "23": "Planning the plains",
@@ -6566,12 +6694,19 @@
         "27": "Taming animals",
         "28": "Making ground fertile",
         "29": "Creating wind",
-				"30": "Trimming hedges",
+        "3": "Planting trees",
+        "30": "Trimming hedges",
         "31": "Loosen soil",
         "32": "Raking leaves",
         "33": "Placing rocks",
         "34": "Creating world",
-        "35": "Sanding beaches"
+        "35": "Sanding beaches",
+        "4": "Hiding treasures",
+        "5": "Locking dungeons",
+        "6": "Engaging monsters",
+        "7": "Camouflaging bugs",
+        "8": "Forming valleys",
+        "9": "Tinting skies blue"
       },
       "stage": {
         "canceling": "CANCELING",
@@ -6763,6 +6898,33 @@
         }
       },
       "header": "- NPC {0} (ID: {1}) -"
+    },
+    "onscreenkeyboard": {
+      "screen": {
+        "keyboardcontainer": {
+          "row1": {
+            "backspace": "Backspace"
+          },
+          "row2": {
+            "tab": "Tab"
+          },
+          "row3": {
+            "caps": "Caps",
+            "enter": "Enter"
+          },
+          "row4": {
+            "shiftl": "Shift",
+            "shiftr": "Shift"
+          },
+          "row5": {
+            "clear": "Clear",
+            "close": "Close",
+            "copy": "Copy",
+            "extra": "Extra",
+            "paste": "Paste"
+          }
+        }
+      }
     },
     "permissioneditor": {
       "createnew": {
@@ -7057,6 +7219,7 @@
         "interaction": "Interaction",
         "inventory": "Inventory",
         "itemduplicate": "Duplicate Item",
+        "itemplace": "Place Item",
         "itemsplit": "Split Item-Stack",
         "journal": "Journal",
         "jump": "Jump",
@@ -7100,6 +7263,7 @@
           "copyblock": "Adds a copy of the block in the world you're currently looking at to your inventory (if there is no such block in your inventory) and equips it.\nIn survival mode, the block gets only equipped if it is already in your inventory",
           "customcommand": "Enter a console command and assign it to a key. \nEverytime you press the key then, the console command will be executed",
           "itemduplicate": "Optional hotkey to duplicate an item in inventory (while hovering the item with the cursor)",
+          "itemplace": "Enables you to place your currently equipped item persistently in the world",
           "itemsplit": "Optional hotkey to split an item stack in inventory (while hovering the item with the cursor)",
           "quickselectblock": "Equip a block which is identical to the block in the world you're currently looking at.\n\nIn creative mode, this block gets added to your inventory if it doesn't exist there yet",
           "scrollspeedui": "Scroll speed in UI lists"
@@ -7127,12 +7291,21 @@
         "general": "General",
         "invert": "Invert Y-Axis",
         "mapping": "Mapping",
+        "onscreenkeyboardsize": "On-Screen-Keyboard Size",
+        "osk": {
+          "default": "Default",
+          "steam": "Steam"
+        },
         "rumbleintensity": "Rumble Intensity",
         "sensitivity": "Controller Sensitivity",
+        "sensitivityaim": "Controller Sensitivity (Aim)",
+        "textinput": "Text input",
         "tooltips": {
           "analogdeadzone": "Analog input below this threshold will be ignored. \n<color=yellow>Default value: 15%</color>",
           "defaultvalue": "Default value: {0}",
           "gamepadinvert": "If set, the analog Y axis will be inverted",
+          "onscreenkeyboardsize": "Determines the size of the on-screen-keyboard (which shows up for text input)",
+          "relativetobasesensitivity": "(relative to base sensitivity)",
           "rumbleintensity": "Determines the intensity for rumble/vibration (which only occur in certain situations). Set to 0 to disable rumble"
         }
       },
@@ -7289,7 +7462,7 @@
           },
           "name": "Upscaler",
           "none": "None",
-          "quality": "Quality",
+          "quality": "Upscaler Quality",
           "recommended": "Recommended: {0}",
           "simple": "Basic Upscaler"
         },
@@ -7376,9 +7549,12 @@
           "legacy": "Legacy"
         },
         "buildingsnaprotation": "Snap while Rotating",
+        "cacheicons": "Cache Icons",
         "camerafollowvehicles": "Vehicles: Adjust Camera to Vehicle Direction",
         "chatfontsize": "Chat Font-Size",
+        "cloudsave": "Enable {0} Cloud Save",
         "collapsecraftingcategories": "Collapse Crafting Categories",
+        "constructionitemkeepsize": "Keep Construction Size (Item)",
         "creativeconfirmremoval": "Show Confirmation Dialog for Removal Tools",
         "creativecopyblockcolor": "Copy block color",
         "creativelightintensity": "Creative-Mode Light Intensity",
@@ -7450,7 +7626,7 @@
         "sharedcraftingprogression": "Shared Crafting Progression (Co-op)",
         "showbuildinggrid": "Show Grid",
         "showbuildinggridonselector": "Show Grid on Preview Element",
-        "showbuildinginformation": "Show Information",
+        "showbuildinginformation": "Show Building Information",
         "showbuildingmarker": "Show Marker",
         "showbuildingpivots": "Show Pivots",
         "showchatonmessage": "Show Chat",
@@ -7506,6 +7682,7 @@
           "buildingsnaprotation": "If enabled, the element automatically snaps to the X, Y or Z axes while rotating it",
           "camerafollowvehicles": "If enabled, the camera will automatically follow the vehicle rotation",
           "collapsecraftingcategories": "If enabled, block texture selection categories are collapsed by default",
+          "constructionitemkeepsize": "If true, construction elements will keep their size if you deconstruct them with a sledgehammer",
           "creativeconfirmremoval": "If enabled, a confirmation dialog will be shown when removing elements through the creative mode removal tools",
           "creativecopyblockcolor": "If enabled, copying a block by pressing the middle mouse button also copies the color of the element",
           "creativelightintensity": "Determines the light intensity of the creative mode light (L)",
@@ -7681,6 +7858,7 @@
           }
         }
       },
+      "selectedworld": "Selected world: {0}",
       "sort": {
         "alphabetically": "Alphabetically",
         "alphabeticallydesc": "Alphabetically (DESC)",
@@ -7695,6 +7873,7 @@
       },
       "worldlistentry": {
         "beforeconversion": "Before Conversion",
+        "corrupt": "Corrupt",
         "created": "Created: {0}",
         "seed": "Seed: {0}",
         "version": "Version: {0}"
@@ -7753,6 +7932,9 @@
         "clothes": {
           "absorbency": "Water proof: {0}",
           "attractlightning": "Might attract lightning",
+          "breathability": "Breathability: {0}",
+          "cooling": "Cooling: {0}",
+          "covers": "Covers",
           "divinggoggles": "Provides clear vision under water",
           "flippers": "Fast swimming",
           "insulation": "Insulation: {0}",
@@ -7773,6 +7955,7 @@
           "stopsbleeding": "Stops bleedings",
           "thirst": "Thirst: {0}"
         },
+        "contains": "Contains: <b>{0}</b>",
         "creator": "Creator: {0}",
         "hotkey": "Hotkey: {0}",
         "id": "ID: {0}",
@@ -7781,6 +7964,10 @@
         "musictrack": "Music track: {0}",
         "name": "Name: {0}",
         "putinequipmentslot": "Put this item into an equipment \nslot for quick access",
+        "size": "Size: {0} x {1} x {2}",
+        "storages": {
+          "slots": "Storage slots: {0}"
+        },
         "strength": "Strength: {0}",
         "weapons": {
           "damage": "Damage: {0}",
@@ -7795,6 +7982,12 @@
         "buttonhelp": "Help",
         "buttonroutehome": "Show route to spawn",
         "deathmarker": "You died here..."
+      },
+      "npceditmessagebox": {
+        "animation": "Set animation",
+        "clothes": "Change clothes",
+        "item": "Equip item",
+        "transform": "Change Position"
       },
       "texteditor": {
         "anchorleft": "Align text left",
